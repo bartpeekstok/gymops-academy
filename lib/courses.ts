@@ -386,6 +386,12 @@ export const courses: Course[] = [
             description: "",
             loomId: "cbd7b66a609843629311c207edff7d93",
           },
+          {
+            slug: "nieuwe-whatsapp-template-maken",
+            title: "Nieuwe WhatsApp-template maken",
+            description: "",
+            loomId: "9d6ef65528774002a19a88ba4c141b58",
+          },
         ],
       },
     ],
