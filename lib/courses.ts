@@ -363,10 +363,10 @@ export const courses: Course[] = [
             loomId: "38fd4b55b04e469ab5578404800ac08c",
           },
           {
-            slug: "eerste-90-dagen-klantreis-inrichten-veel-persoonlijk-contact",
-            title: "Eerste 90 dagen klantreis inrichten: veel persoonlijk contact",
+            slug: "e-mailteksten-wijzigen-in-workflows",
+            title: "E-mailteksten wijzigen in workflows",
             description: "",
-            loomId: "0e2399c48d374dfa9538086808a78ed3",
+            loomId: "6423b64a4ee34a44a6ba86fd34329e37",
           },
         ],
       },
