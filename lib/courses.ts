@@ -374,6 +374,12 @@ export const courses: Course[] = [
             description: "",
             loomId: "d539728b43174335a84583b2eefd6cdb",
           },
+          {
+            slug: "whatsapp-templates-aanpassen-in-workflows",
+            title: "WhatsApp templates aanpassen in workflows",
+            description: "",
+            loomId: "4130b2ac44a64ad99c9eb379cc9f7c70",
+          },
         ],
       },
     ],
