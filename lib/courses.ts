@@ -362,6 +362,12 @@ export const courses: Course[] = [
             description: "",
             loomId: "38fd4b55b04e469ab5578404800ac08c",
           },
+          {
+            slug: "eerste-90-dagen-klantreis-inrichten-veel-persoonlijk-contact",
+            title: "Eerste 90 dagen klantreis inrichten: veel persoonlijk contact",
+            description: "",
+            loomId: "0e2399c48d374dfa9538086808a78ed3",
+          },
         ],
       },
     ],
