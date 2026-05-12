@@ -380,6 +380,12 @@ export const courses: Course[] = [
             description: "",
             loomId: "4130b2ac44a64ad99c9eb379cc9f7c70",
           },
+          {
+            slug: "eerste-90-dagen-ledenflows",
+            title: "Eerste 90 dagen ledenflows",
+            description: "",
+            loomId: "cbd7b66a609843629311c207edff7d93",
+          },
         ],
       },
     ],
