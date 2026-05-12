@@ -381,16 +381,16 @@ export const courses: Course[] = [
             loomId: "4130b2ac44a64ad99c9eb379cc9f7c70",
           },
           {
-            slug: "eerste-90-dagen-ledenflows",
-            title: "Eerste 90 dagen ledenflows",
-            description: "",
-            loomId: "cbd7b66a609843629311c207edff7d93",
-          },
-          {
             slug: "nieuwe-whatsapp-template-maken",
             title: "Nieuwe WhatsApp-template maken",
             description: "",
             loomId: "9d6ef65528774002a19a88ba4c141b58",
+          },
+          {
+            slug: "eerste-90-dagen-ledenflows",
+            title: "Eerste 90 dagen ledenflows",
+            description: "",
+            loomId: "cbd7b66a609843629311c207edff7d93",
           },
         ],
       },
