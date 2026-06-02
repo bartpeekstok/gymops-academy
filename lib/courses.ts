@@ -392,6 +392,12 @@ export const courses: Course[] = [
             description: "",
             loomId: "cbd7b66a609843629311c207edff7d93",
           },
+          {
+            slug: "ex-leden-campagne",
+            title: "Ex-leden campagne",
+            description: "",
+            loomId: "2dff417aad0c40c28fc435ebc7efab4d",
+          },
         ],
       },
     ],
