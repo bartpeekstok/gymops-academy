@@ -392,6 +392,12 @@ export const courses: Course[] = [
             description: "",
             loomId: "2dff417aad0c40c28fc435ebc7efab4d",
           },
+          {
+            slug: "google-review-ontvangen",
+            title: "Google review ontvangen",
+            description: "",
+            loomId: "27cd9e4250c748709faf2ca1e8c98bd9",
+          },
         ],
       },
     ],
