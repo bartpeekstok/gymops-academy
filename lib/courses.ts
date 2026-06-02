@@ -398,6 +398,12 @@ export const courses: Course[] = [
             description: "",
             loomId: "27cd9e4250c748709faf2ca1e8c98bd9",
           },
+          {
+            slug: "dagelijks-mailoverzicht-openstaande-taken",
+            title: "Dagelijks mailoverzicht van openstaande taken",
+            description: "",
+            loomId: "97160a75a43e4c9d8cec9e7a54001863",
+          },
         ],
       },
     ],
