@@ -52,12 +52,6 @@ export const courses: Course[] = [
             loomId: "be72b284d13c460ebc8fd8950d7d8f82",
           },
           {
-            slug: "writify-instellen",
-            title: "Writify instellen",
-            description: "",
-            loomId: "24c4f51f66f24185b76fe08d9d9d0559",
-          },
-          {
             slug: "betaalgegevens-invoeren",
             title: "Betaalgegevens invoeren",
             description: "",
