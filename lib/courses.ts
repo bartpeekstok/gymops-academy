@@ -375,6 +375,13 @@ export const courses: Course[] = [
             loomId: "d539728b43174335a84583b2eefd6cdb",
           },
           {
+            slug: "whatsapp-workflows-aanpassen-in-gymops",
+            title: "WhatsApp workflows aanpassen in GymOps",
+            description: "",
+            loomId: "5d26ed097e814783b3b2945f30b316b9",
+            durationMinutes: 7,
+          },
+          {
             slug: "whatsapp-templates-aanpassen-in-workflows",
             title: "WhatsApp templates aanpassen in workflows",
             description: "",
