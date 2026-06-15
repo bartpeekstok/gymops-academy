@@ -57,6 +57,32 @@ export default function LessonPage({ params }: { params: Params }) {
             </p>
           )}
 
+          {lesson.workflows && lesson.workflows.length > 0 && (
+            <div className="mt-6 overflow-x-auto rounded-lg border border-black/10 bg-white">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="text-left text-xs uppercase tracking-wider text-dark/50 border-b border-black/10">
+                    <th className="py-3 px-4 font-semibold">Workflow</th>
+                    <th className="py-3 px-4 font-semibold">WhatsApp</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {lesson.workflows.map((w) => (
+                    <tr
+                      key={w.name}
+                      className="border-b border-black/5 last:border-b-0"
+                    >
+                      <td className="py-2.5 px-4 text-dark/90">{w.name}</td>
+                      <td className="py-2.5 px-4 text-dark/70 whitespace-nowrap">
+                        {w.whatsapp}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+
           <div className="mt-8 flex items-center justify-between gap-3 border-t border-black/5 pt-5">
             {prev ? (
               <Link

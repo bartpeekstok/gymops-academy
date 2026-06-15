@@ -10,12 +10,18 @@ import {
   Workflow,
 } from "lucide-react";
 
+export type LessonWorkflow = {
+  name: string;
+  whatsapp: string;
+};
+
 export type Lesson = {
   slug: string;
   title: string;
   description: string;
   loomId: string;
   durationMinutes?: number;
+  workflows?: LessonWorkflow[];
 };
 
 export type Module = {
@@ -375,11 +381,37 @@ export const courses: Course[] = [
             loomId: "d539728b43174335a84583b2eefd6cdb",
           },
           {
-            slug: "whatsapp-workflows-aanpassen-in-gymops",
-            title: "WhatsApp workflows aanpassen in GymOps",
+            slug: "overzicht-workflows-met-whatsapp-berichten",
+            title: "Overzicht workflows met WhatsApp-berichten",
             description: "",
             loomId: "5d26ed097e814783b3b2945f30b316b9",
             durationMinutes: 7,
+            workflows: [
+              { name: "Afspraak geboekt in kalender 'Free intro'", whatsapp: "Ingesteld door GymOps" },
+              { name: "Afspraak geboekt in proeflesplanner SportBit", whatsapp: "Ingesteld door GymOps" },
+              { name: "Afspraak in kalender \"Free Intro\" is afgezegd", whatsapp: "Ingesteld door GymOps" },
+              { name: "Afspraak in kalender \"Free Intro\" is no show", whatsapp: "Ingesteld door GymOps" },
+              { name: "Afspraak in proeflesplanner SportBit is no show", whatsapp: "Ingesteld door GymOps" },
+              { name: "Bring A friend Inschrijving", whatsapp: "Ingesteld door GymOps" },
+              { name: "Ex-leden campagne", whatsapp: "Ingesteld door GymOps" },
+              { name: "Fitness test afgerond", whatsapp: "Ingesteld door GymOps" },
+              { name: "Flex Friday Form Submitted", whatsapp: "Ingesteld door GymOps" },
+              { name: "Hyrox Simulation Sign-up (inbound webhook needed)", whatsapp: "Ingesteld door GymOps" },
+              { name: "Nieuwe lead campagne", whatsapp: "Ingesteld door GymOps" },
+              { name: "Opzegformulier ingediend", whatsapp: "Ingesteld door GymOps" },
+              { name: "Prijsaanvraag campagne", whatsapp: "Ingesteld door GymOps" },
+              { name: "Whatsapp drip campagne 4 weken programma", whatsapp: "Ingesteld door GymOps" },
+              { name: "Whatsapp drip campagne HYROX tijd verbeteren", whatsapp: "Ingesteld door GymOps" },
+              { name: "Whatsapp drip campagne eerste HYROX", whatsapp: "Ingesteld door GymOps" },
+              { name: "Whatsapp drip campagne start kleine groep", whatsapp: "Ingesteld door GymOps" },
+              { name: "flex friday campaign", whatsapp: "Ingesteld door GymOps" },
+              { name: "verjaardag whatsapp/mail leden", whatsapp: "Ingesteld door GymOps" },
+              { name: "Long Term Client Nurture Campagne", whatsapp: "Ingesteld door GymOps" },
+              { name: "Long term lead nurture", whatsapp: "Ingesteld door GymOps" },
+              { name: "Prijsaanvraag ingevuld", whatsapp: "Ingesteld door GymOps" },
+              { name: "Voorbeeld campagne eerste 90 dagen (veel automatische Whatsapps)", whatsapp: "Zelf instellen" },
+              { name: "Voorbeeld campagne eerste 90 dagen (veel taken en persoonlijk contact)", whatsapp: "Zelf instellen" },
+            ],
           },
           {
             slug: "whatsapp-templates-aanpassen-in-workflows",
