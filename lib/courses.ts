@@ -455,6 +455,12 @@ export const courses: Course[] = [
             description: "",
             loomId: "f87c80c39b094a80a41138085ce43d43",
           },
+          {
+            slug: "algemene-afspraken-workflows",
+            title: "Algemene afspraken workflows",
+            description: "",
+            loomId: "f8d891de08964e8f8db72fc68241d166",
+          },
         ],
       },
     ],
