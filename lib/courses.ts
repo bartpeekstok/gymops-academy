@@ -449,6 +449,12 @@ export const courses: Course[] = [
             description: "",
             loomId: "c65b92d703a14a998ab84e0e62ffce90",
           },
+          {
+            slug: "zo-werken-wachtstappen-in-je-workflows",
+            title: "Zo werken wachtstappen in je workflows",
+            description: "",
+            loomId: "f87c80c39b094a80a41138085ce43d43",
+          },
         ],
       },
     ],
