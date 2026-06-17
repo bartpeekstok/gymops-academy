@@ -477,6 +477,12 @@ export const courses: Course[] = [
             description: "",
             loomId: "f59d796a778848cc9e79b3b3b5162852",
           },
+          {
+            slug: "taken-in-workflows-aanmaken-en-aanpassen",
+            title: "Taken in workflows aanmaken en aanpassen",
+            description: "",
+            loomId: "cb68edc02f474454abfe8b1af4505edd",
+          },
         ],
       },
     ],
