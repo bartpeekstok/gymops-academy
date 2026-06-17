@@ -483,6 +483,12 @@ export const courses: Course[] = [
             description: "",
             loomId: "cb68edc02f474454abfe8b1af4505edd",
           },
+          {
+            slug: "taken-bekijken-op-klantenkaart-bij-contact",
+            title: "Taken bekijken op klantenkaart bij contact",
+            description: "",
+            loomId: "b52484d29ec34076b2f368cec208114f",
+          },
         ],
       },
     ],
