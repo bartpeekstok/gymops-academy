@@ -357,12 +357,6 @@ export const courses: Course[] = [
         title: "Workflows",
         lessons: [
           {
-            slug: "berichtenstroom-bij-algemene-afspraken",
-            title: "Berichtenstroom bij algemene afspraken",
-            description: "",
-            loomId: "26ce91bad70d44f485f0b6bb93cda180",
-          },
-          {
             slug: "berichten-bij-intake-geboekt-wijziging-of-no-show",
             title: "Berichten bij intake geboekt, wijziging of no-show",
             description: "",
