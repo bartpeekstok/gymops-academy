@@ -3,6 +3,7 @@ import {
   Calendar,
   Contact,
   LayoutDashboard,
+  ListTodo,
   Megaphone,
   MessageSquare,
   Settings,
@@ -454,6 +455,27 @@ export const courses: Course[] = [
             title: "Algemene afspraken workflows",
             description: "",
             loomId: "f8d891de08964e8f8db72fc68241d166",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "taken",
+    title: "Taken",
+    description:
+      "Werken met taken in GymOps: aanmaken, opvolgen en afronden.",
+    icon: ListTodo,
+    modules: [
+      {
+        slug: "taken",
+        title: "Taken",
+        lessons: [
+          {
+            slug: "zo-werken-taken-in-gymops",
+            title: "Zo werken taken in GymOps",
+            description: "",
+            loomId: "f59d796a778848cc9e79b3b3b5162852",
           },
         ],
       },
