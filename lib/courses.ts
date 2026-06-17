@@ -443,6 +443,12 @@ export const courses: Course[] = [
             description: "",
             loomId: "27cd9e4250c748709faf2ca1e8c98bd9",
           },
+          {
+            slug: "engelse-en-nederlandse-berichten-aanpassen",
+            title: "Engelse en Nederlandse berichten aanpassen",
+            description: "",
+            loomId: "c65b92d703a14a998ab84e0e62ffce90",
+          },
         ],
       },
     ],
