@@ -489,6 +489,12 @@ export const courses: Course[] = [
             description: "",
             loomId: "b52484d29ec34076b2f368cec208114f",
           },
+          {
+            slug: "taak-aanmaken-bij-contact",
+            title: "Taak aanmaken bij contact",
+            description: "",
+            loomId: "6a6d73d3a28c4d2cb37fddffca6664d4",
+          },
         ],
       },
     ],
