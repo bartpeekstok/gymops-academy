@@ -71,12 +71,6 @@ export const courses: Course[] = [
             loomId: "b41aaa3ec0d1449e98a5ad3caa73c01a",
           },
           {
-            slug: "persoonlijke-agenda-koppelen",
-            title: "Persoonlijke agenda koppelen",
-            description: "",
-            loomId: "c5dff764626f477882e0ca0dbbc9c9fd",
-          },
-          {
             slug: "google-account-koppelen",
             title: "Google-account koppelen",
             description: "",
@@ -111,6 +105,12 @@ export const courses: Course[] = [
             title: "Dagelijks mailoverzicht van openstaande taken",
             description: "",
             loomId: "97160a75a43e4c9d8cec9e7a54001863",
+          },
+          {
+            slug: "persoonlijke-agenda-koppelen",
+            title: "Persoonlijke agenda koppelen",
+            description: "",
+            loomId: "c5dff764626f477882e0ca0dbbc9c9fd",
           },
         ],
       },
