@@ -106,6 +106,12 @@ export const courses: Course[] = [
             description: "",
             loomId: "97160a75a43e4c9d8cec9e7a54001863",
           },
+          {
+            slug: "telefoonnummer-aanschaffen",
+            title: "Telefoonnummer aanschaffen",
+            description: "",
+            loomId: "b41aaa3ec0d1449e98a5ad3caa73c01a",
+          },
         ],
       },
     ],
