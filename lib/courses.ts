@@ -427,6 +427,12 @@ export const courses: Course[] = [
             loomId: "9d6ef65528774002a19a88ba4c141b58",
           },
           {
+            slug: "automatische-whatsapp-bij-gemiste-oproep-instellen",
+            title: "Automatische WhatsApp bij gemiste oproep instellen",
+            description: "",
+            loomId: "b5e1aa1059894d0aa3fecb0b64d1532a",
+          },
+          {
             slug: "eerste-90-dagen-ledenflows",
             title: "Eerste 90 dagen ledenflows",
             description: "",
