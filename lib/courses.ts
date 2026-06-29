@@ -53,16 +53,17 @@ export const courses: Course[] = [
         title: "Onboarding stap één",
         lessons: [
           {
+            slug: "betaalgegevens-invoeren",
+            title: "1. Betaalgegevens invoeren",
+            description:
+              "We beginnen met het invoeren van je betaalgegevens. Voer hier je creditcardgegevens in. Deze creditcard wordt gebruikt om je GymOps-abonnement te betalen, én voor het verbruik van telefonie-, sms- en WhatsApp-kosten.",
+            loomId: "e5caea80523d4a6d945dc162231bc2f2",
+          },
+          {
             slug: "whatsapp-business-account-koppelen",
             title: "WhatsApp Business account koppelen",
             description: "",
             loomId: "be72b284d13c460ebc8fd8950d7d8f82",
-          },
-          {
-            slug: "betaalgegevens-invoeren",
-            title: "Betaalgegevens invoeren",
-            description: "",
-            loomId: "e5caea80523d4a6d945dc162231bc2f2",
           },
           {
             slug: "telefoonnummer-aanschaffen",
