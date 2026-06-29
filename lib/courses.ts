@@ -67,6 +67,19 @@ export const courses: Course[] = [
             loomId: "14652347e219454e910d6096d196a442",
           },
           {
+            slug: "lokaal-nummer-instellen-deel-1",
+            title: "3. Lokaal nummer instellen (deel 1)",
+            description:
+              "In dit hoofdstuk laten we zien hoe je een lokaal nummer instelt om te gebruiken in GymOps. Dit zorgt ervoor dat je leads en klanten vaker de telefoon opnemen, doordat je nummer vertrouwd overkomt.",
+            loomId: "54c80427622e46edbbc92b4f6b1deb30",
+          },
+          {
+            slug: "lokaal-nummer-instellen-deel-2",
+            title: "3. Lokaal nummer instellen (deel 2)",
+            description: "",
+            loomId: "e52b1a744eb4442e8751bd68750c5f64",
+          },
+          {
             slug: "whatsapp-business-account-koppelen",
             title: "WhatsApp Business account koppelen",
             description: "",
