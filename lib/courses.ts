@@ -60,16 +60,17 @@ export const courses: Course[] = [
             loomId: "e5caea80523d4a6d945dc162231bc2f2",
           },
           {
+            slug: "telefoonnummer-aanschaffen",
+            title: "2. Telefoonnummer aanschaffen",
+            description:
+              "Hier schaffen we een virtueel nummer aan in GymOps dat we gebruiken om te bellen en eventueel te sms'en. Dit nummer verbergen we later achter een lokaal nummer.",
+            loomId: "14652347e219454e910d6096d196a442",
+          },
+          {
             slug: "whatsapp-business-account-koppelen",
             title: "WhatsApp Business account koppelen",
             description: "",
             loomId: "be72b284d13c460ebc8fd8950d7d8f82",
-          },
-          {
-            slug: "telefoonnummer-aanschaffen",
-            title: "Telefoonnummer aanschaffen",
-            description: "",
-            loomId: "b41aaa3ec0d1449e98a5ad3caa73c01a",
           },
         ],
       },
@@ -102,7 +103,7 @@ export const courses: Course[] = [
             slug: "telefoonnummer-aanschaffen",
             title: "Telefoonnummer aanschaffen",
             description: "",
-            loomId: "b41aaa3ec0d1449e98a5ad3caa73c01a",
+            loomId: "14652347e219454e910d6096d196a442",
           },
           {
             slug: "google-account-koppelen",
