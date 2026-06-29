@@ -118,6 +118,12 @@ export const courses: Course[] = [
             description: "",
             loomId: "b5e1aa1059894d0aa3fecb0b64d1532a",
           },
+          {
+            slug: "beschikbaarheid-en-agenda-instellingen-voor-medewerkers",
+            title: "Beschikbaarheid en agenda-instellingen voor medewerkers",
+            description: "",
+            loomId: "32c2b37244804a35860bb78763a0e088",
+          },
         ],
       },
     ],
