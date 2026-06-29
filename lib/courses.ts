@@ -16,11 +16,19 @@ export type LessonWorkflow = {
   whatsapp: string;
 };
 
+export type LessonVideo = {
+  title?: string;
+  loomId: string;
+};
+
 export type Lesson = {
   slug: string;
   title: string;
   description: string;
-  loomId: string;
+  loomId?: string;
+  videos?: LessonVideo[];
+  image?: string;
+  imageAlt?: string;
   durationMinutes?: number;
   workflows?: LessonWorkflow[];
 };
@@ -60,24 +68,36 @@ export const courses: Course[] = [
             loomId: "e5caea80523d4a6d945dc162231bc2f2",
           },
           {
+            slug: "lead-connector-app-downloaden",
+            title: "2. Lead Connector app downloaden",
+            description:
+              "Download de Lead Connector app uit de App Store of Google Play en log in met je GymOps-account. Het is handig om de app ook op je telefoon te installeren, zodat je het meeste uit GymOps haalt: je ontvangt meldingen, kunt onderweg reageren op leads en klanten en blijft altijd bereikbaar.",
+            image: "/lead-connector.png",
+            imageAlt: "Lead Connector app logo",
+          },
+          {
             slug: "telefoonnummer-aanschaffen",
-            title: "2. Telefoonnummer aanschaffen",
+            title: "3. Telefoonnummer aanschaffen",
             description:
               "Hier schaffen we een virtueel nummer aan in GymOps dat we gebruiken om te bellen en eventueel te sms'en. Dit nummer verbergen we later achter een lokaal nummer.",
             loomId: "14652347e219454e910d6096d196a442",
           },
           {
-            slug: "lokaal-nummer-instellen-deel-1",
-            title: "3. Lokaal nummer instellen (deel 1)",
+            slug: "lokaal-nummer-instellen",
+            title: "4. Lokaal nummer instellen",
             description:
               "In dit hoofdstuk laten we zien hoe je een lokaal nummer instelt om te gebruiken in GymOps. Dit zorgt ervoor dat je leads en klanten vaker de telefoon opnemen, doordat je nummer vertrouwd overkomt.",
-            loomId: "54c80427622e46edbbc92b4f6b1deb30",
+            videos: [
+              { title: "Deel 1", loomId: "54c80427622e46edbbc92b4f6b1deb30" },
+              { title: "Deel 2", loomId: "e52b1a744eb4442e8751bd68750c5f64" },
+            ],
           },
           {
-            slug: "lokaal-nummer-instellen-deel-2",
-            title: "3. Lokaal nummer instellen (deel 2)",
-            description: "",
-            loomId: "e52b1a744eb4442e8751bd68750c5f64",
+            slug: "verifieer-je-lokale-nummer",
+            title: "5. Verifieer je lokale nummer",
+            description:
+              "Hier verifieer je je lokale nummer en koppel je het aan GymOps, zodat dit nummer altijd zichtbaar is en je telefoontjes goed worden opgenomen.",
+            loomId: "e5ff15dfcd034c1cb9c1c167725f85f7",
           },
           {
             slug: "whatsapp-business-account-koppelen",

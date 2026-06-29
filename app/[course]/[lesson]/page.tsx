@@ -47,15 +47,42 @@ export default function LessonPage({ params }: { params: Params }) {
             {lesson.title}
           </h1>
 
-          <div className="mt-5">
-            <LoomVideo loomId={lesson.loomId} title={lesson.title} />
-          </div>
-
           {lesson.description && (
             <p className="mt-5 text-dark/80 leading-relaxed">
               {lesson.description}
             </p>
           )}
+
+          {lesson.image && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={lesson.image}
+              alt={lesson.imageAlt ?? lesson.title}
+              className="mt-5 rounded-xl border border-black/10 shadow-sm max-w-sm"
+            />
+          )}
+
+          {lesson.videos && lesson.videos.length > 0 ? (
+            <div className="mt-5 space-y-8">
+              {lesson.videos.map((video) => (
+                <div key={video.loomId}>
+                  {video.title && (
+                    <h2 className="mb-2 text-lg font-semibold text-navy">
+                      {video.title}
+                    </h2>
+                  )}
+                  <LoomVideo
+                    loomId={video.loomId}
+                    title={video.title ?? lesson.title}
+                  />
+                </div>
+              ))}
+            </div>
+          ) : lesson.loomId ? (
+            <div className="mt-5">
+              <LoomVideo loomId={lesson.loomId} title={lesson.title} />
+            </div>
+          ) : null}
 
           {lesson.workflows && lesson.workflows.length > 0 && (
             <div className="mt-6 overflow-x-auto rounded-lg border border-black/10 bg-white">
