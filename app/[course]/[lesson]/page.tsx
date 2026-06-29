@@ -48,7 +48,7 @@ export default function LessonPage({ params }: { params: Params }) {
           </h1>
 
           {lesson.description && (
-            <p className="mt-5 text-dark/80 leading-relaxed">
+            <p className="mt-5 text-dark/80 leading-relaxed whitespace-pre-line">
               {lesson.description}
             </p>
           )}

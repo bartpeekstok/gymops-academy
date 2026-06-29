@@ -101,8 +101,9 @@ export const courses: Course[] = [
           },
           {
             slug: "whatsapp-business-account-koppelen",
-            title: "WhatsApp Business account koppelen",
-            description: "",
+            title: "6. WhatsApp Business account koppelen",
+            description:
+              "WhatsApp gebruiken we veel in GymOps; het is in Europa nog altijd de meest gangbare manier van texten. We raden aan om het lokale nummer dat je in GymOps gebruikt óók te gebruiken voor je WhatsApp Business account.\n\nHeb je al een lokaal nummer met een WhatsApp Business account op een telefoon staan? Dan is dat een goed uitgangspunt. Heb je dat nog niet, download dan op een telefoon de WhatsApp Business app en maak daarop een nieuw WhatsApp Business account voor je gym aan met het lokale nummer dat je hebt aangeschaft.\n\nBelangrijk: het WhatsApp Business account dat je gaat koppelen moet eerst op een mobiel staan. Dat hoeft geen 06-nummer te zijn — sterker nog, we doen dit het liefst met het lokale nummer dat we zojuist hebben ingesteld. Heb je dit klaarstaan, doorloop dan de stappen in de video hieronder.",
             loomId: "be72b284d13c460ebc8fd8950d7d8f82",
           },
         ],
