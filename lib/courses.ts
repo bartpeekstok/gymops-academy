@@ -42,6 +42,39 @@ export type Course = {
 
 export const courses: Course[] = [
   {
+    slug: "onboarding-stap-een",
+    title: "Onboarding stap één",
+    description:
+      "De eerste stappen om je gym op te zetten in GymOps.",
+    icon: UserPlus,
+    modules: [
+      {
+        slug: "onboarding-stap-een",
+        title: "Onboarding stap één",
+        lessons: [
+          {
+            slug: "whatsapp-business-account-koppelen",
+            title: "WhatsApp Business account koppelen",
+            description: "",
+            loomId: "be72b284d13c460ebc8fd8950d7d8f82",
+          },
+          {
+            slug: "betaalgegevens-invoeren",
+            title: "Betaalgegevens invoeren",
+            description: "",
+            loomId: "e5caea80523d4a6d945dc162231bc2f2",
+          },
+          {
+            slug: "telefoonnummer-aanschaffen",
+            title: "Telefoonnummer aanschaffen",
+            description: "",
+            loomId: "b41aaa3ec0d1449e98a5ad3caa73c01a",
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: "set-up",
     title: "Set up",
     description:
