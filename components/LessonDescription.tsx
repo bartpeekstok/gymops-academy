@@ -41,13 +41,19 @@ export default function LessonDescription({ text }: Props) {
     <div className="mt-5 space-y-5">
       {blocks.map((block, i) =>
         block.type === "image" ? (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
-            key={i}
-            src={block.src}
-            alt={block.alt}
-            className="rounded-xl border border-black/10 shadow-sm w-full max-w-2xl"
-          />
+          (() => {
+            const [alt, size] = block.alt.split("|");
+            const widthClass = size === "small" ? "max-w-sm" : "w-full";
+            return (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                key={i}
+                src={block.src}
+                alt={alt}
+                className={`rounded-xl border border-black/10 shadow-sm ${widthClass}`}
+              />
+            );
+          })()
         ) : (
           block.value.trim() && (
             <p

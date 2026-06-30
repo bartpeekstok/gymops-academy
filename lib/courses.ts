@@ -1,8 +1,11 @@
 import type { LucideIcon } from "lucide-react";
 import {
   Calendar,
+  Contact,
   LayoutDashboard,
+  ListTodo,
   Megaphone,
+  MessageSquare,
   Settings,
   UserPlus,
   Workflow,
@@ -44,6 +47,149 @@ export type Course = {
   description: string;
   icon: LucideIcon;
   modules: Module[];
+};
+
+const contactenModule: Module = {
+  slug: "contacten",
+  title: "Contacten",
+  lessons: [
+    {
+      slug: "introductie",
+      title: "Introductie contacten",
+      description: "",
+      loomId: "e7b00165744c4508b33e75341ea2252b",
+      durationMinutes: 2,
+    },
+    {
+      slug: "nieuw-contact-aanmaken",
+      title: "Nieuw contact aanmaken",
+      description: "",
+      loomId: "5397bc98684848cc99258b000e93907a",
+      durationMinutes: 3,
+    },
+    {
+      slug: "contactkaart-bekijken",
+      title: "Contactkaart bekijken",
+      description: "",
+      loomId: "5ae0568a8aa24b088bc52f11cb5f943d",
+      durationMinutes: 7,
+    },
+    {
+      slug: "contact-bewerken",
+      title: "Contact bewerken",
+      description: "",
+      loomId: "d72f56f9b1574af1be1547d69061d5ea",
+      durationMinutes: 1,
+    },
+    {
+      slug: "dubbele-contacten-samenvoegen",
+      title: "Dubbele contacten samenvoegen",
+      description: "",
+      loomId: "e61aa4e9660a49cbb4220e3b58562940",
+      durationMinutes: 3,
+    },
+    {
+      slug: "slimme-lijsten-met-filters",
+      title: "Slimme lijsten maken met filters",
+      description: "",
+      loomId: "8df2683d82e24cc7a356a369cb488877",
+      durationMinutes: 3,
+    },
+  ],
+};
+
+const conversationsModule: Module = {
+  slug: "conversations",
+  title: "Conversations",
+  lessons: [
+    {
+      slug: "intro-gesprekken",
+      title: "Intro gesprekken",
+      description: "",
+      loomId: "2e5f49b5bb1640a1a7f00d5ef16964c6",
+    },
+    {
+      slug: "gesprekken-en-berichten-teruglezen",
+      title: "Gesprekken en berichten teruglezen",
+      description: "",
+      loomId: "10c56538f7d141f7a220593fb0a45b2c",
+    },
+    {
+      slug: "whatsapp",
+      title: "WhatsApp",
+      description: "",
+      loomId: "0706a8c0bbe14ed2b8b6fe45071c7c8b",
+    },
+    {
+      slug: "e-mail",
+      title: "E-mail",
+      description: "",
+      loomId: "58036091af6c446aa103af05ecb374a2",
+    },
+    {
+      slug: "sms-berichten",
+      title: "Sms-berichten",
+      description: "",
+      loomId: "41f8ca81626e42898728c43f9d721db5",
+    },
+    {
+      slug: "dms-via-facebook-of-instagram",
+      title: "DM's via Facebook of Instagram",
+      description: "",
+      loomId: "bc7ffa9523c847a4a8703133c280b0d0",
+    },
+    {
+      slug: "telefoongesprekken",
+      title: "Telefoongesprekken",
+      description: "",
+      loomId: "9f6a5f40a4bb4af798fe1e21c0e69185",
+    },
+    {
+      slug: "internal-notes",
+      title: "Internal notes",
+      description: "",
+      loomId: "9e0079ec1b6942b7adf723726c0bcbaa",
+    },
+  ],
+};
+
+const takenModule: Module = {
+  slug: "taken",
+  title: "Taken",
+  lessons: [
+    {
+      slug: "introductie-taken",
+      title: "Introductie taken",
+      subtitle:
+        "Persoonlijk contact dat niet vergeten of overgeslagen wordt.",
+      description:
+        "Taken vormen het hart van het opvolgsysteem in GymOps. Er worden automatisch veel taken aangemaakt vanuit workflows, maar je kunt ze ook altijd handmatig aanmaken. Zo'n taak kun je bij jezelf aanmaken of bij een ander teamlid, zodat zaken nooit blijven liggen.\n\nDenk bijvoorbeeld aan leads die opgevolgd moeten worden, maar net zo goed aan leden waar je contact mee wilt opnemen: omdat ze al even niet geweest zijn, omdat ze een blessure hebben, of juist omdat er iets te vieren valt.\n\nHet aanmaken van taken werkt anders dan het versturen van automatische berichten. Bij een taak blijft het contact persoonlijk: de tekst die je schrijft, de app die je stuurt of de video die je opneemt komt nog steeds écht van jou. Het enige wat de taak doet, is ervoor zorgen dat dit contact niet wordt vergeten — zo valt er niemand door het net.\n\n![Voorbeeld van een takenlijst in GymOps](/taken-takenlijst.png)\n\nWe raden aan om je takenlijst elke dag bij te werken. Werk dagelijks zo veel mogelijk openstaande taken af, zodat taken niet te lang blijven openstaan. Als je dat consequent doet, haal je het maximale uit GymOps en zorg je ervoor dat iedere lead en ieder lid de persoonlijke aandacht krijgt die het verdient.\n\n![Voorbeeld van een taak met omschrijving en deadline in GymOps|small](/taken-voorbeeld-taak.png)\n\nHieronder vind je een overzicht van de workflows die automatisch taken voor je aanmaken, gegroepeerd per onderwerp.\n\nLEADS OPVOLGEN\n• **Nieuwe lead taakgenerator:** maakt bij elke nieuwe lead elke 24 uur een nieuwe taak aan om contact op te nemen, en blijft dat dagenlang doen totdat er écht contact is geweest. Zo glijdt geen enkele lead door de mazen van het net.\n• **3 uur in pipelinestage Showt:** geeft een dubbele check: is iemand op intake of proefles geweest, en is er een taak aangemaakt om contact op te nemen en een vervolgafspraak te plannen?\n• **No-show (Free Intake, algemene afspraken en de proeflesplanner in Sportbit):** laat je contact opnemen met iemand die niet is komen opdagen voor een intake of proefles, of die zijn afspraak heeft afgezegd.\n• **15 uur in pipelinestage Showt:** een dubbele check waarom iemand na vijftien uur nog niet gewonnen of verloren is, met een taak om te controleren of dit wel goed gaat.\n\nLEDEN BETROKKEN HOUDEN\n• **Afwezige leden wachtrij:** laat je contact opnemen met leden die al lang niet meer in je box zijn geweest. Erg belangrijk om afhakers op tijd terug te halen.\n• **Eerste 90 dagen:** zorgt dat je wekelijks contact opneemt met nieuwe leden om in te checken hoe het met ze gaat.\n• **Milestones:** maakt een taak aan zodra iemand een x-aantal workouts heeft voltooid, met de herinnering om een cadeautje klaar te leggen.\n• **Jaarlijkse ansichtkaart:** maakt bij elk lid minstens één keer per jaar een taak aan om een persoonlijke ansichtkaart te sturen. Zo krijgen niet alleen de leden die het meest opvallen een kaartje, maar iedereen.\n\nEX-LEDEN EN OPZEGGINGEN\n• **Ex-leden campagne:** start met een taak om te checken of iemand écht de ex-ledencampagne in moet. Belangrijk om te voorkomen dat leden hier per ongeluk in terechtkomen.\n• **Opzegformulier ingediend:** herinnert je eraan om de opzegging in Sportbit te verwerken.\n• **Ansichtkaart ingevuld:** laat je contact opnemen met een ex-lid dat gebruikmaakt van een aanbieding die hij of zij via een ansichtkaart heeft gekregen.\n\nREVIEWS\n• **Google review ontvangen:** laat je persoonlijk reageren op de review en deze loggen op de klantenkaart, zodat je later makkelijk kunt filteren op wie wel of geen Google review heeft achtergelaten.",
+    },
+    {
+      slug: "hoe-werkt-je-takenlijst",
+      title: "Hoe werkt je takenlijst",
+      description: "",
+      loomId: "f59d796a778848cc9e79b3b3b5162852",
+    },
+    {
+      slug: "taken-in-workflows-aanmaken-en-aanpassen",
+      title: "Taken in workflows aanmaken en aanpassen",
+      description: "",
+      loomId: "cb68edc02f474454abfe8b1af4505edd",
+    },
+    {
+      slug: "taken-bekijken-op-klantenkaart-bij-contact",
+      title: "Taken bekijken op klantenkaart bij contact",
+      description: "",
+      loomId: "b52484d29ec34076b2f368cec208114f",
+    },
+    {
+      slug: "taak-aanmaken-bij-contact",
+      title: "Taak aanmaken bij contact",
+      description: "",
+      loomId: "6a6d73d3a28c4d2cb37fddffca6664d4",
+    },
+  ],
 };
 
 export const courses: Course[] = [
@@ -115,141 +261,9 @@ export const courses: Course[] = [
       "Stap twee van je onboarding: werken met Contacten, Conversations en Taken.",
     icon: UserPlus,
     modules: [
-      {
-        slug: "contacten",
-        title: "Contacten",
-        lessons: [
-          {
-            slug: "introductie",
-            title: "Introductie contacten",
-            description: "",
-            loomId: "e7b00165744c4508b33e75341ea2252b",
-            durationMinutes: 2,
-          },
-          {
-            slug: "nieuw-contact-aanmaken",
-            title: "Nieuw contact aanmaken",
-            description: "",
-            loomId: "5397bc98684848cc99258b000e93907a",
-            durationMinutes: 3,
-          },
-          {
-            slug: "contactkaart-bekijken",
-            title: "Contactkaart bekijken",
-            description: "",
-            loomId: "5ae0568a8aa24b088bc52f11cb5f943d",
-            durationMinutes: 7,
-          },
-          {
-            slug: "contact-bewerken",
-            title: "Contact bewerken",
-            description: "",
-            loomId: "d72f56f9b1574af1be1547d69061d5ea",
-            durationMinutes: 1,
-          },
-          {
-            slug: "dubbele-contacten-samenvoegen",
-            title: "Dubbele contacten samenvoegen",
-            description: "",
-            loomId: "e61aa4e9660a49cbb4220e3b58562940",
-            durationMinutes: 3,
-          },
-          {
-            slug: "slimme-lijsten-met-filters",
-            title: "Slimme lijsten maken met filters",
-            description: "",
-            loomId: "8df2683d82e24cc7a356a369cb488877",
-            durationMinutes: 3,
-          },
-        ],
-      },
-      {
-        slug: "conversations",
-        title: "Conversations",
-        lessons: [
-          {
-            slug: "intro-gesprekken",
-            title: "Intro gesprekken",
-            description: "",
-            loomId: "2e5f49b5bb1640a1a7f00d5ef16964c6",
-          },
-          {
-            slug: "gesprekken-en-berichten-teruglezen",
-            title: "Gesprekken en berichten teruglezen",
-            description: "",
-            loomId: "10c56538f7d141f7a220593fb0a45b2c",
-          },
-          {
-            slug: "whatsapp",
-            title: "WhatsApp",
-            description: "",
-            loomId: "0706a8c0bbe14ed2b8b6fe45071c7c8b",
-          },
-          {
-            slug: "e-mail",
-            title: "E-mail",
-            description: "",
-            loomId: "58036091af6c446aa103af05ecb374a2",
-          },
-          {
-            slug: "sms-berichten",
-            title: "Sms-berichten",
-            description: "",
-            loomId: "41f8ca81626e42898728c43f9d721db5",
-          },
-          {
-            slug: "dms-via-facebook-of-instagram",
-            title: "DM's via Facebook of Instagram",
-            description: "",
-            loomId: "bc7ffa9523c847a4a8703133c280b0d0",
-          },
-          {
-            slug: "telefoongesprekken",
-            title: "Telefoongesprekken",
-            description: "",
-            loomId: "9f6a5f40a4bb4af798fe1e21c0e69185",
-          },
-          {
-            slug: "internal-notes",
-            title: "Internal notes",
-            description: "",
-            loomId: "9e0079ec1b6942b7adf723726c0bcbaa",
-          },
-        ],
-      },
-      {
-        slug: "taken",
-        title: "Taken",
-        lessons: [
-          {
-            slug: "zo-werken-taken-in-gymops",
-            title: "Zo werken taken in GymOps",
-            subtitle:
-              "Persoonlijk contact dat niet vergeten of overgeslagen wordt.",
-            description:
-              "Taken vormen het hart van het opvolgsysteem in GymOps. Er worden automatisch veel taken aangemaakt vanuit workflows, maar je kunt ze ook altijd handmatig aanmaken. Zo'n taak kun je bij jezelf aanmaken of bij een ander teamlid, zodat zaken nooit blijven liggen.\n\nDenk bijvoorbeeld aan leads die opgevolgd moeten worden, maar net zo goed aan leden waar je contact mee wilt opnemen: omdat ze al even niet geweest zijn, omdat ze een blessure hebben, of juist omdat er iets te vieren valt.\n\nHet aanmaken van taken werkt anders dan het versturen van automatische berichten. Bij een taak blijft het contact persoonlijk: de tekst die je schrijft, de app die je stuurt of de video die je opneemt komt nog steeds écht van jou. Het enige wat de taak doet, is ervoor zorgen dat dit contact niet wordt vergeten — zo valt er niemand door het net.\n\n![Voorbeeld van een takenlijst in GymOps](/taken-takenlijst.png)\n\nWe raden aan om je takenlijst elke dag bij te werken. Werk dagelijks zo veel mogelijk openstaande taken af, zodat taken niet te lang blijven openstaan. Als je dat consequent doet, haal je het maximale uit GymOps en zorg je ervoor dat iedere lead en ieder lid de persoonlijke aandacht krijgt die het verdient.\n\n![Voorbeeld van een taak met omschrijving en deadline in GymOps](/taken-voorbeeld-taak.png)\n\nHieronder vind je een overzicht van de workflows die automatisch taken voor je aanmaken, gegroepeerd per onderwerp.\n\nLEADS OPVOLGEN\n• **Nieuwe lead taakgenerator:** maakt bij elke nieuwe lead elke 24 uur een nieuwe taak aan om contact op te nemen, en blijft dat dagenlang doen totdat er écht contact is geweest. Zo glijdt geen enkele lead door de mazen van het net.\n• **3 uur in pipelinestage Showt:** geeft een dubbele check: is iemand op intake of proefles geweest, en is er een taak aangemaakt om contact op te nemen en een vervolgafspraak te plannen?\n• **No-show (Free Intake, algemene afspraken en de proeflesplanner in Sportbit):** laat je contact opnemen met iemand die niet is komen opdagen voor een intake of proefles, of die zijn afspraak heeft afgezegd.\n• **15 uur in pipelinestage Showt:** een dubbele check waarom iemand na vijftien uur nog niet gewonnen of verloren is, met een taak om te controleren of dit wel goed gaat.\n\nLEDEN BETROKKEN HOUDEN\n• **Afwezige leden wachtrij:** laat je contact opnemen met leden die al lang niet meer in je box zijn geweest. Erg belangrijk om afhakers op tijd terug te halen.\n• **Eerste 90 dagen:** zorgt dat je wekelijks contact opneemt met nieuwe leden om in te checken hoe het met ze gaat.\n• **Milestones:** maakt een taak aan zodra iemand een x-aantal workouts heeft voltooid, met de herinnering om een cadeautje klaar te leggen.\n• **Jaarlijkse ansichtkaart:** maakt bij elk lid minstens één keer per jaar een taak aan om een persoonlijke ansichtkaart te sturen. Zo krijgen niet alleen de leden die het meest opvallen een kaartje, maar iedereen.\n\nEX-LEDEN EN OPZEGGINGEN\n• **Ex-leden campagne:** start met een taak om te checken of iemand écht de ex-ledencampagne in moet. Belangrijk om te voorkomen dat leden hier per ongeluk in terechtkomen.\n• **Opzegformulier ingediend:** herinnert je eraan om de opzegging in Sportbit te verwerken.\n• **Ansichtkaart ingevuld:** laat je contact opnemen met een ex-lid dat gebruikmaakt van een aanbieding die hij of zij via een ansichtkaart heeft gekregen.\n\nREVIEWS\n• **Google review ontvangen:** laat je persoonlijk reageren op de review en deze loggen op de klantenkaart, zodat je later makkelijk kunt filteren op wie wel of geen Google review heeft achtergelaten.",
-            loomId: "f59d796a778848cc9e79b3b3b5162852",
-          },
-          {
-            slug: "taken-in-workflows-aanmaken-en-aanpassen",
-            title: "Taken in workflows aanmaken en aanpassen",
-            description: "",
-            loomId: "cb68edc02f474454abfe8b1af4505edd",
-          },
-          {
-            slug: "taken-bekijken-op-klantenkaart-bij-contact",
-            title: "Taken bekijken op klantenkaart bij contact",
-            description: "",
-            loomId: "b52484d29ec34076b2f368cec208114f",
-          },
-          {
-            slug: "taak-aanmaken-bij-contact",
-            title: "Taak aanmaken bij contact",
-            description: "",
-            loomId: "6a6d73d3a28c4d2cb37fddffca6664d4",
-          },
-        ],
-      },
+      contactenModule,
+      conversationsModule,
+      takenModule,
     ],
   },
   {
@@ -607,6 +621,30 @@ export const courses: Course[] = [
         ],
       },
     ],
+  },
+  {
+    slug: "contacten",
+    title: "Contacten",
+    description:
+      "Alles over het beheren van je contacten: aanmaken, bewerken, samenvoegen en slimme lijsten met filters.",
+    icon: Contact,
+    modules: [contactenModule],
+  },
+  {
+    slug: "conversations",
+    title: "Conversations",
+    description:
+      "Inbox voor al je communicatie: WhatsApp, e-mail, SMS en social op één plek beheren.",
+    icon: MessageSquare,
+    modules: [conversationsModule],
+  },
+  {
+    slug: "taken",
+    title: "Taken",
+    description:
+      "Werken met taken in GymOps: aanmaken, opvolgen en afronden.",
+    icon: ListTodo,
+    modules: [takenModule],
   },
 ];
 
