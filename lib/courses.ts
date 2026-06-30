@@ -301,7 +301,7 @@ export const courses: Course[] = [
             slug: "beschikbaarheid-en-agenda-instellingen-voor-medewerkers",
             title: "13. Beschikbaarheid en agenda-instellingen voor medewerkers",
             description:
-              "Stel hier in op welke tijdblokken je medewerkers beschikbaar zijn (of moeten zijn) om geboekt te worden voor gratis intakes, proeflessen, check-ins, personal trainings of andere afspraken. Het is niet erg als de juiste agenda's nog niet in het systeem staan, dat doen we later samen, maar vul vaak wel alvast de beschikbaarheid van je medewerkers in.",
+              "Stel hier in op welke tijdblokken je medewerkers beschikbaar zijn (of moeten zijn) om geboekt te worden voor gratis intakes, proeflessen, check-ins, personal trainings of andere afspraken. Het is niet erg als de juiste agenda's nog niet in het systeem staan, dat doen we later samen, maar vul wel alvast de beschikbaarheid van je medewerkers in.",
             loomId: "32c2b37244804a35860bb78763a0e088",
           },
         ],
@@ -405,7 +405,7 @@ export const courses: Course[] = [
             slug: "beschikbaarheid-en-agenda-instellingen-voor-medewerkers",
             title: "Beschikbaarheid en agenda-instellingen voor medewerkers",
             description:
-              "Stel hier in op welke tijdblokken je medewerkers beschikbaar zijn (of moeten zijn) om geboekt te worden voor gratis intakes, proeflessen, check-ins, personal trainings of andere afspraken. Het is niet erg als de juiste agenda's nog niet in het systeem staan, dat doen we later samen, maar vul vaak wel alvast de beschikbaarheid van je medewerkers in.",
+              "Stel hier in op welke tijdblokken je medewerkers beschikbaar zijn (of moeten zijn) om geboekt te worden voor gratis intakes, proeflessen, check-ins, personal trainings of andere afspraken. Het is niet erg als de juiste agenda's nog niet in het systeem staan, dat doen we later samen, maar vul wel alvast de beschikbaarheid van je medewerkers in.",
             loomId: "32c2b37244804a35860bb78763a0e088",
           },
         ],
