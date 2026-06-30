@@ -1,11 +1,18 @@
+import MockTakenlijst from "@/components/MockTakenlijst";
+
 type Props = {
   text: string;
 };
 
-// Renders a lesson description that supports two bits of lightweight markup:
+// Renders a lesson description that supports a bit of lightweight markup:
 //   **bold**            -> bold text
-//   ![alt](/path.png)   -> an image placed between paragraphs
-const IMAGE_RE = /!\[([^\]]*)\]\(([^)]+)\)/g;
+//   ![alt](/path.png)   -> an image placed between paragraphs (add |small to shrink)
+//   {{takenlijst}}      -> an inline rendered component
+const TOKEN_RE = /!\[([^\]]*)\]\(([^)]+)\)|\{\{([a-z-]+)\}\}/g;
+
+const COMPONENTS: Record<string, React.ReactNode> = {
+  takenlijst: <MockTakenlijst />,
+};
 
 function renderBold(text: string, keyPrefix: string) {
   return text.split("**").map((part, i) =>
@@ -19,18 +26,25 @@ function renderBold(text: string, keyPrefix: string) {
   );
 }
 
+type Block =
+  | { type: "text"; value: string }
+  | { type: "image"; src: string; alt: string }
+  | { type: "component"; name: string };
+
 export default function LessonDescription({ text }: Props) {
-  const blocks: Array<
-    { type: "text"; value: string } | { type: "image"; src: string; alt: string }
-  > = [];
+  const blocks: Block[] = [];
   let lastIndex = 0;
-  for (const match of text.matchAll(IMAGE_RE)) {
-    const [full, alt, src] = match;
+  for (const match of text.matchAll(TOKEN_RE)) {
+    const [full, alt, src, component] = match;
     const start = match.index ?? 0;
     if (start > lastIndex) {
       blocks.push({ type: "text", value: text.slice(lastIndex, start) });
     }
-    blocks.push({ type: "image", src, alt });
+    if (component) {
+      blocks.push({ type: "component", name: component });
+    } else {
+      blocks.push({ type: "image", src, alt });
+    }
     lastIndex = start + full.length;
   }
   if (lastIndex < text.length) {
@@ -39,22 +53,24 @@ export default function LessonDescription({ text }: Props) {
 
   return (
     <div className="mt-5 space-y-5">
-      {blocks.map((block, i) =>
-        block.type === "image" ? (
-          (() => {
-            const [alt, size] = block.alt.split("|");
-            const widthClass = size === "small" ? "max-w-sm" : "w-full";
-            return (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img
-                key={i}
-                src={block.src}
-                alt={alt}
-                className={`rounded-xl border border-black/10 shadow-sm ${widthClass}`}
-              />
-            );
-          })()
-        ) : (
+      {blocks.map((block, i) => {
+        if (block.type === "component") {
+          return <div key={i}>{COMPONENTS[block.name] ?? null}</div>;
+        }
+        if (block.type === "image") {
+          const [alt, size] = block.alt.split("|");
+          const widthClass = size === "small" ? "max-w-sm" : "w-full";
+          return (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              key={i}
+              src={block.src}
+              alt={alt}
+              className={`rounded-xl border border-black/10 shadow-sm ${widthClass}`}
+            />
+          );
+        }
+        return (
           block.value.trim() && (
             <p
               key={i}
@@ -63,8 +79,8 @@ export default function LessonDescription({ text }: Props) {
               {renderBold(block.value.trim(), `b${i}`)}
             </p>
           )
-        )
-      )}
+        );
+      })}
     </div>
   );
 }
