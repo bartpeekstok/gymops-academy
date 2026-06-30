@@ -561,7 +561,8 @@ export const courses: Course[] = [
           {
             slug: "zo-werken-taken-in-gymops",
             title: "Zo werken taken in GymOps",
-            description: "",
+            description:
+              "Taken vormen het hart van het opvolgsysteem in GymOps. Er worden automatisch veel taken aangemaakt vanuit workflows, maar je kunt ze ook altijd handmatig aanmaken. Zo'n taak kun je bij jezelf aanmaken of bij een ander teamlid, zodat zaken nooit blijven liggen.\n\nDenk bijvoorbeeld aan leads die opgevolgd moeten worden, maar net zo goed aan leden waar je contact mee wilt opnemen: omdat ze al even niet geweest zijn, omdat ze een blessure hebben, of juist omdat er iets te vieren valt.\n\nHet aanmaken van taken werkt anders dan het versturen van automatische berichten. Bij een taak blijft het contact persoonlijk: de tekst die je schrijft, de app die je stuurt of de video die je opneemt komt nog steeds écht van jou. Het enige wat de taak doet, is ervoor zorgen dat dit contact niet wordt vergeten — zo valt er niemand door het net.\n\nWe raden aan om je takenlijst elke dag bij te werken. Werk dagelijks zo veel mogelijk openstaande taken af, zodat taken niet te lang blijven openstaan. Als je dat consequent doet, haal je het maximale uit GymOps en zorg je ervoor dat iedere lead en ieder lid de persoonlijke aandacht krijgt die het verdient.",
             loomId: "f59d796a778848cc9e79b3b3b5162852",
           },
           {
