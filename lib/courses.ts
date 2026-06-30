@@ -118,7 +118,7 @@ const conversationsModule: Module = {
       slug: "introductie-conversations",
       title: "Introductie Conversations",
       description:
-        "In Conversations komt alle communicatie met je leads en leden op één plek samen: WhatsApp, e-mail, sms, social media-berichten en telefoongesprekken. Je hoeft dus niet meer te switchen tussen allerlei losse apps.\n\nAlles wat je hier verstuurt en ontvangt wordt automatisch vastgelegd bij het juiste contact, zodat je altijd terug kunt lezen wat er is besproken. In de volgende lessen lopen we de verschillende kanalen één voor één door.",
+        "In Conversations komt alle communicatie met je leads en leden op één plek samen: WhatsApp, e-mail, sms, social media-berichten en telefoongesprekken. Je hoeft dus niet meer te switchen tussen allerlei losse apps.\n\nAlles wat je hier verstuurt en ontvangt wordt automatisch vastgelegd bij het juiste contact, zodat je altijd terug kunt lezen wat er is besproken. In de volgende lessen lopen we de verschillende kanalen één voor één door.\n\nNet zoals het belangrijk is om je takenlijst elke dag af te werken, is het minstens zo belangrijk om je inbox in GymOps dagelijks bij te houden. Reageer snel op nieuwe berichten en laat niets te lang liggen. Pas als je je communicatie consequent op deze ene plek beheert, maak je echt ten volle gebruik van het systeem en mis je geen enkel contactmoment met je leads en leden.",
     },
     {
       slug: "intro-gesprekken",
