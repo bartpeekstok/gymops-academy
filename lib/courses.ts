@@ -217,6 +217,19 @@ const takenModule: Module = {
   ],
 };
 
+const stapTweeIntroModule: Module = {
+  slug: "introductie-stap-twee",
+  title: "Introductie",
+  lessons: [
+    {
+      slug: "welkom",
+      title: "Welkom bij stap twee",
+      description:
+        "Welkom bij stap twee van je onboarding! In stap één heb je de basis gelegd en allerlei diensten aan GymOps gekoppeld. Nu gaan we je echt wegwijs maken in het systeem zelf.\n\nGymOps kan je ontzettend veel werk uit handen nemen, maar het doet het niet helemaal vanzelf. Je haalt er pas echt het maximale uit als je je het systeem ook zelf eigen maakt. In de hoofdstukken hieronder zetten we daarvoor de eerste stappen: je leert werken met je Contacten, met Conversations (je inbox) en met Taken.\n\nAls er één ding is dat je uit deze stap moet meenemen, dan is het dit:\n\n**Werk elke dag je inbox bij en vink elke dag je takenlijst af.**\n\nDeze twee gewoonten zijn samen de motor onder GymOps. Houd je ze vol, dan blijft er niets liggen, voelt je communicatie persoonlijk en haal je echt alles uit het systeem.\n\nNeem rustig de tijd en doorloop de hoofdstukken hieronder. Veel succes!",
+    },
+  ],
+};
+
 export const courses: Course[] = [
   {
     slug: "onboarding-stap-een",
@@ -340,6 +353,7 @@ export const courses: Course[] = [
       "Stap twee van je onboarding: werken met Contacten, Conversations en Taken.",
     icon: UserPlus,
     modules: [
+      stapTweeIntroModule,
       contactenModule,
       conversationsModule,
       takenModule,
