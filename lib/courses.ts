@@ -54,44 +54,56 @@ const contactenModule: Module = {
   title: "Contacten",
   lessons: [
     {
-      slug: "introductie",
+      slug: "introductie-contacten",
       title: "Introductie contacten",
-      description: "",
+      description:
+        "Contacten vormen de basis van GymOps. Elke lead, elk lid en elke oud-klant heeft een eigen contactkaart waarop alles samenkomt: hun gegevens, de communicatie die je met ze hebt gehad, afspraken, taken en in welke fase ze zich bevinden.\n\nOmdat alles aan een contact gekoppeld is, weet je altijd precies met wie je te maken hebt en wat er speelt. In de volgende lessen laten we zien hoe je contacten aanmaakt, bekijkt, bewerkt, samenvoegt en hoe je met slimme lijsten snel de juiste mensen filtert.",
+    },
+    {
+      slug: "introductie",
+      title: "Rondleiding contacten",
+      description:
+        "Een korte rondleiding door het onderdeel Contacten in GymOps, zodat je weet waar je alles terugvindt.",
       loomId: "e7b00165744c4508b33e75341ea2252b",
       durationMinutes: 2,
     },
     {
       slug: "nieuw-contact-aanmaken",
       title: "Nieuw contact aanmaken",
-      description: "",
+      description:
+        "Hier laten we zien hoe je handmatig een nieuw contact aanmaakt en welke gegevens je het beste meteen invult.",
       loomId: "5397bc98684848cc99258b000e93907a",
       durationMinutes: 3,
     },
     {
       slug: "contactkaart-bekijken",
       title: "Contactkaart bekijken",
-      description: "",
+      description:
+        "De contactkaart is het overzicht van alles wat bij een contact hoort. We laten zien welke informatie je hier vindt en hoe je die gebruikt.",
       loomId: "5ae0568a8aa24b088bc52f11cb5f943d",
       durationMinutes: 7,
     },
     {
       slug: "contact-bewerken",
       title: "Contact bewerken",
-      description: "",
+      description:
+        "Pas eenvoudig de gegevens van een contact aan, bijvoorbeeld een telefoonnummer, e-mailadres of andere details.",
       loomId: "d72f56f9b1574af1be1547d69061d5ea",
       durationMinutes: 1,
     },
     {
       slug: "dubbele-contacten-samenvoegen",
       title: "Dubbele contacten samenvoegen",
-      description: "",
+      description:
+        "Soms ontstaat hetzelfde contact twee keer. Hier zie je hoe je dubbele contacten samenvoegt, zodat alle informatie weer op één kaart staat.",
       loomId: "e61aa4e9660a49cbb4220e3b58562940",
       durationMinutes: 3,
     },
     {
       slug: "slimme-lijsten-met-filters",
       title: "Slimme lijsten maken met filters",
-      description: "",
+      description:
+        "Met slimme lijsten filter je je contacten op precies de kenmerken die je zoekt, zodat je snel de juiste groep mensen te pakken hebt.",
       loomId: "8df2683d82e24cc7a356a369cb488877",
       durationMinutes: 3,
     },
@@ -103,51 +115,64 @@ const conversationsModule: Module = {
   title: "Conversations",
   lessons: [
     {
+      slug: "introductie-conversations",
+      title: "Introductie Conversations",
+      description:
+        "In Conversations komt alle communicatie met je leads en leden op één plek samen: WhatsApp, e-mail, sms, social media-berichten en telefoongesprekken. Je hoeft dus niet meer te switchen tussen allerlei losse apps.\n\nAlles wat je hier verstuurt en ontvangt wordt automatisch vastgelegd bij het juiste contact, zodat je altijd terug kunt lezen wat er is besproken. In de volgende lessen lopen we de verschillende kanalen één voor één door.",
+    },
+    {
       slug: "intro-gesprekken",
       title: "Intro gesprekken",
-      description: "",
+      description:
+        "Een korte introductie van de inbox in GymOps en hoe gesprekken hier werken.",
       loomId: "2e5f49b5bb1640a1a7f00d5ef16964c6",
     },
     {
       slug: "gesprekken-en-berichten-teruglezen",
       title: "Gesprekken en berichten teruglezen",
-      description: "",
+      description:
+        "Hier laten we zien hoe je eerdere gesprekken en berichten terugvindt en terugleest bij een contact.",
       loomId: "10c56538f7d141f7a220593fb0a45b2c",
     },
     {
       slug: "whatsapp",
       title: "WhatsApp",
-      description: "",
+      description:
+        "WhatsApp-berichten versturen en ontvangen, rechtstreeks vanuit GymOps.",
       loomId: "0706a8c0bbe14ed2b8b6fe45071c7c8b",
     },
     {
       slug: "e-mail",
       title: "E-mail",
-      description: "",
+      description:
+        "Hoe je e-mails verstuurt en ontvangt vanuit de inbox, gekoppeld aan het juiste contact.",
       loomId: "58036091af6c446aa103af05ecb374a2",
     },
     {
       slug: "sms-berichten",
       title: "Sms-berichten",
-      description: "",
+      description: "Sms'en met je leads en leden vanuit GymOps.",
       loomId: "41f8ca81626e42898728c43f9d721db5",
     },
     {
       slug: "dms-via-facebook-of-instagram",
       title: "DM's via Facebook of Instagram",
-      description: "",
+      description:
+        "Reageer op directe berichten via Facebook en Instagram, zonder de apps apart te openen.",
       loomId: "bc7ffa9523c847a4a8703133c280b0d0",
     },
     {
       slug: "telefoongesprekken",
       title: "Telefoongesprekken",
-      description: "",
+      description:
+        "Bellen en gebeld worden via GymOps, inclusief het vastleggen van je gesprekken bij het contact.",
       loomId: "9f6a5f40a4bb4af798fe1e21c0e69185",
     },
     {
       slug: "internal-notes",
       title: "Internal notes",
-      description: "",
+      description:
+        "Met interne notities leg je informatie vast voor jezelf of je team, zonder dat de klant dit ziet.",
       loomId: "9e0079ec1b6942b7adf723726c0bcbaa",
     },
   ],
