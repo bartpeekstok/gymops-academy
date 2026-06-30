@@ -163,7 +163,7 @@ const takenModule: Module = {
       subtitle:
         "Persoonlijk contact dat niet vergeten of overgeslagen wordt.",
       description:
-        "Taken vormen het hart van het opvolgsysteem in GymOps. Er worden automatisch veel taken aangemaakt vanuit workflows, maar je kunt ze ook altijd handmatig aanmaken. Zo'n taak kun je bij jezelf aanmaken of bij een ander teamlid, zodat zaken nooit blijven liggen.\n\nDenk bijvoorbeeld aan leads die opgevolgd moeten worden, maar net zo goed aan leden waar je contact mee wilt opnemen: omdat ze al even niet geweest zijn, omdat ze een blessure hebben, of juist omdat er iets te vieren valt.\n\n{{takenlijst}}\n\nHet aanmaken van taken werkt anders dan het versturen van automatische berichten. Bij een taak blijft het contact persoonlijk: de tekst die je schrijft, de app die je stuurt of de video die je opneemt komt nog steeds écht van jou. Het enige wat de taak doet, is ervoor zorgen dat dit contact niet wordt vergeten — zo valt er niemand door het net.\n\n**We raden aan om je takenlijst elke dag bij te werken.** Werk dagelijks zo veel mogelijk openstaande taken af, zodat taken niet te lang blijven openstaan. Als je dat consequent doet, haal je het maximale uit GymOps en zorg je ervoor dat iedere lead en ieder lid de persoonlijke aandacht krijgt die het verdient.\n\n![Voorbeeld van een taak met omschrijving en deadline in GymOps|small](/taken-voorbeeld-taak.png)\n\nHieronder vind je een overzicht van de workflows die automatisch taken voor je aanmaken, gegroepeerd per onderwerp.\n\n**LEADS OPVOLGEN**\n• **Nieuwe lead taakgenerator:** maakt bij elke nieuwe lead elke 24 uur een nieuwe taak aan om contact op te nemen, en blijft dat dagenlang doen totdat er écht contact is geweest. Zo glijdt geen enkele lead door de mazen van het net.\n• **3 uur in pipelinestage Showed:** geeft een dubbele check: is iemand op intake of proefles geweest, en is er een taak aangemaakt om contact op te nemen en een vervolgafspraak te plannen?\n• **No-show (Free Intake, algemene afspraken en de proeflesplanner in Sportbit):** laat je contact opnemen met iemand die niet is komen opdagen voor een intake of proefles, of die zijn afspraak heeft afgezegd.\n• **15 uur in pipelinestage Showed:** een dubbele check waarom iemand na vijftien uur nog niet gewonnen of verloren is, met een taak om te controleren of dit wel goed gaat.\n\n**LEDEN BETROKKEN HOUDEN**\n• **Afwezige leden wachtrij:** laat je contact opnemen met leden die al lang niet meer in je box zijn geweest. Erg belangrijk om afhakers op tijd terug te halen.\n• **Eerste 90 dagen:** zorgt dat je wekelijks contact opneemt met nieuwe leden om in te checken hoe het met ze gaat.\n• **Milestones:** maakt een taak aan zodra iemand een x-aantal workouts heeft voltooid, met de herinnering om een cadeautje klaar te leggen.\n• **Jaarlijkse ansichtkaart:** maakt bij elk lid minstens één keer per jaar een taak aan om een persoonlijke ansichtkaart te sturen. Zo krijgen niet alleen de leden die het meest opvallen een kaartje, maar iedereen.\n\n**EX-LEDEN EN OPZEGGINGEN**\n• **Ex-leden campagne:** start met een taak om te checken of iemand écht de ex-ledencampagne in moet. Belangrijk om te voorkomen dat leden hier per ongeluk in terechtkomen.\n• **Opzegformulier ingediend:** herinnert je eraan om de opzegging in Sportbit te verwerken.\n• **Ansichtkaart ingevuld:** laat je contact opnemen met een ex-lid dat gebruikmaakt van een aanbieding die hij of zij via een ansichtkaart heeft gekregen.\n\n**REVIEWS**\n• **Google review ontvangen:** laat je persoonlijk reageren op de review en deze loggen op de klantenkaart, zodat je later makkelijk kunt filteren op wie wel of geen Google review heeft achtergelaten.",
+        "Taken vormen het hart van het opvolgsysteem in GymOps. Er worden automatisch veel taken aangemaakt vanuit workflows, maar je kunt ze ook altijd handmatig aanmaken. Zo'n taak kun je bij jezelf aanmaken of bij een ander teamlid, zodat zaken nooit blijven liggen.\n\nDenk bijvoorbeeld aan leads die opgevolgd moeten worden, maar net zo goed aan leden waar je contact mee wilt opnemen: omdat ze al even niet geweest zijn, omdat ze een blessure hebben, of juist omdat er iets te vieren valt.\n\n{{takenlijst}}\n\nHet aanmaken van taken werkt anders dan het versturen van automatische berichten. Bij een taak blijft het contact persoonlijk: de tekst die je schrijft, de app die je stuurt of de video die je opneemt komt nog steeds écht van jou. Het enige wat de taak doet, is ervoor zorgen dat dit contact niet wordt vergeten, zodat er niemand door het net valt.\n\n**We raden aan om je takenlijst elke dag bij te werken.** Werk dagelijks zo veel mogelijk openstaande taken af, zodat taken niet te lang blijven openstaan. Als je dat consequent doet, haal je het maximale uit GymOps en zorg je ervoor dat iedere lead en ieder lid de persoonlijke aandacht krijgt die het verdient.\n\n![Voorbeeld van een taak met omschrijving en deadline in GymOps|small](/taken-voorbeeld-taak.png)\n\nHieronder vind je een overzicht van de workflows die automatisch taken voor je aanmaken, gegroepeerd per onderwerp.\n\n**LEADS OPVOLGEN**\n• **Nieuwe lead taakgenerator:** maakt bij elke nieuwe lead elke 24 uur een nieuwe taak aan om contact op te nemen, en blijft dat dagenlang doen totdat er écht contact is geweest. Zo glijdt geen enkele lead door de mazen van het net.\n• **3 uur in pipelinestage Showed:** geeft een dubbele check: is iemand op intake of proefles geweest, en is er een taak aangemaakt om contact op te nemen en een vervolgafspraak te plannen?\n• **No-show (Free Intake, algemene afspraken en de proeflesplanner in Sportbit):** laat je contact opnemen met iemand die niet is komen opdagen voor een intake of proefles, of die zijn afspraak heeft afgezegd.\n• **15 uur in pipelinestage Showed:** een dubbele check waarom iemand na vijftien uur nog niet gewonnen of verloren is, met een taak om te controleren of dit wel goed gaat.\n\n**LEDEN BETROKKEN HOUDEN**\n• **Afwezige leden wachtrij:** laat je contact opnemen met leden die al lang niet meer in je box zijn geweest. Erg belangrijk om afhakers op tijd terug te halen.\n• **Eerste 90 dagen:** zorgt dat je wekelijks contact opneemt met nieuwe leden om in te checken hoe het met ze gaat.\n• **Milestones:** maakt een taak aan zodra iemand een x-aantal workouts heeft voltooid, met de herinnering om een cadeautje klaar te leggen.\n• **Jaarlijkse ansichtkaart:** maakt bij elk lid minstens één keer per jaar een taak aan om een persoonlijke ansichtkaart te sturen. Zo krijgen niet alleen de leden die het meest opvallen een kaartje, maar iedereen.\n\n**EX-LEDEN EN OPZEGGINGEN**\n• **Ex-leden campagne:** start met een taak om te checken of iemand écht de ex-ledencampagne in moet. Belangrijk om te voorkomen dat leden hier per ongeluk in terechtkomen.\n• **Opzegformulier ingediend:** herinnert je eraan om de opzegging in Sportbit te verwerken.\n• **Ansichtkaart ingevuld:** laat je contact opnemen met een ex-lid dat gebruikmaakt van een aanbieding die hij of zij via een ansichtkaart heeft gekregen.\n\n**REVIEWS**\n• **Google review ontvangen:** laat je persoonlijk reageren op de review en deze loggen op de klantenkaart, zodat je later makkelijk kunt filteren op wie wel of geen Google review heeft achtergelaten.",
     },
     {
       slug: "hoe-werkt-je-takenlijst",
@@ -209,7 +209,7 @@ export const courses: Course[] = [
             title: "Welkom bij GymOps",
             subtitle: "De eerste stappen om je gym op te zetten in GymOps.",
             description:
-              "Welkom bij GymOps! Leuk dat je erbij bent. In dit eerste hoofdstuk zetten we samen de allereerste stappen om je gym helemaal klaar te maken in GymOps.\n\nGymOps is het systeem waarin straks alles samenkomt: je leads, je leden, je communicatie en je marketing. Om er echt het maximale uit te halen, koppelen we in deze onboarding een heleboel andere diensten aan GymOps. Denk aan je social media, WhatsApp, Google en een eigen lokaal telefoonnummer — zodat je vanuit één plek alles kunt beheren en geen enkel contactmoment meer mist.\n\nDeze eerste stap draait om de basis: je betaalgegevens, de app op je telefoon, een telefoonnummer en je WhatsApp Business-account. Daarmee staat het fundament en kun je in de volgende stappen steeds meer uit het systeem halen.\n\nNeem rustig de tijd en doorloop de lessen hieronder één voor één. Aan het einde van dit hoofdstuk heb je de meeste zaken gekoppeld en ben je klaar voor onboarding call één. Veel succes!",
+              "Welkom bij GymOps! Leuk dat je erbij bent. In dit eerste hoofdstuk zetten we samen de allereerste stappen om je gym helemaal klaar te maken in GymOps.\n\nGymOps is het systeem waarin straks alles samenkomt: je leads, je leden, je communicatie en je marketing. Om er echt het maximale uit te halen, koppelen we in deze onboarding een heleboel andere diensten aan GymOps. Denk aan je social media, WhatsApp, Google en een eigen lokaal telefoonnummer, zodat je vanuit één plek alles kunt beheren en geen enkel contactmoment meer mist.\n\nDeze eerste stap draait om de basis: je betaalgegevens, de app op je telefoon, een telefoonnummer en je WhatsApp Business-account. Daarmee staat het fundament en kun je in de volgende stappen steeds meer uit het systeem halen.\n\nDoorloop de lessen hieronder in de aangegeven volgorde, één voor één. Het is belangrijk dat je de stappen op volgorde doet, omdat ze op elkaar voortbouwen. Aan het einde van dit hoofdstuk heb je de meeste zaken gekoppeld en ben je klaar voor onboarding call één. Veel succes!",
           },
           {
             slug: "betaalgegevens-invoeren",
@@ -254,19 +254,21 @@ export const courses: Course[] = [
             slug: "whatsapp-business-account-koppelen",
             title: "6. WhatsApp Business account koppelen",
             description:
-              "WhatsApp gebruiken we veel in GymOps; het is in Europa nog altijd de meest gangbare manier van texten. We raden aan om het lokale nummer dat je in GymOps gebruikt óók te gebruiken voor je WhatsApp Business account.\n\nHeb je al een lokaal nummer met een WhatsApp Business account op een telefoon staan? Dan is dat een goed uitgangspunt. We raden aan om, als je dit WhatsApp Business account wilt behouden, het nummer ervan te wijzigen naar je lokale nummer.\n\nHeb je nog geen WhatsApp Business account op een mobiel staan? Download dan op een telefoon de WhatsApp Business app en maak daar een nieuw WhatsApp Business account voor je gym aan met het lokale nummer dat je hebt aangeschaft.\n\nBelangrijk: het WhatsApp Business account dat je gaat koppelen moet eerst op een mobiel staan. Dat hoeft geen 06-nummer te zijn — sterker nog, we doen dit het liefst met het lokale nummer dat we zojuist hebben ingesteld. Heb je dit klaarstaan, doorloop dan de stappen in de video hieronder.",
+              "WhatsApp gebruiken we veel in GymOps; het is in Europa nog altijd de meest gangbare manier van texten. We raden aan om het lokale nummer dat je in GymOps gebruikt óók te gebruiken voor je WhatsApp Business account.\n\nHeb je al een lokaal nummer met een WhatsApp Business account op een telefoon staan? Dan is dat een goed uitgangspunt. We raden aan om, als je dit WhatsApp Business account wilt behouden, het nummer ervan te wijzigen naar je lokale nummer.\n\nHeb je nog geen WhatsApp Business account op een mobiel staan? Download dan op een telefoon de WhatsApp Business app en maak daar een nieuw WhatsApp Business account voor je gym aan met het lokale nummer dat je hebt aangeschaft.\n\nBelangrijk: het WhatsApp Business account dat je gaat koppelen moet eerst op een mobiel staan. Dat hoeft geen 06-nummer te zijn, sterker nog: we doen dit het liefst met het lokale nummer dat we zojuist hebben ingesteld. Heb je dit klaarstaan, doorloop dan de stappen in de video hieronder.",
             loomId: "be72b284d13c460ebc8fd8950d7d8f82",
           },
           {
             slug: "google-account-koppelen",
             title: "7. Google-account koppelen",
-            description: "",
+            description:
+              "Het koppelen van je Google-account is belangrijk, zodat je makkelijk vanuit je Google Drive kunt werken. Zo kun je bijvoorbeeld deelnemerslijsten naar Google Sheets sturen, foto's ophalen en meer van dat soort zaken.",
             loomId: "efb96c1dd3b145c7a097ef36faf017d9",
           },
           {
             slug: "google-bedrijfsprofiel-koppelen",
             title: "8. Google Bedrijfsprofiel koppelen",
-            description: "",
+            description:
+              "Het koppelen van je Google Bedrijfsprofiel (Google My Business) is belangrijk om je reviews en recensies te beheren. Zo reageer je vanuit GymOps eenvoudig op alle beoordelingen van je gym.",
             loomId: "faf3dd4920cb4827985c55fa8b2d6b48",
           },
           {
@@ -284,19 +286,22 @@ export const courses: Course[] = [
           {
             slug: "medewerkers-toevoegen-bewerken-en-verwijderen",
             title: "11. Medewerkers toevoegen, bewerken en verwijderen",
-            description: "",
+            description:
+              "Het toevoegen van medewerkers is belangrijk zodat zij ook in het systeem kunnen werken, én zodat ze te boeken zijn voor intakes, check-ins, personal trainings of andere afspraken waarvan je de agenda's in GymOps beheert.",
             loomId: "87936d0cd0fb430e9f34b7d6d9b34a3e",
           },
           {
             slug: "persoonlijke-agenda-koppelen",
             title: "12. Persoonlijke agenda koppelen",
-            description: "",
+            description:
+              "Het koppelen van je privéagenda is belangrijk, zodat afspraken die je in GymOps maakt ook in je privéagenda terechtkomen. Daarnaast kan GymOps zo zien of je op een bepaald moment al een afspraak hebt staan en die tijd dan automatisch voor je blokkeren.",
             loomId: "c5dff764626f477882e0ca0dbbc9c9fd",
           },
           {
             slug: "beschikbaarheid-en-agenda-instellingen-voor-medewerkers",
             title: "13. Beschikbaarheid en agenda-instellingen voor medewerkers",
-            description: "",
+            description:
+              "Stel hier in op welke tijdblokken je medewerkers beschikbaar zijn (of moeten zijn) om geboekt te worden voor gratis intakes, proeflessen, check-ins, personal trainings of andere afspraken. Het is niet erg als de juiste agenda's nog niet in het systeem staan, dat doen we later samen, maar vul vaak wel alvast de beschikbaarheid van je medewerkers in.",
             loomId: "32c2b37244804a35860bb78763a0e088",
           },
         ],
@@ -347,13 +352,15 @@ export const courses: Course[] = [
           {
             slug: "google-account-koppelen",
             title: "Google-account koppelen",
-            description: "",
+            description:
+              "Het koppelen van je Google-account is belangrijk, zodat je makkelijk vanuit je Google Drive kunt werken. Zo kun je bijvoorbeeld deelnemerslijsten naar Google Sheets sturen, foto's ophalen en meer van dat soort zaken.",
             loomId: "efb96c1dd3b145c7a097ef36faf017d9",
           },
           {
             slug: "google-bedrijfsprofiel-koppelen",
             title: "Google Bedrijfsprofiel koppelen",
-            description: "",
+            description:
+              "Het koppelen van je Google Bedrijfsprofiel (Google My Business) is belangrijk om je reviews en recensies te beheren. Zo reageer je vanuit GymOps eenvoudig op alle beoordelingen van je gym.",
             loomId: "faf3dd4920cb4827985c55fa8b2d6b48",
           },
           {
@@ -371,7 +378,8 @@ export const courses: Course[] = [
           {
             slug: "medewerkers-toevoegen-bewerken-en-verwijderen",
             title: "Medewerkers toevoegen, bewerken en verwijderen",
-            description: "",
+            description:
+              "Het toevoegen van medewerkers is belangrijk zodat zij ook in het systeem kunnen werken, én zodat ze te boeken zijn voor intakes, check-ins, personal trainings of andere afspraken waarvan je de agenda's in GymOps beheert.",
             loomId: "87936d0cd0fb430e9f34b7d6d9b34a3e",
           },
           {
@@ -383,7 +391,8 @@ export const courses: Course[] = [
           {
             slug: "persoonlijke-agenda-koppelen",
             title: "Persoonlijke agenda koppelen",
-            description: "",
+            description:
+              "Het koppelen van je privéagenda is belangrijk, zodat afspraken die je in GymOps maakt ook in je privéagenda terechtkomen. Daarnaast kan GymOps zo zien of je op een bepaald moment al een afspraak hebt staan en die tijd dan automatisch voor je blokkeren.",
             loomId: "c5dff764626f477882e0ca0dbbc9c9fd",
           },
           {
@@ -395,7 +404,8 @@ export const courses: Course[] = [
           {
             slug: "beschikbaarheid-en-agenda-instellingen-voor-medewerkers",
             title: "Beschikbaarheid en agenda-instellingen voor medewerkers",
-            description: "",
+            description:
+              "Stel hier in op welke tijdblokken je medewerkers beschikbaar zijn (of moeten zijn) om geboekt te worden voor gratis intakes, proeflessen, check-ins, personal trainings of andere afspraken. Het is niet erg als de juiste agenda's nog niet in het systeem staan, dat doen we later samen, maar vul vaak wel alvast de beschikbaarheid van je medewerkers in.",
             loomId: "32c2b37244804a35860bb78763a0e088",
           },
         ],
