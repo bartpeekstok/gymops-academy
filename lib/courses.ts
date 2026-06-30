@@ -100,6 +100,13 @@ const contactenModule: Module = {
       durationMinutes: 3,
     },
     {
+      slug: "melding-duplicated-contacts-oplossen",
+      title: "Melding duplicated contacts oplossen",
+      description:
+        "Een telefoonnummer of e-mailadres kan in GymOps maar aan één contact gekoppeld zijn. Krijg je de melding 'duplicated contact'? Dan komt dat doordat hetzelfde nummer of e-mailadres al bij een ander contact in gebruik is. In deze video laten we zien hoe je dit oplost.",
+      loomId: "427f6f12c8e445eb97e08d348a19705d",
+    },
+    {
       slug: "slimme-lijsten-met-filters",
       title: "Slimme lijsten maken met filters",
       description:
