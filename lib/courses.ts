@@ -291,18 +291,18 @@ export const courses: Course[] = [
             loomId: "87936d0cd0fb430e9f34b7d6d9b34a3e",
           },
           {
-            slug: "persoonlijke-agenda-koppelen",
-            title: "12. Persoonlijke agenda koppelen",
-            description:
-              "Het koppelen van je privéagenda is belangrijk, zodat afspraken die je in GymOps maakt ook in je privéagenda terechtkomen. Daarnaast kan GymOps zo zien of je op een bepaald moment al een afspraak hebt staan en die tijd dan automatisch voor je blokkeren.",
-            loomId: "c5dff764626f477882e0ca0dbbc9c9fd",
-          },
-          {
             slug: "beschikbaarheid-en-agenda-instellingen-voor-medewerkers",
-            title: "13. Beschikbaarheid en agenda-instellingen voor medewerkers",
+            title: "12. Beschikbaarheid en agenda-instellingen voor medewerkers",
             description:
               "Stel hier in op welke tijdblokken je medewerkers beschikbaar zijn (of moeten zijn) om geboekt te worden voor gratis intakes, proeflessen, check-ins, personal trainings of andere afspraken. Het is niet erg als de juiste agenda's nog niet in het systeem staan, dat doen we later samen, maar vul wel alvast de beschikbaarheid van je medewerkers in.",
             loomId: "32c2b37244804a35860bb78763a0e088",
+          },
+          {
+            slug: "persoonlijke-agenda-koppelen",
+            title: "13. Persoonlijke agenda koppelen",
+            description:
+              "Het koppelen van je privéagenda is belangrijk, zodat afspraken die je in GymOps maakt ook in je privéagenda terechtkomen. Daarnaast kan GymOps zo zien of je op een bepaald moment al een afspraak hebt staan en die tijd dan automatisch voor je blokkeren.",
+            loomId: "c5dff764626f477882e0ca0dbbc9c9fd",
           },
         ],
       },
