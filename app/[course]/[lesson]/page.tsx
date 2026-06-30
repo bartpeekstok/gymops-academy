@@ -49,7 +49,15 @@ export default function LessonPage({ params }: { params: Params }) {
 
           {lesson.description && (
             <p className="mt-5 text-dark/80 leading-relaxed whitespace-pre-line">
-              {lesson.description}
+              {lesson.description.split("**").map((part, i) =>
+                i % 2 === 1 ? (
+                  <strong key={i} className="font-semibold text-dark">
+                    {part}
+                  </strong>
+                ) : (
+                  part
+                )
+              )}
             </p>
           )}
 
