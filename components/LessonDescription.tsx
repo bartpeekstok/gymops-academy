@@ -8,7 +8,9 @@ type Props = {
 //   **bold**            -> bold text
 //   ![alt](/path.png)   -> an image placed between paragraphs (add |small to shrink)
 //   {{takenlijst}}      -> an inline rendered component
-const TOKEN_RE = /!\[([^\]]*)\]\(([^)]+)\)|\{\{([a-z-]+)\}\}/g;
+//   {{big:...}}         -> a large, emphasised callout line
+const TOKEN_RE =
+  /!\[([^\]]*)\]\(([^)]+)\)|\{\{big:([^}]+)\}\}|\{\{([a-z-]+)\}\}/g;
 
 const COMPONENTS: Record<string, React.ReactNode> = {
   takenlijst: <MockTakenlijst />,
@@ -29,18 +31,21 @@ function renderBold(text: string, keyPrefix: string) {
 type Block =
   | { type: "text"; value: string }
   | { type: "image"; src: string; alt: string }
-  | { type: "component"; name: string };
+  | { type: "component"; name: string }
+  | { type: "big"; value: string };
 
 export default function LessonDescription({ text }: Props) {
   const blocks: Block[] = [];
   let lastIndex = 0;
   for (const match of text.matchAll(TOKEN_RE)) {
-    const [full, alt, src, component] = match;
+    const [full, alt, src, big, component] = match;
     const start = match.index ?? 0;
     if (start > lastIndex) {
       blocks.push({ type: "text", value: text.slice(lastIndex, start) });
     }
-    if (component) {
+    if (big) {
+      blocks.push({ type: "big", value: big });
+    } else if (component) {
       blocks.push({ type: "component", name: component });
     } else {
       blocks.push({ type: "image", src, alt });
@@ -54,6 +59,16 @@ export default function LessonDescription({ text }: Props) {
   return (
     <div className="mt-5 space-y-5">
       {blocks.map((block, i) => {
+        if (block.type === "big") {
+          return (
+            <p
+              key={i}
+              className="text-2xl md:text-3xl font-bold text-dark leading-snug"
+            >
+              {block.value}
+            </p>
+          );
+        }
         if (block.type === "component") {
           return <div key={i}>{COMPONENTS[block.name] ?? null}</div>;
         }
