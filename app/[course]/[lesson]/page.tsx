@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import LoomVideo from "@/components/LoomVideo";
 import LessonSidebar from "@/components/LessonSidebar";
+import LessonDescription from "@/components/LessonDescription";
 import {
   adjacentLessons,
   courses,
@@ -47,19 +48,11 @@ export default function LessonPage({ params }: { params: Params }) {
             {lesson.title}
           </h1>
 
-          {lesson.description && (
-            <p className="mt-5 text-dark/80 leading-relaxed whitespace-pre-line">
-              {lesson.description.split("**").map((part, i) =>
-                i % 2 === 1 ? (
-                  <strong key={i} className="font-semibold text-dark">
-                    {part}
-                  </strong>
-                ) : (
-                  part
-                )
-              )}
-            </p>
+          {lesson.subtitle && (
+            <p className="mt-2 text-lg text-dark/60">{lesson.subtitle}</p>
           )}
+
+          {lesson.description && <LessonDescription text={lesson.description} />}
 
           {lesson.image && (
             // eslint-disable-next-line @next/next/no-img-element
