@@ -39,6 +39,7 @@ export type Module = {
   title: string;
   description?: string;
   lessons: Lesson[];
+  submodules?: Module[];
 };
 
 export type Course = {
@@ -578,13 +579,19 @@ export const courses: Course[] = [
     slug: "workflows",
     title: "Workflows",
     description:
-      "Bekijk wat er gebeurt in het GymOps systeem als om ervoor te zorgen dat je leden lid blijven dat je leads lid worden.",
+      "Alle workflows in GymOps, ingedeeld in dezelfde mappen als in het systeem: wat elke workflow doet en wat je er zelf aan kunt aanpassen.",
     icon: Workflow,
     modules: [
       {
-        slug: "workflows",
-        title: "Workflows",
+        slug: "introductie",
+        title: "Introductie",
         lessons: [
+          {
+            slug: "introductie-workflows",
+            title: "Introductie workflows",
+            description:
+              "Workflows zijn de motor van GymOps: ze versturen automatisch berichten, maken taken aan en zorgen dat leads en leden op het juiste moment de juiste opvolging krijgen.\n\nDe mappen in het menu zijn precies hetzelfde ingedeeld als de workflow-mappen in GymOps zelf. Zoek je een workflow op in het systeem? Dan vind je hem hier in dezelfde map terug, met uitleg over wat de workflow doet en wat je er zelf aan kunt aanpassen.\n\nBekijk eerst de lessen in dit introductie-hoofdstuk. Daarin laten we de algemene dingen zien die voor alle workflows gelden: hoe je e-mailteksten wijzigt, hoe je taken en WhatsApp-templates aanpast en hoe wachtstappen werken. Daarna kun je per map de losse workflows bekijken.",
+          },
           {
             slug: "berichten-bij-intake-geboekt-wijziging-of-no-show",
             title: "Berichten bij intake geboekt, wijziging of no-show",
@@ -649,24 +656,6 @@ export const courses: Course[] = [
             loomId: "9d6ef65528774002a19a88ba4c141b58",
           },
           {
-            slug: "eerste-90-dagen-ledenflows",
-            title: "Eerste 90 dagen ledenflows",
-            description: "",
-            loomId: "cbd7b66a609843629311c207edff7d93",
-          },
-          {
-            slug: "ex-leden-campagne",
-            title: "Ex-leden campagne",
-            description: "",
-            loomId: "2dff417aad0c40c28fc435ebc7efab4d",
-          },
-          {
-            slug: "google-review-ontvangen",
-            title: "Google review ontvangen",
-            description: "",
-            loomId: "27cd9e4250c748709faf2ca1e8c98bd9",
-          },
-          {
             slug: "engelse-en-nederlandse-berichten-aanpassen",
             title: "Engelse en Nederlandse berichten aanpassen",
             description: "",
@@ -683,6 +672,517 @@ export const courses: Course[] = [
             title: "Algemene afspraken workflows",
             description: "",
             loomId: "f8d891de08964e8f8db72fc68241d166",
+          },
+        ],
+      },
+      {
+        slug: "agendas",
+        title: "Agenda's",
+        lessons: [],
+        submodules: [
+          {
+            slug: "algemene-afspraken-agendagroep-leden",
+            title: "Algemene afspraken, agendagroep 'leden'",
+            lessons: [
+              {
+                slug: "algemene-afspraken-leden-geannuleerd",
+                title: "Algemene afspraken leden GEANNULEERD",
+                description: "",
+              },
+              {
+                slug: "algemene-afspraken-leden-geboekt",
+                title: "Algemene afspraken leden GEBOEKT",
+                description: "",
+              },
+              {
+                slug: "algemene-afspraken-leden-no-show",
+                title: "Algemene afspraken leden NO SHOW",
+                description: "",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        slug: "evenementen",
+        title: "Evenementen",
+        lessons: [],
+        submodules: [
+          {
+            slug: "bring-a-friend",
+            title: "Bring A Friend",
+            lessons: [
+              {
+                slug: "bring-a-friend-inschrijving",
+                title: "Bring A friend Inschrijving",
+                description: "",
+              },
+            ],
+          },
+          {
+            slug: "hyrox-simulation",
+            title: "Hyrox simulation",
+            lessons: [
+              {
+                slug: "hyrox-simulation-sign-up",
+                title: "Hyrox Simulation Sign-up (inbound webhook needed)",
+                description: "",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        slug: "fitness-test-website",
+        title: "Fitness Test (website)",
+        lessons: [
+          {
+            slug: "fitness-test-gestart",
+            title: "Fitness Test gestart",
+            description: "",
+          },
+          {
+            slug: "fitness-test-afgerond",
+            title: "Fitness test afgerond",
+            description: "",
+          },
+        ],
+      },
+      {
+        slug: "formulieren",
+        title: "Formulieren",
+        lessons: [
+          {
+            slug: "contact-formulier-ingevuld",
+            title: "Contact formulier ingevuld",
+            description: "",
+          },
+          {
+            slug: "ex-leden-ansichtkaart-ingevuld",
+            title: "Ex leden ansichtkaart ingevuld",
+            description: "",
+          },
+          {
+            slug: "goal-review-vragenlijst-ingevuld",
+            title: "Goal review vragenlijst ingevuld",
+            description: "",
+          },
+          {
+            slug: "intake-vragenlijst-ingevuld",
+            title: "Intake vragenlijst ingevuld",
+            description: "",
+          },
+          {
+            slug: "meta-lead-ad-form-ingevuld",
+            title: "Meta lead ad form ingevuld",
+            description: "",
+          },
+          {
+            slug: "prijsaanvraag-ingevuld",
+            title: "Prijsaanvraag ingevuld",
+            description: "",
+          },
+          {
+            slug: "website-formulier-ingevuld",
+            title: "Website formulier ingevuld",
+            description: "",
+          },
+        ],
+      },
+      {
+        slug: "leads",
+        title: "Leads",
+        lessons: [
+          {
+            slug: "lead-antwoord-verwijder-uit-nieuwe-lead-campagne-en-prijsaanvraag",
+            title:
+              "Lead antwoord: verwijder uit nieuwe lead campagne en prijsaanvraag",
+            description: "",
+          },
+          {
+            slug: "lead-antwoord-verwijder-uit-taakgenerator",
+            title: "Lead antwoord: verwijder uit taakgenerator",
+            description: "",
+          },
+          {
+            slug: "long-term-lead-nurture",
+            title: "Long term lead nurture",
+            description: "",
+          },
+          {
+            slug: "nieuwe-lead-campagne",
+            title: "Nieuwe lead campagne",
+            description: "",
+          },
+          {
+            slug: "nieuwe-lead-taak-generator",
+            title: "Nieuwe lead taak generator",
+            description: "",
+          },
+          {
+            slug: "prijsaanvraag-campagne",
+            title: "Prijsaanvraag campagne",
+            description: "",
+          },
+        ],
+        submodules: [
+          {
+            slug: "free-intro-gymops",
+            title: "Free intro GymOps",
+            lessons: [
+              {
+                slug: "afspraak-geboekt-in-kalender-free-intro",
+                title: "Afspraak geboekt in kalender 'Free intro'",
+                description: "",
+              },
+              {
+                slug: "afspraak-free-intro-afgezegd",
+                title: "Afspraak in kalender \"Free Intro\" is afgezegd",
+                description: "",
+              },
+              {
+                slug: "afspraak-free-intro-no-show",
+                title: "Afspraak in kalender \"Free Intro\" is no show",
+                description: "",
+              },
+              {
+                slug: "afspraak-free-intro-showed",
+                title: "Afspraak in kalender \"Free Intro\" is Showed",
+                description: "",
+              },
+            ],
+          },
+          {
+            slug: "proeflesplanner-sportbit",
+            title: "Proeflesplanner SportBit",
+            lessons: [
+              {
+                slug: "afspraak-geboekt-in-proeflesplanner-sportbit",
+                title: "Afspraak geboekt in proeflesplanner SportBit",
+                description: "",
+              },
+              {
+                slug: "afspraak-proeflesplanner-sportbit-showed",
+                title: "Afspraak in proeflesplanner SportBit is Showed",
+                description: "",
+              },
+              {
+                slug: "afspraak-proeflesplanner-sportbit-afgezegd",
+                title: "Afspraak in proeflesplanner SportBit is afgezegd",
+                description: "",
+              },
+              {
+                slug: "afspraak-proeflesplanner-sportbit-no-show",
+                title: "Afspraak in proeflesplanner SportBit is no show",
+                description: "",
+              },
+              {
+                slug: "datumveld-proefles-wijzigt-toevoegen-aan-gepland",
+                title: "Datumveld proefles wijzigt → toevoegen aan gepland",
+                description: "",
+              },
+              {
+                slug: "trial-date-naar-datumveld",
+                title: "Trial date naar datumveld",
+                description: "",
+              },
+            ],
+          },
+          {
+            slug: "whatsapp-drip-campagnes",
+            title: "Whatsapp drip campagnes",
+            lessons: [
+              {
+                slug: "whatsapp-drip-campagne-4-weken-programma",
+                title: "Whatsapp drip campagne 4 weken programma",
+                description: "",
+              },
+              {
+                slug: "whatsapp-drip-campagne-hyrox-tijd-verbeteren",
+                title: "Whatsapp drip campagne HYROX tijd verbeteren",
+                description: "",
+              },
+              {
+                slug: "whatsapp-drip-campagne-eerste-hyrox",
+                title: "Whatsapp drip campagne eerste HYROX",
+                description: "",
+              },
+              {
+                slug: "whatsapp-drip-campagne-start-kleine-groep",
+                title: "Whatsapp drip campagne start kleine groep",
+                description: "",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        slug: "leden",
+        title: "Leden",
+        lessons: [
+          {
+            slug: "long-term-client-nurture-campagne",
+            title: "Long Term Client Nurture Campagne",
+            description: "",
+          },
+          {
+            slug: "verjaardag-whatsapp-mail-leden",
+            title: "Verjaardag whatsapp/mail leden",
+            description: "",
+          },
+        ],
+        submodules: [
+          {
+            slug: "jaarlijkse-ansichtkaart",
+            title: "Jaarlijkse ansichtkaart",
+            lessons: [
+              {
+                slug: "jaarlijkse-ansichtkaart",
+                title: "Jaarlijkse ansichtkaart",
+                description: "",
+              },
+              {
+                slug: "wachtrij-jaarlijkse-ansichtkaart",
+                title: "Wachtrij jaarlijkse ansichtkaart",
+                description: "",
+              },
+            ],
+          },
+          {
+            slug: "milestones",
+            title: "Milestones",
+            lessons: [
+              {
+                slug: "milestones",
+                title: "Milestones",
+                description: "",
+              },
+              {
+                slug: "100-milestone-survey-submitted",
+                title: "100 milestone survey submitted",
+                description: "",
+              },
+              {
+                slug: "200-milestone-survey-submitted",
+                title: "200 milestone survey submitted",
+                description: "",
+              },
+              {
+                slug: "300-milestone-survey-submitted",
+                title: "300 milestone survey submitted",
+                description: "",
+              },
+            ],
+          },
+          {
+            slug: "nieuw-lid",
+            title: "Nieuw lid",
+            lessons: [
+              {
+                slug: "eerste-90-dagen-ledenflows",
+                title: "Eerste 90 dagen ledenflows",
+                description: "",
+                loomId: "cbd7b66a609843629311c207edff7d93",
+              },
+              {
+                slug: "nieuw-lid-campagne-per-product",
+                title: "Nieuw lid campagne per product",
+                description: "",
+              },
+            ],
+            submodules: [
+              {
+                slug: "eerste-90-dagen-flows-automatisch-contact",
+                title: "Eerste 90 dagen flows, automatisch contact",
+                lessons: [
+                  {
+                    slug: "voorbeeld-campagne-eerste-90-dagen-automatische-whatsapps",
+                    title:
+                      "Voorbeeld campagne eerste 90 dagen per product met veel automatische Whatsapps, minder persoonlijk contact",
+                    description: "",
+                  },
+                ],
+              },
+              {
+                slug: "eerste-90-dagen-flows-persoonlijk-contact",
+                title: "Eerste 90 dagen flows, persoonlijk contact",
+                lessons: [
+                  {
+                    slug: "voorbeeld-campagne-eerste-90-dagen-taken-en-persoonlijk-contact",
+                    title:
+                      "Voorbeeld campagne eerste 90 dagen per product met veel taken en persoonlijk contact",
+                    description: "",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            slug: "zwangerschap",
+            title: "Zwangerschap",
+            lessons: [
+              {
+                slug: "status-zwangerschap-zwanger",
+                title: "Status zwangerschap: zwanger",
+                description: "",
+              },
+              {
+                slug: "status-zwangerschap-bevallen",
+                title: "Status zwangerschap: bevallen",
+                description: "",
+              },
+              {
+                slug: "status-zwangerschap-anders-verlopen",
+                title: "Status zwangerschap: anders verlopen",
+                description: "",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        slug: "migratie",
+        title: "Migratie",
+        lessons: [
+          {
+            slug: "migratie-stap-1",
+            title: "Migratie stap 1",
+            description: "",
+          },
+          {
+            slug: "migratie-stap-2",
+            title: "Migratie stap 2",
+            description: "",
+          },
+        ],
+      },
+      {
+        slug: "opzeggers",
+        title: "Opzeggers",
+        lessons: [
+          {
+            slug: "ex-leden-campagne",
+            title: "Ex-leden campagne",
+            description: "",
+            loomId: "2dff417aad0c40c28fc435ebc7efab4d",
+          },
+          {
+            slug: "opzegformulier-ingediend",
+            title: "Opzegformulier ingediend",
+            description: "",
+          },
+        ],
+        submodules: [
+          {
+            slug: "ansichtkaart-ex-leden-campagne",
+            title: "Ansichtkaart ex leden campagne",
+            lessons: [
+              {
+                slug: "ansichtkaart-ex-leden-campagne",
+                title: "Ansichtkaart ex-leden campagne",
+                description: "",
+              },
+              {
+                slug: "wachtrij-ansichtkaart-ex-leden-campagne",
+                title: "Wachtrij ansichtkaart ex-leden campagne",
+                description: "",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        slug: "overige",
+        title: "Overige",
+        lessons: [
+          {
+            slug: "abo-of-rittenkaart-toegevoegd-klant-en-assigned-user",
+            title: "Abo of rittenkaart toegevoegd: klant en assigned user",
+            description: "",
+          },
+          {
+            slug: "auto-reply-klant-ledenservice",
+            title: "Auto reply klant: ledenservice",
+            description: "",
+          },
+          {
+            slug: "google-review-ontvangen",
+            title: "Google review ontvangen",
+            description: "",
+            loomId: "27cd9e4250c748709faf2ca1e8c98bd9",
+          },
+          {
+            slug: "nieuw-contact-toevoegen-aan-assigned-user",
+            title: "Nieuw contact: toevoegen aan assigned user",
+            description: "",
+          },
+        ],
+      },
+      {
+        slug: "pijplijn-triggers",
+        title: "Pijplijn triggers",
+        lessons: [
+          {
+            slug: "na-drie-uur-showed-check-of-er-een-taak-is-aangemaakt",
+            title: "Na drie uur showed: check of er een taak is aangemaakt",
+            description: "",
+          },
+          {
+            slug: "pijplijn-stage-veranderd-naar-afspraak-no-show",
+            title: "Pijplijn stage veranderd naar Afspraak no show",
+            description: "",
+          },
+          {
+            slug: "pijplijn-stage-veranderd-naar-afspraak-showed",
+            title: "Pijplijn stage veranderd naar Afspraak showed",
+            description: "",
+          },
+          {
+            slug: "status-veranderd-naar-abandoned",
+            title: "Status veranderd naar Abandoned",
+            description: "",
+          },
+          {
+            slug: "status-veranderd-naar-afspraak-afgezegd",
+            title: "Status veranderd naar Afspraak afgezegd",
+            description: "",
+          },
+          {
+            slug: "status-veranderd-naar-lost",
+            title: "Status veranderd naar Lost",
+            description: "",
+          },
+          {
+            slug: "status-veranderd-naar-won",
+            title: "Status veranderd naar Won",
+            description: "",
+          },
+        ],
+      },
+      {
+        slug: "sportbit-retentie",
+        title: "SportBit/retentie",
+        lessons: [
+          {
+            slug: "afwezige-leden-wachtrij",
+            title: "Afwezige leden wachtrij",
+            description: "",
+          },
+          {
+            slug: "verwijder-en-voeg-toe-aan-afwezige-leden-wachtrij",
+            title: "Verwijder en voeg toe aan afwezige leden wachtrij",
+            description: "",
+          },
+        ],
+      },
+      {
+        slug: "writify",
+        title: "Writify",
+        lessons: [
+          {
+            slug: "ansichtkaart-versturen-via-klantenkaart",
+            title: "Ansichtkaart versturen via klantenkaart",
+            description: "",
           },
         ],
       },
@@ -757,21 +1257,52 @@ export function getCourse(slug: string): Course | undefined {
   return courses.find((c) => c.slug === slug);
 }
 
-export function getLesson(
-  courseSlug: string,
-  lessonSlug: string
-): { course: Course; module: Module; lesson: Lesson } | undefined {
-  const course = getCourse(courseSlug);
-  if (!course) return undefined;
-  for (const module of course.modules) {
+function findLessonInModules(
+  modules: Module[],
+  lessonSlug: string,
+  path: Module[]
+): { modulePath: Module[]; lesson: Lesson } | undefined {
+  for (const module of modules) {
+    if (module.submodules) {
+      const found = findLessonInModules(module.submodules, lessonSlug, [
+        ...path,
+        module,
+      ]);
+      if (found) return found;
+    }
     const lesson = module.lessons.find((l) => l.slug === lessonSlug);
-    if (lesson) return { course, module, lesson };
+    if (lesson) return { modulePath: [...path, module], lesson };
   }
   return undefined;
 }
 
+export function getLesson(
+  courseSlug: string,
+  lessonSlug: string
+):
+  | { course: Course; module: Module; modulePath: Module[]; lesson: Lesson }
+  | undefined {
+  const course = getCourse(courseSlug);
+  if (!course) return undefined;
+  const found = findLessonInModules(course.modules, lessonSlug, []);
+  if (!found) return undefined;
+  return {
+    course,
+    module: found.modulePath[found.modulePath.length - 1],
+    modulePath: found.modulePath,
+    lesson: found.lesson,
+  };
+}
+
+export function moduleLessons(module: Module): Lesson[] {
+  return [
+    ...(module.submodules ?? []).flatMap(moduleLessons),
+    ...module.lessons,
+  ];
+}
+
 export function flattenLessons(course: Course): Lesson[] {
-  return course.modules.flatMap((m) => m.lessons);
+  return course.modules.flatMap(moduleLessons);
 }
 
 export type SearchableLesson = {
@@ -782,15 +1313,19 @@ export type SearchableLesson = {
 };
 
 export function allSearchableLessons(): SearchableLesson[] {
-  return courses.flatMap((course) =>
-    course.modules.flatMap((module) =>
-      module.lessons.map((lesson) => ({
+  function collect(course: Course, module: Module): SearchableLesson[] {
+    return [
+      ...(module.submodules ?? []).flatMap((sub) => collect(course, sub)),
+      ...module.lessons.map((lesson) => ({
         courseSlug: course.slug,
         courseTitle: course.title,
         moduleTitle: module.title,
         lesson,
-      }))
-    )
+      })),
+    ];
+  }
+  return courses.flatMap((course) =>
+    course.modules.flatMap((module) => collect(course, module))
   );
 }
 

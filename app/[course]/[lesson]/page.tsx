@@ -34,7 +34,7 @@ export function generateMetadata({ params }: { params: Params }) {
 export default function LessonPage({ params }: { params: Params }) {
   const found = getLesson(params.course, params.lesson);
   if (!found) notFound();
-  const { course, module, lesson } = found;
+  const { course, modulePath, lesson } = found;
   const { prev, next } = adjacentLessons(course, lesson.slug);
 
   return (
@@ -42,7 +42,7 @@ export default function LessonPage({ params }: { params: Params }) {
       <div className="max-w-[1400px] mx-auto px-6 lg:px-10 py-8 grid gap-6 lg:grid-cols-[1fr_280px]">
         <main>
           <div className="text-xs uppercase tracking-widest text-primary font-semibold">
-            {module.title}
+            {modulePath.map((m) => m.title).join(" › ")}
           </div>
           <h1 className="mt-1 text-2xl md:text-3xl font-bold text-navy">
             {lesson.title}
