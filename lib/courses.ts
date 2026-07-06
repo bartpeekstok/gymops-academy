@@ -842,7 +842,9 @@ export const courses: Course[] = [
           {
             slug: "nieuwe-lead-taak-generator",
             title: "Nieuwe lead taak generator",
-            description: "",
+            description:
+              "Deze workflow zorgt dat een nieuwe lead niet alleen automatische berichten krijgt, maar ook echt persoonlijk wordt opgevolgd. Zodra een lead binnenkomt gaat er na een minuut een interne mail naar je algemene e-mailadres met de leadgegevens en het verzoek om snel contact op te nemen, en wordt er direct een taak aangemaakt voor de assigned user. Daarna komt er elke dag opnieuw een taak om contact op te nemen, net zolang tot er contact is geweest. In de video zie je hoe de workflow is opgebouwd en wat je eraan kunt aanpassen.",
+            loomId: "b79114d458fe4841b0dbf7762be89328",
           },
           {
             slug: "prijsaanvraag-campagne",
