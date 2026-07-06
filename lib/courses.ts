@@ -816,7 +816,9 @@ export const courses: Course[] = [
             slug: "lead-antwoord-verwijder-uit-nieuwe-lead-campagne-en-prijsaanvraag",
             title:
               "Lead antwoord: verwijder uit nieuwe lead campagne en prijsaanvraag",
-            description: "",
+            description:
+              "Leads in de nieuwe lead- en prijsaanvraagcampagne krijgen automatische appjes en mails met als doel dat ze reageren en er een echt gesprek ontstaat. Reageert een lead, dan is het vervelend als er daarna nog een automatisch bericht volgt dat geen rekening houdt met dat antwoord. Deze workflow haalt de lead daarom direct na een reactie uit beide campagnes, zodat jij het gesprek persoonlijk kunt overnemen. In de video zie je hoe de workflow is opgebouwd.",
+            loomId: "40a1686a292d47489e84e585cfc63471",
           },
           {
             slug: "lead-antwoord-verwijder-uit-taakgenerator",
