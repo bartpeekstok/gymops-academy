@@ -795,7 +795,9 @@ export const courses: Course[] = [
           {
             slug: "prijsaanvraag-ingevuld",
             title: "Prijsaanvraag ingevuld",
-            description: "",
+            description:
+              "Deze workflow start zodra iemand het prijsaanvraagformulier op je website invult. Het systeem maakt automatisch een nieuw contact aan en voegt diegene direct toe aan de prijsaanvraagcampagne, die de lead met berichten richting een intake of proefles begeleidt. In de video zie je hoe deze koppeling werkt; de berichten van de campagne zelf worden behandeld in de les 'Prijsaanvraag campagne' in de map Leads.",
+            loomId: "04f3366bdabf469993a5b22a139011c8",
           },
           {
             slug: "website-formulier-ingevuld",
