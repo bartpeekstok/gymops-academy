@@ -781,7 +781,9 @@ export const courses: Course[] = [
           {
             slug: "intake-vragenlijst-ingevuld",
             title: "Intake vragenlijst ingevuld",
-            description: "",
+            description:
+              "Deze workflow start zodra de intake vragenlijst wordt ingevuld tijdens een intakegesprek. De antwoorden — zoals waar iemand naar op zoek is en wat diegene al heeft geprobeerd — worden automatisch als notitie bij het contact gelogd en zijn daarna terug te zien op de klantenkaart. In de video zie je hoe de vragenlijst in elkaar zit en hoe je hem als vaste link op je bureaublad zet, zodat je hem bij elke intake snel bij de hand hebt.\n\n**Tip:** de vragenlijst zelf vind je in GymOps onder Sites → Surveys.",
+            loomId: "9557ed68bafa4c6d983c5625ac7a3dd3",
           },
           {
             slug: "meta-lead-ad-form-ingevuld",
