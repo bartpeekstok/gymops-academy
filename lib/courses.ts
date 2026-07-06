@@ -788,7 +788,9 @@ export const courses: Course[] = [
           {
             slug: "meta-lead-ad-form-ingevuld",
             title: "Meta lead ad form ingevuld",
-            description: "",
+            description:
+              "Deze workflow start zodra iemand een lead ad-formulier op Meta (Facebook of Instagram) invult — de trigger staat standaard aan voor al je pagina's en formulieren. De lead wordt direct toegewezen aan de assigned user, de nieuwe lead campagne gaat lopen met WhatsApps, mails en taken, en de lead komt in je free intro-pijplijn zodat je het overzicht houdt. Zat diegene al in de prijsaanvraagcampagne, dan wordt die eruit gehaald om dubbele berichten te voorkomen. In de video zie je hoe de workflow is opgebouwd en welke onderdelen je zelf kunt aanpassen.",
+            loomId: "10a4c239a7fa4cd9a93b77ca0670ccf7",
           },
           {
             slug: "prijsaanvraag-ingevuld",
