@@ -843,6 +843,13 @@ export const courses: Course[] = [
             title: "Prijsaanvraag campagne",
             description: "",
           },
+          {
+            slug: "whatsapp-drip-campagnes",
+            title: "Whatsapp drip campagnes",
+            description:
+              "Met een WhatsApp drip campagne open je in één keer het gesprek met een grote groep leads of ex-leden. Je gooit een batch contacten in de workflow en er druppelen elk uur vijf berichten naar buiten — alleen tijdens kantoortijden op doordeweekse dagen — zodat de reacties niet allemaal tegelijk binnenkomen. Reageert iemand, dan stopt de workflow voor diegene; blijft het na 23 uur stil, dan volgt automatisch een check-in bericht. Alle drip campagnes (4 weken programma, HYROX tijd verbeteren, eerste HYROX en start kleine groep) werken op dezelfde manier. In de video zie je hoe de workflow is opgebouwd en hoe je via een tag in één keer honderden contacten toevoegt.",
+            loomId: "2773d844529e40f8a0ae3a8fa6d6cbc8",
+          },
         ],
         submodules: [
           {
@@ -924,32 +931,6 @@ export const courses: Course[] = [
                 description:
                   "Deze workflow doet één ding: wanneer SportBit een nieuwe proeflesdatum doorgeeft als tekst, zet hij die om naar een echt datumveld. Daardoor kunnen andere workflows — zoals de herinneringen rond de proefles — goed met die datum rekenen. Dit is bewust zo ingericht: niet aankomen, gewoon laten staan. In de video zie je kort wat hij doet.",
                 loomId: "e1b6157cfcbf4217b730f25def609ea2",
-              },
-            ],
-          },
-          {
-            slug: "whatsapp-drip-campagnes",
-            title: "Whatsapp drip campagnes",
-            lessons: [
-              {
-                slug: "whatsapp-drip-campagne-4-weken-programma",
-                title: "Whatsapp drip campagne 4 weken programma",
-                description: "",
-              },
-              {
-                slug: "whatsapp-drip-campagne-hyrox-tijd-verbeteren",
-                title: "Whatsapp drip campagne HYROX tijd verbeteren",
-                description: "",
-              },
-              {
-                slug: "whatsapp-drip-campagne-eerste-hyrox",
-                title: "Whatsapp drip campagne eerste HYROX",
-                description: "",
-              },
-              {
-                slug: "whatsapp-drip-campagne-start-kleine-groep",
-                title: "Whatsapp drip campagne start kleine groep",
-                description: "",
               },
             ],
           },
