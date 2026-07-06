@@ -893,7 +893,9 @@ export const courses: Course[] = [
               {
                 slug: "afspraak-proeflesplanner-sportbit-showed",
                 title: "Afspraak in proeflesplanner SportBit is Showed",
-                description: "",
+                description:
+                  "Deze workflow start zodra een proefles in SportBit op showed wordt gezet en is puur administratief: er gaan geen berichten naar de lead. Diegene krijgt een tag dat de proefles is bijgewoond en oude tags van gemiste of afgezegde intakes worden opgeruimd. Aan deze workflow hoef je eigenlijk niets te wijzigen. In de video zie je kort hoe hij is opgebouwd.",
+                loomId: "3c0f1ca87d0c46eea6ed69ade923eab3",
               },
               {
                 slug: "afspraak-proeflesplanner-sportbit-afgezegd",
