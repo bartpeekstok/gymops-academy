@@ -849,7 +849,9 @@ export const courses: Course[] = [
           {
             slug: "prijsaanvraag-campagne",
             title: "Prijsaanvraag campagne",
-            description: "",
+            description:
+              "Deze campagne volgt leads op die het prijsaanvraagformulier op je website hebben ingevuld. De lead wordt uit de nieuwe lead campagne gehaald (zodat er geen dubbele berichten lopen) en toegevoegd aan de taakgenerator, zodat persoonlijk contact niet wordt vergeten. Daarna volgt vier dagen lang een afwisseling van WhatsApp en mail — met sms als back-up als WhatsApp niet aankomt — en later nog een laatste mail met langere tussenpozen. Reageert de lead via WhatsApp, sms of mail, dan stopt de campagne direct en pak jij het gesprek op. In de video zie je hoe de workflow is opgebouwd en welke berichten je zelf kunt aanpassen.",
+            loomId: "c74f24e8db174fbdb7e30c54b2fcdf94",
           },
           {
             slug: "whatsapp-drip-campagnes",
