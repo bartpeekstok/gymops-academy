@@ -767,7 +767,9 @@ export const courses: Course[] = [
           {
             slug: "ex-leden-ansichtkaart-ingevuld",
             title: "Ex leden ansichtkaart ingevuld",
-            description: "",
+            description:
+              "Deze workflow start zodra een ex-lid het formulier van de ansichtkaart invult. Er wordt automatisch opvolging klaargezet, zodat je dit warme contactmoment direct kunt gebruiken om diegene weer binnen te halen. In de video zie je hoe de workflow is opgebouwd en welke berichten je zelf kunt aanpassen.",
+            loomId: "78d8f0e29753411f84fc9a0025e3b630",
           },
           {
             slug: "goal-review-vragenlijst-ingevuld",
