@@ -745,11 +745,6 @@ export const courses: Course[] = [
         title: "Fitness Test (website)",
         lessons: [
           {
-            slug: "fitness-test-gestart",
-            title: "Fitness Test gestart",
-            description: "",
-          },
-          {
             slug: "fitness-test-afgerond",
             title: "Fitness test afgerond",
             description: "",
