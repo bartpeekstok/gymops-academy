@@ -747,7 +747,9 @@ export const courses: Course[] = [
           {
             slug: "fitness-test-afgerond",
             title: "Fitness test afgerond",
-            description: "",
+            description:
+              "Deze workflow start zodra iemand de fitness test op de website heeft afgerond. De resultaten worden automatisch opgevolgd, zodat je van elke deelnemer een warme lead maakt. In de video zie je hoe de workflow is opgebouwd en welke berichten je zelf kunt aanpassen.",
+            loomId: "5a8b72523d634dcbb97776ffc5220d96",
           },
         ],
       },
