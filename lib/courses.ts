@@ -823,7 +823,9 @@ export const courses: Course[] = [
           {
             slug: "lead-antwoord-verwijder-uit-taakgenerator",
             title: "Lead antwoord: verwijder uit taakgenerator",
-            description: "",
+            description:
+              "Een klein maar handig hulpje: zodra een lead reageert via WhatsApp, mail of sms, haalt deze workflow diegene uit de taakgenerator. De dagelijkse taken om die lead persoonlijk te benaderen stoppen dan automatisch — er is immers al contact geweest. In de video zie je kort hoe de workflow is opgebouwd.",
+            loomId: "03a348c18a9c421eaf42762390c429d1",
           },
           {
             slug: "long-term-lead-nurture",
