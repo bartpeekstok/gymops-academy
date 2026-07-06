@@ -760,7 +760,9 @@ export const courses: Course[] = [
           {
             slug: "contact-formulier-ingevuld",
             title: "Contact formulier ingevuld",
-            description: "",
+            description:
+              "Deze workflow start zodra iemand het contactformulier invult. De aanvraag wordt automatisch bevestigd en er wordt opvolging klaargezet, zodat er geen enkele aanvraag blijft liggen. In de video zie je hoe de workflow is opgebouwd en welke berichten je zelf kunt aanpassen.",
+            loomId: "3333b76446354c8196b265d91a239d79",
           },
           {
             slug: "ex-leden-ansichtkaart-ingevuld",
