@@ -721,7 +721,9 @@ export const courses: Course[] = [
               {
                 slug: "bring-a-friend-inschrijving",
                 title: "Bring A friend Inschrijving",
-                description: "",
+                description:
+                  "Deze workflow start zodra iemand zich inschrijft voor een Bring A Friend-evenement. De inschrijving wordt automatisch bevestigd en het contact wordt goed weggezet in het systeem, zodat je precies weet wie er komt. In de video zie je hoe de workflow is opgebouwd en welke berichten je zelf kunt aanpassen.",
+                loomId: "48d7ae6e3bc94eedb8cf5aa09cde437b",
               },
             ],
           },
