@@ -692,7 +692,9 @@ export const courses: Course[] = [
               {
                 slug: "algemene-afspraken-leden-geboekt",
                 title: "Algemene afspraken leden GEBOEKT",
-                description: "",
+                description:
+                  "Deze workflow start zodra er een afspraak wordt geboekt in een agenda uit de agendagroep 'leden'. Het lid krijgt automatisch een bevestiging van de afspraak. In de video zie je hoe de workflow is opgebouwd en welke berichten je zelf kunt aanpassen.",
+                loomId: "15012a1e385c47b1bba1768d6274f62f",
               },
               {
                 slug: "algemene-afspraken-leden-no-show",
