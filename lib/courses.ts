@@ -852,7 +852,9 @@ export const courses: Course[] = [
               {
                 slug: "afspraak-geboekt-in-kalender-free-intro",
                 title: "Afspraak geboekt in kalender 'Free intro'",
-                description: "",
+                description:
+                  "Deze workflow start zodra iemand een free intro of gratis intake boekt in de free intro-kalender. De lead schuift in de pijplijn van 'New Lead' naar 'Appointment Booked', krijgt de tag 'Free Intro geboekt' en wordt uit andere lead-workflows gehaald zodat er geen dubbele berichten meer komen. Daarna gaat er direct een bevestigingsmail uit, gevolgd door WhatsApp- en sms-herinneringen richting de afspraak — met in het laatste bericht ook het adres. In de video zie je hoe de workflow is opgebouwd en welke berichten je zelf kunt aanpassen.",
+                loomId: "9c37e305a28743b6a0f6f1ebe7198c02",
               },
               {
                 slug: "afspraak-free-intro-afgezegd",
