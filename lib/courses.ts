@@ -701,7 +701,9 @@ export const courses: Course[] = [
               {
                 slug: "algemene-afspraken-leden-no-show",
                 title: "Algemene afspraken leden NO SHOW",
-                description: "",
+                description:
+                  "Deze workflow start zodra een afspraak in een agenda uit de agendagroep 'leden' op no show wordt gezet. Het lid krijgt automatisch een bericht en je kunt opvolging regelen, zodat een gemiste afspraak niet ongemerkt voorbijgaat. In de video zie je hoe de workflow is opgebouwd en welke berichten je zelf kunt aanpassen.",
+                loomId: "826ed2a214c84fe9858771c78fe7105b",
               },
             ],
           },
