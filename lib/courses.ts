@@ -687,7 +687,9 @@ export const courses: Course[] = [
               {
                 slug: "algemene-afspraken-leden-geannuleerd",
                 title: "Algemene afspraken leden GEANNULEERD",
-                description: "",
+                description:
+                  "Deze workflow start zodra een afspraak in een agenda uit de agendagroep 'leden' wordt geannuleerd. Het lid krijgt automatisch een bericht over de annulering, zodat diegene weet dat de afzegging goed is verwerkt. In de video zie je hoe de workflow is opgebouwd en welke berichten je zelf kunt aanpassen.",
+                loomId: "707ed537349a4203aacff5d9001e48cf",
               },
               {
                 slug: "algemene-afspraken-leden-geboekt",
