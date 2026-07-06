@@ -835,7 +835,9 @@ export const courses: Course[] = [
           {
             slug: "nieuwe-lead-campagne",
             title: "Nieuwe lead campagne",
-            description: "",
+            description:
+              "Dit is de campagne waar het grootste deel van je inbound leads doorheen loopt. Zodra iemand een formulier op je website of een Meta lead ad invult, start direct een reeks berichten: eerst WhatsApp (in het Nederlands of Engels), met sms als back-up als WhatsApp niet aankomt, en daarna een mail met een link om een intake te boeken — allemaal binnen een paar minuten. Daarna herhaalt dit ritme zich dagelijks tot en met dag vier. Reageert de lead ergens op, dan stopt de campagne meteen zodat jij het gesprek persoonlijk kunt oppakken. In de video zie je hoe de workflow is opgebouwd en welke berichten je zelf kunt aanpassen.",
+            loomId: "daf2db9672b54505853a5a8c84160740",
           },
           {
             slug: "nieuwe-lead-taak-generator",
