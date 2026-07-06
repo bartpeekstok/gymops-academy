@@ -873,7 +873,9 @@ export const courses: Course[] = [
               {
                 slug: "afspraak-free-intro-showed",
                 title: "Afspraak in kalender \"Free Intro\" is Showed",
-                description: "",
+                description:
+                  "Deze workflow start zodra een free intro op showed wordt gezet en is vooral administratief: er gaan geen berichten naar de lead. Het kaartje in de free intro-pijplijn schuift naar 'Showed', de lead krijgt een tag dat diegene is verschenen en oude tags van eerdere intakes worden opgeruimd. Zo blijft je pijplijn kloppen en zie je in één oogopslag wie er daadwerkelijk geweest is. In de video zie je hoe de workflow is opgebouwd.",
+                loomId: "6a056b7905414d3bbee87b7e23b58a5c",
               },
             ],
           },
