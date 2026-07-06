@@ -907,7 +907,9 @@ export const courses: Course[] = [
               {
                 slug: "afspraak-proeflesplanner-sportbit-no-show",
                 title: "Afspraak in proeflesplanner SportBit is no show",
-                description: "",
+                description:
+                  "Deze workflow start zodra een proefles op no show wordt gezet. De lead krijgt een no show-tag, tags van eerder geboekte proeflessen of free intro's worden opgeruimd en diegene wordt uit de andere free intro-workflows gehaald om dubbele acties te voorkomen. Daarna gaat er een mail uit met de boodschap dat we diegene gemist hebben, inclusief een link om direct opnieuw een proefles te boeken. In de video zie je hoe de workflow is opgebouwd en welke berichten je zelf kunt aanpassen.",
+                loomId: "7a1571f10e8b47688d478fb73e1d17dd",
               },
               {
                 slug: "datumveld-proefles-wijzigt-toevoegen-aan-gepland",
