@@ -921,7 +921,9 @@ export const courses: Course[] = [
               {
                 slug: "trial-date-naar-datumveld",
                 title: "Trial date naar datumveld",
-                description: "",
+                description:
+                  "Deze workflow doet één ding: wanneer SportBit een nieuwe proeflesdatum doorgeeft als tekst, zet hij die om naar een echt datumveld. Daardoor kunnen andere workflows — zoals de herinneringen rond de proefles — goed met die datum rekenen. Dit is bewust zo ingericht: niet aankomen, gewoon laten staan. In de video zie je kort wat hij doet.",
+                loomId: "e1b6157cfcbf4217b730f25def609ea2",
               },
             ],
           },
