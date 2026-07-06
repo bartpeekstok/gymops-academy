@@ -828,7 +828,9 @@ export const courses: Course[] = [
           {
             slug: "long-term-lead-nurture",
             title: "Long term lead nurture",
-            description: "",
+            description:
+              "In deze workflow komen leads terecht die na de nieuwe lead- of prijsaanvraagcampagne (nog) geen interesse tonen. In plaats van dagelijkse berichten krijgt de lead nu zo'n 300 dagen lang elke 30 dagen één mail die het gesprek probeert te openen, soms met een link naar de intakeplanner. Zo blijf je op een rustige manier in beeld zonder op te dringen. Is de campagne afgelopen, dan kun je deze leads nog altijd bereiken via de WhatsApp drip campagnes en je nieuwsbrief. In de video zie je hoe de workflow is opgebouwd en welke mails je zelf kunt aanpassen.",
+            loomId: "956e3f36a711426f9c45a1b1f6bf6044",
           },
           {
             slug: "nieuwe-lead-campagne",
