@@ -914,7 +914,9 @@ export const courses: Course[] = [
               {
                 slug: "datumveld-proefles-wijzigt-toevoegen-aan-gepland",
                 title: "Datumveld proefles wijzigt → toevoegen aan gepland",
-                description: "",
+                description:
+                  "Deze workflow start zodra de datum van een proefles wordt gewijzigd. De lead wordt eerst uit de 'afspraak geboekt'-workflow gehaald, zodat de herinneringen voor de oude datum stoppen, en na een minuut opnieuw toegevoegd — de workflow begint dan vanaf het begin met de nieuwe datum. Dit is een technisch hulpstukje dat gewoon zijn werk doet: ons advies is om hier niets aan te wijzigen. In de video zie je kort hoe hij is opgebouwd.",
+                loomId: "9a957ede71a3418bab2b441f3ae5820b",
               },
               {
                 slug: "trial-date-naar-datumveld",
