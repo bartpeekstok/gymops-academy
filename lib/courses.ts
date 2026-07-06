@@ -886,7 +886,9 @@ export const courses: Course[] = [
               {
                 slug: "afspraak-geboekt-in-proeflesplanner-sportbit",
                 title: "Afspraak geboekt in proeflesplanner SportBit",
-                description: "",
+                description:
+                  "Deze workflow start zodra iemand een proefles boekt via de proeflesplanner van SportBit; de trial date die SportBit doorgeeft is de trigger. De lead wordt uit de lopende lead-campagnes en taakgenerators gehaald, schuift in de pijplijn naar 'Afspraak geboekt' en krijgt de juiste tags. Daarna volgen een bevestigingsmail en WhatsApp-herinneringen (met sms en e-mail als back-up) op vaste momenten vóór de proefles, zoals twee dagen, één dag en vier uur van tevoren. De sms- en mailteksten pas je aan in de workflow zelf; de WhatsApp-teksten wijzig je via de WhatsApp-templates. In de video zie je hoe de workflow is opgebouwd.",
+                loomId: "7c45ae2fc03f43cbb9dfeeb999f5bbdf",
               },
               {
                 slug: "afspraak-proeflesplanner-sportbit-showed",
