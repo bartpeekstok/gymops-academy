@@ -46,6 +46,7 @@ export type Course = {
   slug: string;
   title: string;
   description: string;
+  intro?: string;
   icon: LucideIcon;
   modules: Module[];
 };
@@ -580,18 +581,14 @@ export const courses: Course[] = [
     title: "Workflows",
     description:
       "Alle workflows in GymOps, ingedeeld in dezelfde mappen als in het systeem: wat elke workflow doet en wat je er zelf aan kunt aanpassen.",
+    intro:
+      "Workflows zijn de motor van GymOps: ze versturen automatisch berichten, maken taken aan en zorgen dat leads en leden op het juiste moment de juiste opvolging krijgen.\n\nDe mappen hieronder zijn precies hetzelfde ingedeeld als de workflow-mappen in GymOps zelf. Zoek je een workflow op in het systeem? Dan vind je hem hier in dezelfde map terug, met uitleg over wat de workflow doet en wat je er zelf aan kunt aanpassen.\n\nBekijk eerst de lessen bij Introductie. Daarin laten we de algemene dingen zien die voor alle workflows gelden: hoe je e-mailteksten wijzigt, hoe je taken en WhatsApp-templates aanpast en hoe wachtstappen werken. Daarna kun je per map de losse workflows bekijken.\n\n**Let op:** we moedigen je juist aan om de berichten in het systeem aan te passen, zodat alles zo goed mogelijk past bij jouw gym en jouw manier van communiceren. Houd er wel rekening mee dat wij een workflow alleen kunnen terugzetten naar de basisversie — jouw eigen aanpassingen kunnen we dan niet terughalen. Wijzig je iets? Zorg dan dat je goed weet wat je doet, bijvoorbeeld door eerst de introductielessen te bekijken.",
     icon: Workflow,
     modules: [
       {
         slug: "introductie",
         title: "Introductie",
         lessons: [
-          {
-            slug: "introductie-workflows",
-            title: "Introductie workflows",
-            description:
-              "Workflows zijn de motor van GymOps: ze versturen automatisch berichten, maken taken aan en zorgen dat leads en leden op het juiste moment de juiste opvolging krijgen.\n\nDe mappen in het menu zijn precies hetzelfde ingedeeld als de workflow-mappen in GymOps zelf. Zoek je een workflow op in het systeem? Dan vind je hem hier in dezelfde map terug, met uitleg over wat de workflow doet en wat je er zelf aan kunt aanpassen.\n\nBekijk eerst de lessen in dit introductie-hoofdstuk. Daarin laten we de algemene dingen zien die voor alle workflows gelden: hoe je e-mailteksten wijzigt, hoe je taken en WhatsApp-templates aanpast en hoe wachtstappen werken. Daarna kun je per map de losse workflows bekijken.\n\n**Let op:** we moedigen je juist aan om de berichten in het systeem aan te passen, zodat alles zo goed mogelijk past bij jouw gym en jouw manier van communiceren. Houd er wel rekening mee dat wij een workflow alleen kunnen terugzetten naar de basisversie — jouw eigen aanpassingen kunnen we dan niet terughalen. Wijzig je iets? Zorg dan dat je goed weet wat je doet, bijvoorbeeld door eerst de lessen in dit hoofdstuk te bekijken.",
-          },
           {
             slug: "berichten-bij-intake-geboekt-wijziging-of-no-show",
             title: "Berichten bij intake geboekt, wijziging of no-show",
@@ -1324,6 +1321,35 @@ export function getLesson(
     modulePath: found.modulePath,
     lesson: found.lesson,
   };
+}
+
+export function findModuleByPath(
+  course: Course,
+  path: string[]
+): { module: Module; modulePath: Module[] } | undefined {
+  let modules = course.modules;
+  const modulePath: Module[] = [];
+  for (const slug of path) {
+    const found = modules.find((m) => m.slug === slug);
+    if (!found) return undefined;
+    modulePath.push(found);
+    modules = found.submodules ?? [];
+  }
+  const module = modulePath[modulePath.length - 1];
+  return module ? { module, modulePath } : undefined;
+}
+
+export function allFolderPaths(course: Course): string[][] {
+  const paths: string[][] = [];
+  function walk(modules: Module[], prefix: string[]) {
+    for (const m of modules) {
+      const path = [...prefix, m.slug];
+      paths.push(path);
+      if (m.submodules) walk(m.submodules, path);
+    }
+  }
+  walk(course.modules, []);
+  return paths;
 }
 
 export function moduleLessons(module: Module): Lesson[] {

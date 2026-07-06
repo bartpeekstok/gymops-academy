@@ -21,10 +21,7 @@ export default function HomePage() {
         <div className="grid gap-5 md:grid-cols-2">
           {courses.map((course) => {
             const lessonCount = flattenLessons(course).length;
-            const firstLesson = flattenLessons(course)[0];
-            const href = firstLesson
-              ? `/${course.slug}/${firstLesson.slug}`
-              : `/${course.slug}`;
+            const href = `/${course.slug}`;
             const Icon = course.icon;
             return (
               <Link

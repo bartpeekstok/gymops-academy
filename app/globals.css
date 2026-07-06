@@ -26,22 +26,6 @@ body {
   }
 }
 
-details.sidebar-folder > summary {
-  list-style: none;
-}
-
-details.sidebar-folder > summary::-webkit-details-marker {
-  display: none;
-}
-
-details.sidebar-folder > summary .chevron {
-  transition: transform 0.15s ease;
-}
-
-details.sidebar-folder[open] > summary .chevron {
-  transform: rotate(90deg);
-}
-
 .scrollbar-hide {
   scrollbar-width: none;
   -ms-overflow-style: none;
