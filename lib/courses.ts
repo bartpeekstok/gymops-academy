@@ -866,7 +866,9 @@ export const courses: Course[] = [
               {
                 slug: "afspraak-free-intro-no-show",
                 title: "Afspraak in kalender \"Free Intro\" is no show",
-                description: "",
+                description:
+                  "Deze workflow start zodra een free intro op no show wordt gezet. De lead schuift naar de no show-stage in de free intro-pijplijn, krijgt een no show-tag en wordt uit de andere free intro-workflows gehaald. Er wordt direct een taak aangemaakt voor de assigned user om contact op te nemen, en de lead krijgt een mail en WhatsApp met de boodschap dat we diegene gemist hebben en dat er zo een nieuwe intake gepland is. Lukt het na vijf dagen niet om contact te krijgen, dan gaat de lead automatisch de long term lead nurture in. In de video zie je hoe de workflow is opgebouwd en welke berichten je zelf kunt aanpassen.",
+                loomId: "6291b2af4f36401cbdb47d033ca36645",
               },
               {
                 slug: "afspraak-free-intro-showed",
