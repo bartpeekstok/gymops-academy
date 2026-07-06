@@ -900,7 +900,9 @@ export const courses: Course[] = [
               {
                 slug: "afspraak-proeflesplanner-sportbit-afgezegd",
                 title: "Afspraak in proeflesplanner SportBit is afgezegd",
-                description: "",
+                description:
+                  "Deze workflow start zodra iemand de proefles afzegt; de trigger is de proeflesdatum die vanuit SportBit wijzigt. De lead schuift in de pijplijn naar 'Afspraak afgezegd', krijgt de tag 'free intro afgezegd' en wordt uit de geboekt-workflow gehaald zodat de herinneringen stoppen. Er wordt direct een taak aangemaakt voor de assigned user om contact op te nemen, en de lead ontvangt een mail met een link om zelf opnieuw een proefles te boeken. Na zeven dagen zonder actie gaat de lead automatisch de long term lead nurture in. In de video zie je hoe de workflow is opgebouwd en welke berichten je zelf kunt aanpassen.",
+                loomId: "887606dea90145b3bd87f7359d203e48",
               },
               {
                 slug: "afspraak-proeflesplanner-sportbit-no-show",
