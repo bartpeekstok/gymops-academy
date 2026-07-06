@@ -774,7 +774,9 @@ export const courses: Course[] = [
           {
             slug: "goal-review-vragenlijst-ingevuld",
             title: "Goal review vragenlijst ingevuld",
-            description: "",
+            description:
+              "Deze workflow start zodra de goal review vragenlijst wordt ingevuld, bijvoorbeeld tijdens een 90-dagengesprek of check-in. De antwoorden en gemaakte afspraken worden automatisch als notitie bij het lid gelogd, zodat je alles later terugvindt in het contact. In de video zie je hoe de vragenlijst in elkaar zit, welke vragen je kunt aanpassen en hoe je er een Google review-verzoek in kunt verwerken.\n\n**Tip:** de vragenlijst zelf vind je in GymOps onder Sites → Surveys.",
+            loomId: "afddaca13ee149dc9be5455d093636fb",
           },
           {
             slug: "intake-vragenlijst-ingevuld",
