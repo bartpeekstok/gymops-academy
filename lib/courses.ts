@@ -859,7 +859,9 @@ export const courses: Course[] = [
               {
                 slug: "afspraak-free-intro-afgezegd",
                 title: "Afspraak in kalender \"Free Intro\" is afgezegd",
-                description: "",
+                description:
+                  "Deze workflow start zodra een gratis kennismaking wordt afgezegd. De lead schuift naar de pijplijnstage 'Afspraak afgezegd', krijgt een tag en wordt uit de geboekt-workflow gehaald zodat de herinneringsberichten stoppen. Er wordt direct een taak aangemaakt voor de assigned user om contact op te nemen en opnieuw in te plannen, en de lead ontvangt een mail met een link om zelf direct een nieuwe afspraak te boeken. Na een dag start de long term lead nurture, zodat de lead niet uit beeld raakt. In de video zie je hoe de workflow is opgebouwd en welke berichten je zelf kunt aanpassen.",
+                loomId: "6b2bd81a48cb4c1fa1ea756e170c597b",
               },
               {
                 slug: "afspraak-free-intro-no-show",
