@@ -802,7 +802,9 @@ export const courses: Course[] = [
           {
             slug: "website-formulier-ingevuld",
             title: "Website formulier ingevuld",
-            description: "",
+            description:
+              "Deze workflow start zodra iemand het formulier op je website invult, bijvoorbeeld via 'gratis kennismaking' of 'gratis proefles'. Er wordt automatisch een contact aangemaakt, de lead wordt toegewezen aan de assigned user die bij jouw gym de leads oppakt, en diegene komt met de juiste tags in de free intro-pijplijn. Daarnaast start de nieuwe lead campagne; de e-mails en WhatsApps daarvan worden behandeld in de les 'Nieuwe lead campagne' in de map Leads.",
+            loomId: "4d3b878724fd48cc99b8aaa54d353708",
           },
         ],
       },
