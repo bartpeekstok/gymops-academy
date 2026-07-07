@@ -971,9 +971,23 @@ export const courses: Course[] = [
         title: "Leden",
         lessons: [
           {
+            slug: "jaarlijkse-ansichtkaart",
+            title: "Jaarlijkse ansichtkaart",
+            description:
+              "Deze workflow zorgt ervoor dat er voor elk lid minstens één keer per jaar een taak wordt aangemaakt om een persoonlijke ansichtkaart te sturen. Zo krijgt niet alleen het lid dat het meest opvalt een kaartje, maar iedereen. Een handgeschreven kaart is een klein gebaar dat lang blijft hangen en laat zien dat je je leden echt ziet.\n\nDe bijbehorende wachtrij verdeelt de taken over het jaar, zodat je niet in één keer voor je hele ledenbestand kaartjes hoeft te schrijven. Leden gaan er gedoseerd doorheen en komen er aan de andere kant uit als taak in je takenlijst. Aan die wachtrij hoef je niets aan te passen, gewoon laten lopen.\n\nIn de video zie je hoe de workflow is opgebouwd en hoe de taken in je takenlijst terechtkomen.",
+            loomId: "f48dc860313b4ae48e4da5e4e98ab8b2",
+          },
+          {
             slug: "long-term-client-nurture-campagne",
             title: "Long Term Client Nurture Campagne",
             description: "",
+          },
+          {
+            slug: "milestones",
+            title: "Milestones",
+            description:
+              "Deze workflow maakt automatisch een taak aan zodra een lid een milestone bereikt, bijvoorbeeld 100, 200 of 300 workouts. De taak herinnert je eraan om een cadeautje klaar te leggen en het lid persoonlijk te feliciteren. Juist het vieren van deze mijlpalen zorgt ervoor dat leden zich gezien voelen en langer lid blijven.\n\nVult een lid de vragenlijst van een milestone in, dan worden de antwoorden automatisch als notitie bij het lid gelogd. Zo vind je ze terug op de klantenkaart en kun je er persoonlijk op reageren.\n\nIn de video zie je hoe de workflow is opgebouwd en welke onderdelen je zelf kunt aanpassen.",
+            loomId: "6c657d55353846c3852d6c1fc2bf50a2",
           },
           {
             slug: "verjaardag-whatsapp-mail-leden",
@@ -983,58 +997,28 @@ export const courses: Course[] = [
         ],
         submodules: [
           {
-            slug: "jaarlijkse-ansichtkaart",
-            title: "Jaarlijkse ansichtkaart",
-            lessons: [
-              {
-                slug: "jaarlijkse-ansichtkaart",
-                title: "Jaarlijkse ansichtkaart",
-                description: "",
-                loomId: "f48dc860313b4ae48e4da5e4e98ab8b2",
-              },
-              {
-                slug: "wachtrij-jaarlijkse-ansichtkaart",
-                title: "Wachtrij jaarlijkse ansichtkaart",
-                description: "",
-              },
-            ],
-          },
-          {
-            slug: "milestones",
-            title: "Milestones",
-            lessons: [
-              {
-                slug: "milestones",
-                title: "Milestones",
-                description: "",
-                loomId: "6c657d55353846c3852d6c1fc2bf50a2",
-              },
-              {
-                slug: "100-milestone-survey-submitted",
-                title: "100 milestone survey submitted",
-                description: "",
-              },
-              {
-                slug: "200-milestone-survey-submitted",
-                title: "200 milestone survey submitted",
-                description: "",
-              },
-              {
-                slug: "300-milestone-survey-submitted",
-                title: "300 milestone survey submitted",
-                description: "",
-              },
-            ],
-          },
-          {
             slug: "nieuw-lid",
             title: "Nieuw lid",
             lessons: [
               {
                 slug: "eerste-90-dagen-ledenflows",
                 title: "Eerste 90 dagen ledenflows",
-                description: "",
-                loomId: "cbd7b66a609843629311c207edff7d93",
+                description:
+                  "De eerste 90 dagen bepalen of een nieuw lid blijft of stilletjes afhaakt. Deze flows zorgen ervoor dat elk nieuw lid in die periode structureel aandacht krijgt: automatische berichten op de juiste momenten en taken om zelf persoonlijk contact op te nemen. Zo check je wekelijks in hoe het gaat, vier je de eerste successen en zie je op tijd wanneer iemand dreigt af te haken.\n\nIn de video's zie je hoe de flows zijn opgebouwd en welke berichten en taken je zelf kunt aanpassen.",
+                videos: [
+                  {
+                    title: "Deel 1",
+                    loomId: "81faadd1df744c0895097c8cf8661913",
+                  },
+                  {
+                    title: "Deel 2",
+                    loomId: "456631d37d6a43098418ef3ab4f0649c",
+                  },
+                  {
+                    title: "Deel 3",
+                    loomId: "a46f1c2db8064a6b9669d21401b80717",
+                  },
+                ],
               },
               {
                 slug: "nieuw-lid-campagne-per-product",
