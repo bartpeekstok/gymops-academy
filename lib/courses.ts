@@ -990,69 +990,32 @@ export const courses: Course[] = [
             loomId: "6c657d55353846c3852d6c1fc2bf50a2",
           },
           {
+            slug: "eerste-90-dagen-ledenflows",
+            title: "Nieuw lid: eerste 90 dagen",
+            description:
+              "De eerste 90 dagen bepalen of een nieuw lid blijft of stilletjes afhaakt. Deze flows zorgen ervoor dat elk nieuw lid in die periode structureel aandacht krijgt: automatische berichten op de juiste momenten en taken om zelf persoonlijk contact op te nemen. Zo check je wekelijks in hoe het gaat, vier je de eerste successen en zie je op tijd wanneer iemand dreigt af te haken.\n\nIn de video's zie je hoe de flows zijn opgebouwd en welke berichten en taken je zelf kunt aanpassen.",
+            videos: [
+              {
+                title: "Deel 1",
+                loomId: "81faadd1df744c0895097c8cf8661913",
+              },
+              {
+                title: "Deel 2",
+                loomId: "456631d37d6a43098418ef3ab4f0649c",
+              },
+              {
+                title: "Deel 3",
+                loomId: "a46f1c2db8064a6b9669d21401b80717",
+              },
+            ],
+          },
+          {
             slug: "verjaardag-whatsapp-mail-leden",
             title: "Verjaardag whatsapp/mail leden",
             description: "",
           },
         ],
         submodules: [
-          {
-            slug: "nieuw-lid",
-            title: "Nieuw lid",
-            lessons: [
-              {
-                slug: "eerste-90-dagen-ledenflows",
-                title: "Eerste 90 dagen ledenflows",
-                description:
-                  "De eerste 90 dagen bepalen of een nieuw lid blijft of stilletjes afhaakt. Deze flows zorgen ervoor dat elk nieuw lid in die periode structureel aandacht krijgt: automatische berichten op de juiste momenten en taken om zelf persoonlijk contact op te nemen. Zo check je wekelijks in hoe het gaat, vier je de eerste successen en zie je op tijd wanneer iemand dreigt af te haken.\n\nIn de video's zie je hoe de flows zijn opgebouwd en welke berichten en taken je zelf kunt aanpassen.",
-                videos: [
-                  {
-                    title: "Deel 1",
-                    loomId: "81faadd1df744c0895097c8cf8661913",
-                  },
-                  {
-                    title: "Deel 2",
-                    loomId: "456631d37d6a43098418ef3ab4f0649c",
-                  },
-                  {
-                    title: "Deel 3",
-                    loomId: "a46f1c2db8064a6b9669d21401b80717",
-                  },
-                ],
-              },
-              {
-                slug: "nieuw-lid-campagne-per-product",
-                title: "Nieuw lid campagne per product",
-                description: "",
-              },
-            ],
-            submodules: [
-              {
-                slug: "eerste-90-dagen-flows-automatisch-contact",
-                title: "Eerste 90 dagen flows, automatisch contact",
-                lessons: [
-                  {
-                    slug: "voorbeeld-campagne-eerste-90-dagen-automatische-whatsapps",
-                    title:
-                      "Voorbeeld campagne eerste 90 dagen per product met veel automatische Whatsapps, minder persoonlijk contact",
-                    description: "",
-                  },
-                ],
-              },
-              {
-                slug: "eerste-90-dagen-flows-persoonlijk-contact",
-                title: "Eerste 90 dagen flows, persoonlijk contact",
-                lessons: [
-                  {
-                    slug: "voorbeeld-campagne-eerste-90-dagen-taken-en-persoonlijk-contact",
-                    title:
-                      "Voorbeeld campagne eerste 90 dagen per product met veel taken en persoonlijk contact",
-                    description: "",
-                  },
-                ],
-              },
-            ],
-          },
           {
             slug: "zwangerschap",
             title: "Zwangerschap",
