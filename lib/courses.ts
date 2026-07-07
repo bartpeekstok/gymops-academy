@@ -116,6 +116,13 @@ const contactenModule: Module = {
       loomId: "8df2683d82e24cc7a356a369cb488877",
       durationMinutes: 3,
     },
+    {
+      slug: "handgeschreven-ansichtkaart-versturen",
+      title: "Handgeschreven ansichtkaart versturen",
+      description:
+        "Een handgeschreven ansichtkaart is een persoonlijk gebaar dat blijft hangen, bijvoorbeeld bij een jubileum, blessure of verjaardag. In deze video zie je hoe je vanuit GymOps een handgeschreven kaart naar een contact verstuurt.",
+      loomId: "38d3a1ae173c49f69bb04553dbce5680",
+    },
   ],
 };
 
@@ -669,6 +676,13 @@ export const courses: Course[] = [
             title: "Algemene afspraken workflows",
             description: "",
             loomId: "f8d891de08964e8f8db72fc68241d166",
+          },
+          {
+            slug: "instellingen-workflows",
+            title: "Instellingen workflows",
+            description:
+              "Elke workflow heeft een aantal instellingen waar je op moet letten. In deze video legt Bart de belangrijkste uit: hertoegang (mag iemand de workflow opnieuw doorlopen als die er nog een keer in komt), wat er gebeurt met verplaatste afspraken (de persoon gaat opnieuw de workflow in met de nieuwe datum), en het tijdvenster voor uitgaande berichten — die worden alleen op doordeweekse dagen binnen kantoortijden verstuurd, zodat niemand midden in de nacht een appje krijgt. Tot slot zie je wat 'berichten als gelezen markeren' doet met je inbox.",
+            loomId: "adc141e24e134ebabeb8e43bb55270d4",
           },
         ],
       },
