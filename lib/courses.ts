@@ -990,6 +990,7 @@ export const courses: Course[] = [
                 slug: "jaarlijkse-ansichtkaart",
                 title: "Jaarlijkse ansichtkaart",
                 description: "",
+                loomId: "f48dc860313b4ae48e4da5e4e98ab8b2",
               },
               {
                 slug: "wachtrij-jaarlijkse-ansichtkaart",
@@ -1006,6 +1007,7 @@ export const courses: Course[] = [
                 slug: "milestones",
                 title: "Milestones",
                 description: "",
+                loomId: "6c657d55353846c3852d6c1fc2bf50a2",
               },
               {
                 slug: "100-milestone-survey-submitted",
