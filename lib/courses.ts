@@ -589,7 +589,7 @@ export const courses: Course[] = [
     description:
       "Alle workflows in GymOps, ingedeeld in dezelfde mappen als in het systeem: wat elke workflow doet en wat je er zelf aan kunt aanpassen.",
     intro:
-      "Workflows zijn de motor van GymOps: ze versturen automatisch berichten, maken taken aan en zorgen dat leads en leden op het juiste moment de juiste opvolging krijgen.\n\nDe mappen hieronder zijn precies hetzelfde ingedeeld als de workflow-mappen in GymOps zelf. Zoek je een workflow op in het systeem? Dan vind je hem hier in dezelfde map terug, met uitleg over wat de workflow doet en wat je er zelf aan kunt aanpassen.\n\nBekijk eerst de lessen bij Introductie. Daarin laten we de algemene dingen zien die voor alle workflows gelden: hoe je e-mailteksten wijzigt, hoe je taken en WhatsApp-templates aanpast en hoe wachtstappen werken. Daarna kun je per map de losse workflows bekijken.\n\n**Let op:** we moedigen je juist aan om de berichten in het systeem aan te passen, zodat alles zo goed mogelijk past bij jouw gym en jouw manier van communiceren. Houd er wel rekening mee dat wij een workflow alleen kunnen terugzetten naar de basisversie — jouw eigen aanpassingen kunnen we dan niet terughalen. Wijzig je iets? Zorg dan dat je goed weet wat je doet, bijvoorbeeld door eerst de introductielessen te bekijken.",
+      "Workflows zijn de motor van GymOps: ze versturen automatisch berichten, maken taken aan en zorgen dat leads en leden op het juiste moment de juiste opvolging krijgen.\n\nDe mappen hieronder zijn precies hetzelfde ingedeeld als de workflow-mappen in GymOps zelf. Zoek je een workflow op in het systeem? Dan vind je hem hier in dezelfde map terug, met uitleg over wat de workflow doet en wat je er zelf aan kunt aanpassen.\n\nBekijk eerst de lessen bij Introductie. Daarin laten we de algemene dingen zien die voor alle workflows gelden: hoe je e-mailteksten wijzigt, hoe je taken en WhatsApp-templates aanpast en hoe wachtstappen werken. Daarna kun je per map de losse workflows bekijken.\n\n**Let op:** we moedigen je juist aan om de berichten in het systeem aan te passen, zodat alles zo goed mogelijk past bij jouw gym en jouw manier van communiceren. Houd er wel rekening mee dat wij een workflow alleen kunnen terugzetten naar de basisversie. Jouw eigen aanpassingen kunnen we dan niet terughalen. Wijzig je iets? Zorg dan dat je goed weet wat je doet, bijvoorbeeld door eerst de introductielessen te bekijken.",
     icon: Workflow,
     modules: [
       {
@@ -681,8 +681,15 @@ export const courses: Course[] = [
             slug: "instellingen-workflows",
             title: "Instellingen workflows",
             description:
-              "Elke workflow heeft een aantal instellingen waar je op moet letten. In deze video legt Bart de belangrijkste uit: hertoegang (mag iemand de workflow opnieuw doorlopen als die er nog een keer in komt), wat er gebeurt met verplaatste afspraken (de persoon gaat opnieuw de workflow in met de nieuwe datum), en het tijdvenster voor uitgaande berichten — die worden alleen op doordeweekse dagen binnen kantoortijden verstuurd, zodat niemand midden in de nacht een appje krijgt. Tot slot zie je wat 'berichten als gelezen markeren' doet met je inbox.",
+              "Elke workflow heeft een aantal instellingen waar je op moet letten. In deze video zie je de belangrijkste: hertoegang (mag iemand de workflow opnieuw doorlopen als die er nog een keer in komt), wat er gebeurt met verplaatste afspraken (de persoon gaat opnieuw de workflow in met de nieuwe datum), en het tijdvenster voor uitgaande berichten: die worden alleen op doordeweekse dagen binnen kantoortijden verstuurd, zodat niemand midden in de nacht een appje krijgt. Tot slot zie je wat 'berichten als gelezen markeren' doet met je inbox.",
             loomId: "adc141e24e134ebabeb8e43bb55270d4",
+          },
+          {
+            slug: "deelnamegeschiedenis-en-logboeken",
+            title: "Deelnamegeschiedenis en logboeken",
+            description:
+              "In elke workflow vind je de deelnamegeschiedenis (enrollment history) en de logboeken (execution logs). In de deelnamegeschiedenis zie je welke contacten de workflow zijn ingegaan, via welke trigger, in welke wachtstap ze nu zitten en wanneer de volgende stap wordt uitgevoerd. Per contact kun je grafisch de hele route volgen, iemand uit de workflow verwijderen of juist doorduwen naar de volgende stap. De logboeken tonen alle uitgevoerde stappen. Handig als je wilt controleren of een workflow doet wat je verwacht.",
+            loomId: "6eae0c39870746348387ade6535dd985",
           },
         ],
       },
@@ -793,14 +800,14 @@ export const courses: Course[] = [
             slug: "intake-vragenlijst-ingevuld",
             title: "Intake vragenlijst ingevuld",
             description:
-              "Deze workflow start zodra de intake vragenlijst wordt ingevuld tijdens een intakegesprek. De antwoorden — zoals waar iemand naar op zoek is en wat diegene al heeft geprobeerd — worden automatisch als notitie bij het contact gelogd en zijn daarna terug te zien op de klantenkaart. In de video zie je hoe de vragenlijst in elkaar zit en hoe je hem als vaste link op je bureaublad zet, zodat je hem bij elke intake snel bij de hand hebt.\n\n**Tip:** de vragenlijst zelf vind je in GymOps onder Sites → Surveys.",
+              "Deze workflow start zodra de intake vragenlijst wordt ingevuld tijdens een intakegesprek. De antwoorden, zoals waar iemand naar op zoek is en wat diegene al heeft geprobeerd, worden automatisch als notitie bij het contact gelogd en zijn daarna terug te zien op de klantenkaart. In de video zie je hoe de vragenlijst in elkaar zit en hoe je hem als vaste link op je bureaublad zet, zodat je hem bij elke intake snel bij de hand hebt.\n\n**Tip:** de vragenlijst zelf vind je in GymOps onder Sites → Surveys.",
             loomId: "9557ed68bafa4c6d983c5625ac7a3dd3",
           },
           {
             slug: "meta-lead-ad-form-ingevuld",
             title: "Meta lead ad form ingevuld",
             description:
-              "Deze workflow start zodra iemand een lead ad-formulier op Meta (Facebook of Instagram) invult — de trigger staat standaard aan voor al je pagina's en formulieren. De lead wordt direct toegewezen aan de assigned user, de nieuwe lead campagne gaat lopen met WhatsApps, mails en taken, en de lead komt in je free intro-pijplijn zodat je het overzicht houdt. Zat diegene al in de prijsaanvraagcampagne, dan wordt die eruit gehaald om dubbele berichten te voorkomen. In de video zie je hoe de workflow is opgebouwd en welke onderdelen je zelf kunt aanpassen.",
+              "Deze workflow start zodra iemand een lead ad-formulier op Meta (Facebook of Instagram) invult. De trigger staat standaard aan voor al je pagina's en formulieren. De lead wordt direct toegewezen aan de assigned user, de nieuwe lead campagne gaat lopen met WhatsApps, mails en taken, en de lead komt in je free intro-pijplijn zodat je het overzicht houdt. Zat diegene al in de prijsaanvraagcampagne, dan wordt die eruit gehaald om dubbele berichten te voorkomen. In de video zie je hoe de workflow is opgebouwd en welke onderdelen je zelf kunt aanpassen.",
             loomId: "10a4c239a7fa4cd9a93b77ca0670ccf7",
           },
           {
@@ -835,7 +842,7 @@ export const courses: Course[] = [
             slug: "lead-antwoord-verwijder-uit-taakgenerator",
             title: "Lead antwoord: verwijder uit taakgenerator",
             description:
-              "Een klein maar handig hulpje: zodra een lead reageert via WhatsApp, mail of sms, haalt deze workflow diegene uit de taakgenerator. De dagelijkse taken om die lead persoonlijk te benaderen stoppen dan automatisch — er is immers al contact geweest. In de video zie je kort hoe de workflow is opgebouwd.",
+              "Een klein maar handig hulpje: zodra een lead reageert via WhatsApp, mail of sms, haalt deze workflow diegene uit de taakgenerator. De dagelijkse taken om die lead persoonlijk te benaderen stoppen dan automatisch, want er is al contact geweest. In de video zie je kort hoe de workflow is opgebouwd.",
             loomId: "03a348c18a9c421eaf42762390c429d1",
           },
           {
@@ -849,7 +856,7 @@ export const courses: Course[] = [
             slug: "nieuwe-lead-campagne",
             title: "Nieuwe lead campagne",
             description:
-              "Dit is de campagne waar het grootste deel van je inbound leads doorheen loopt. Zodra iemand een formulier op je website of een Meta lead ad invult, start direct een reeks berichten: eerst WhatsApp (in het Nederlands of Engels), met sms als back-up als WhatsApp niet aankomt, en daarna een mail met een link om een intake te boeken — allemaal binnen een paar minuten. Daarna herhaalt dit ritme zich dagelijks tot en met dag vier. Reageert de lead ergens op, dan stopt de campagne meteen zodat jij het gesprek persoonlijk kunt oppakken. In de video zie je hoe de workflow is opgebouwd en welke berichten je zelf kunt aanpassen.",
+              "Dit is de campagne waar het grootste deel van je inbound leads doorheen loopt. Zodra iemand een formulier op je website of een Meta lead ad invult, start direct een reeks berichten: eerst WhatsApp (in het Nederlands of Engels), met sms als back-up als WhatsApp niet aankomt, en daarna een mail met een link om een intake te boeken, allemaal binnen een paar minuten. Daarna herhaalt dit ritme zich dagelijks tot en met dag vier. Reageert de lead ergens op, dan stopt de campagne meteen zodat jij het gesprek persoonlijk kunt oppakken. In de video zie je hoe de workflow is opgebouwd en welke berichten je zelf kunt aanpassen.",
             loomId: "daf2db9672b54505853a5a8c84160740",
           },
           {
@@ -863,14 +870,14 @@ export const courses: Course[] = [
             slug: "prijsaanvraag-campagne",
             title: "Prijsaanvraag campagne",
             description:
-              "Deze campagne volgt leads op die het prijsaanvraagformulier op je website hebben ingevuld. De lead wordt uit de nieuwe lead campagne gehaald (zodat er geen dubbele berichten lopen) en toegevoegd aan de taakgenerator, zodat persoonlijk contact niet wordt vergeten. Daarna volgt vier dagen lang een afwisseling van WhatsApp en mail — met sms als back-up als WhatsApp niet aankomt — en later nog een laatste mail met langere tussenpozen. Reageert de lead via WhatsApp, sms of mail, dan stopt de campagne direct en pak jij het gesprek op. In de video zie je hoe de workflow is opgebouwd en welke berichten je zelf kunt aanpassen.",
+              "Deze campagne volgt leads op die het prijsaanvraagformulier op je website hebben ingevuld. De lead wordt uit de nieuwe lead campagne gehaald (zodat er geen dubbele berichten lopen) en toegevoegd aan de taakgenerator, zodat persoonlijk contact niet wordt vergeten. Daarna volgt vier dagen lang een afwisseling van WhatsApp en mail (met sms als back-up als WhatsApp niet aankomt) en later nog een laatste mail met langere tussenpozen. Reageert de lead via WhatsApp, sms of mail, dan stopt de campagne direct en pak jij het gesprek op. In de video zie je hoe de workflow is opgebouwd en welke berichten je zelf kunt aanpassen.",
             loomId: "c74f24e8db174fbdb7e30c54b2fcdf94",
           },
           {
             slug: "whatsapp-drip-campagnes",
             title: "Whatsapp drip campagnes",
             description:
-              "Met een WhatsApp drip campagne open je in één keer het gesprek met een grote groep leads of ex-leden. Je gooit een batch contacten in de workflow en er druppelen elk uur vijf berichten naar buiten — alleen tijdens kantoortijden op doordeweekse dagen — zodat de reacties niet allemaal tegelijk binnenkomen. Reageert iemand, dan stopt de workflow voor diegene; blijft het na 23 uur stil, dan volgt automatisch een check-in bericht. Alle drip campagnes (4 weken programma, HYROX tijd verbeteren, eerste HYROX en start kleine groep) werken op dezelfde manier. In de video zie je hoe de workflow is opgebouwd en hoe je via een tag in één keer honderden contacten toevoegt.",
+              "Met een WhatsApp drip campagne open je in één keer het gesprek met een grote groep leads of ex-leden. Je gooit een batch contacten in de workflow en er druppelen elk uur vijf berichten naar buiten, alleen tijdens kantoortijden op doordeweekse dagen, zodat de reacties niet allemaal tegelijk binnenkomen. Reageert iemand, dan stopt de workflow voor diegene; blijft het na 23 uur stil, dan volgt automatisch een check-in bericht. Alle drip campagnes (4 weken programma, HYROX tijd verbeteren, eerste HYROX en start kleine groep) werken op dezelfde manier. In de video zie je hoe de workflow is opgebouwd en hoe je via een tag in één keer honderden contacten toevoegt.",
             loomId: "2773d844529e40f8a0ae3a8fa6d6cbc8",
           },
         ],
@@ -883,7 +890,7 @@ export const courses: Course[] = [
                 slug: "afspraak-geboekt-in-kalender-free-intro",
                 title: "Afspraak geboekt in kalender 'Free intro'",
                 description:
-                  "Deze workflow start zodra iemand een free intro of gratis intake boekt in de free intro-kalender. De lead schuift in de pijplijn van 'New Lead' naar 'Appointment Booked', krijgt de tag 'Free Intro geboekt' en wordt uit andere lead-workflows gehaald zodat er geen dubbele berichten meer komen. Daarna gaat er direct een bevestigingsmail uit, gevolgd door WhatsApp- en sms-herinneringen richting de afspraak — met in het laatste bericht ook het adres. In de video zie je hoe de workflow is opgebouwd en welke berichten je zelf kunt aanpassen.",
+                  "Deze workflow start zodra iemand een free intro of gratis intake boekt in de free intro-kalender. De lead schuift in de pijplijn van 'New Lead' naar 'Appointment Booked', krijgt de tag 'Free Intro geboekt' en wordt uit andere lead-workflows gehaald zodat er geen dubbele berichten meer komen. Daarna gaat er direct een bevestigingsmail uit, gevolgd door WhatsApp- en sms-herinneringen richting de afspraak, met in het laatste bericht ook het adres. In de video zie je hoe de workflow is opgebouwd en welke berichten je zelf kunt aanpassen.",
                 loomId: "9c37e305a28743b6a0f6f1ebe7198c02",
               },
               {
@@ -945,14 +952,14 @@ export const courses: Course[] = [
                 slug: "datumveld-proefles-wijzigt-toevoegen-aan-gepland",
                 title: "Datumveld proefles wijzigt → toevoegen aan gepland",
                 description:
-                  "Deze workflow start zodra de datum van een proefles wordt gewijzigd. De lead wordt eerst uit de 'afspraak geboekt'-workflow gehaald, zodat de herinneringen voor de oude datum stoppen, en na een minuut opnieuw toegevoegd — de workflow begint dan vanaf het begin met de nieuwe datum. Dit is een technisch hulpstukje dat gewoon zijn werk doet: ons advies is om hier niets aan te wijzigen. In de video zie je kort hoe hij is opgebouwd.",
+                  "Deze workflow start zodra de datum van een proefles wordt gewijzigd. De lead wordt eerst uit de 'afspraak geboekt'-workflow gehaald, zodat de herinneringen voor de oude datum stoppen, en na een minuut opnieuw toegevoegd. De workflow begint dan vanaf het begin met de nieuwe datum. Dit is een technisch hulpstukje dat gewoon zijn werk doet: ons advies is om hier niets aan te wijzigen. In de video zie je kort hoe hij is opgebouwd.",
                 loomId: "9a957ede71a3418bab2b441f3ae5820b",
               },
               {
                 slug: "trial-date-naar-datumveld",
                 title: "Trial date naar datumveld",
                 description:
-                  "Deze workflow doet één ding: wanneer SportBit een nieuwe proeflesdatum doorgeeft als tekst, zet hij die om naar een echt datumveld. Daardoor kunnen andere workflows — zoals de herinneringen rond de proefles — goed met die datum rekenen. Dit is bewust zo ingericht: niet aankomen, gewoon laten staan. In de video zie je kort wat hij doet.",
+                  "Deze workflow doet één ding: wanneer SportBit een nieuwe proeflesdatum doorgeeft als tekst, zet hij die om naar een echt datumveld. Daardoor kunnen andere workflows, zoals de herinneringen rond de proefles, goed met die datum rekenen. Dit is bewust zo ingericht: niet aankomen, gewoon laten staan. In de video zie je kort wat hij doet.",
                 loomId: "e1b6157cfcbf4217b730f25def609ea2",
               },
             ],
