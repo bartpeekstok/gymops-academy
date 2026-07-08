@@ -222,42 +222,46 @@ function LessonPage({
           </div>
         )}
 
-        <div className="mt-8 flex items-center justify-between gap-3 border-t border-border pt-5">
+        <div className="mt-10 grid gap-4 sm:grid-cols-2 border-t border-border pt-6">
           {prev ? (
             <Link
               href={`/${course.slug}/${prev.slug}`}
-              className="group flex items-center gap-2 text-sm text-fg-muted hover:text-mint-deep transition"
+              className="group flex items-center gap-4 rounded-[14px] bg-white border border-border shadow-card p-5 transition duration-[250ms] ease-smooth hover:-translate-y-[3px] hover:shadow-lift hover:border-border-strong"
             >
-              <ChevronLeft className="w-[18px] h-[18px] text-fg-muted group-hover:text-mint-deep transition" />
-              <span className="text-left">
+              <span className="w-10 h-10 rounded-full bg-mint-tint text-mint-deep flex items-center justify-center shrink-0 transition group-hover:bg-mint group-hover:text-white">
+                <ChevronLeft className="w-5 h-5" />
+              </span>
+              <span className="min-w-0 text-left">
                 <span className="block text-[11px] font-bold uppercase tracking-[0.08em] text-fg-muted">
                   Vorige
                 </span>
-                <span className="block text-sm font-semibold">
+                <span className="mt-0.5 block text-base font-bold text-ink group-hover:text-mint-deep transition">
                   {prev.title}
                 </span>
               </span>
             </Link>
           ) : (
-            <span />
+            <span className="hidden sm:block" />
           )}
           {next ? (
             <Link
               href={`/${course.slug}/${next.slug}`}
-              className="group flex items-center gap-2 text-sm text-fg-muted hover:text-mint-deep transition text-right ml-auto"
+              className="group flex items-center justify-end gap-4 rounded-[14px] bg-white border border-border shadow-card p-5 transition duration-[250ms] ease-smooth hover:-translate-y-[3px] hover:shadow-lift hover:border-border-strong sm:col-start-2"
             >
-              <span className="text-right">
+              <span className="min-w-0 text-right">
                 <span className="block text-[11px] font-bold uppercase tracking-[0.08em] text-fg-muted">
                   Volgende
                 </span>
-                <span className="block text-sm font-semibold">
+                <span className="mt-0.5 block text-base font-bold text-ink group-hover:text-mint-deep transition">
                   {next.title}
                 </span>
               </span>
-              <ChevronRight className="w-[18px] h-[18px] text-fg-muted group-hover:text-mint-deep transition" />
+              <span className="w-10 h-10 rounded-full bg-mint-tint text-mint-deep flex items-center justify-center shrink-0 transition group-hover:bg-mint group-hover:text-white">
+                <ChevronRight className="w-5 h-5" />
+              </span>
             </Link>
           ) : (
-            <span />
+            <span className="hidden sm:block" />
           )}
         </div>
       </div>
