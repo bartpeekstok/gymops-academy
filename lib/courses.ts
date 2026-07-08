@@ -1021,24 +1021,9 @@ export const courses: Course[] = [
                 slug: "zwangerschap-registreren-en-opvolgen",
                 title: "Zwangerschap registreren en opvolgen",
                 description:
-                  "In deze video laten we zien hoe je een zwangerschap registreert bij een lid en hoe de opvolging daarna verloopt via de zwangerschapsworkflows.\n\n**Goed om te weten:** bij een zwangerschap worden er geen automatische berichten naar het lid gestuurd. De workflows maken alleen taken aan voor je personeel. Dat is een bewuste keuze: een zwangerschap is persoonlijk en verdient echt persoonlijk contact. Een automatisch bericht kan bovendien pijnlijk overkomen als de situatie ondertussen is veranderd, bijvoorbeeld wanneer de zwangerschap anders is verlopen. Met een taak bepaal jij of je team zelf het juiste moment, de juiste toon en het juiste kanaal.",
+                  "In deze video laten we zien hoe je een zwangerschap registreert bij een lid en hoe de opvolging daarna verloopt. De video behandelt alle drie de zwangerschapsworkflows: **Status zwangerschap: zwanger**, **Status zwangerschap: bevallen** en **Status zwangerschap: anders verlopen**.\n\n**Goed om te weten:** bij een zwangerschap worden er geen automatische berichten naar het lid gestuurd. De workflows maken alleen taken aan voor je personeel. Dat is een bewuste keuze: een zwangerschap is persoonlijk en verdient echt persoonlijk contact. Een automatisch bericht kan bovendien pijnlijk overkomen als de situatie ondertussen is veranderd, bijvoorbeeld wanneer de zwangerschap anders is verlopen. Met een taak bepaal jij of je team zelf het juiste moment, de juiste toon en het juiste kanaal.",
                 loomId: "4bbb768b1639466d97027069ab563f5b",
                 durationMinutes: 4,
-              },
-              {
-                slug: "status-zwangerschap-zwanger",
-                title: "Status zwangerschap: zwanger",
-                description: "",
-              },
-              {
-                slug: "status-zwangerschap-bevallen",
-                title: "Status zwangerschap: bevallen",
-                description: "",
-              },
-              {
-                slug: "status-zwangerschap-anders-verlopen",
-                title: "Status zwangerschap: anders verlopen",
-                description: "",
               },
             ],
           },
