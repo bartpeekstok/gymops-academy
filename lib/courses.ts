@@ -1116,8 +1116,10 @@ export const courses: Course[] = [
           {
             slug: "google-review-ontvangen",
             title: "Google review ontvangen",
-            description: "",
-            loomId: "27cd9e4250c748709faf2ca1e8c98bd9",
+            description:
+              "Komt er een nieuwe Google review binnen, dan maakt deze workflow een taak aan om persoonlijk op de review te reageren en deze te loggen op de klantenkaart. Zo kun je later makkelijk filteren op wie wel of geen review heeft achtergelaten. In de video zie je hoe de workflow is opgebouwd.",
+            loomId: "6b3f2053fda945e0a31ed41f45330480",
+            durationMinutes: 2,
           },
           {
             slug: "nieuw-contact-toevoegen-aan-assigned-user",
