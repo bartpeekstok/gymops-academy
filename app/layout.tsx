@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import { Plus_Jakarta_Sans } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import SearchBar from "@/components/SearchBar";
 import { allSearchableLessons } from "@/lib/courses";
 
-const jakarta = Plus_Jakarta_Sans({
+const inter = Inter({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800"],
-  variable: "--font-jakarta",
+  variable: "--font-inter",
 });
 
 export const metadata: Metadata = {
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const lessons = allSearchableLessons();
   return (
-    <html lang="nl" className={jakarta.variable}>
+    <html lang="nl" className={inter.variable}>
       <body className="font-sans flex min-h-screen flex-col">
         <SearchBar lessons={lessons} />
         <div className="flex-1">{children}</div>

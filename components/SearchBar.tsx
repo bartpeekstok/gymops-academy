@@ -111,7 +111,7 @@ export default function SearchBar({ lessons }: Props) {
             }}
             onFocus={() => setOpen(true)}
             onKeyDown={handleKeyDown}
-            className="w-full rounded-[10px] bg-white text-fg-body placeholder:text-fg-muted border border-border pl-[38px] pr-3.5 py-[9px] text-sm focus:outline-none focus:border-mint focus:[box-shadow:0_0_0_3px_rgba(16,185,129,.14)] transition"
+            className="w-full rounded-[10px] bg-white text-fg-body placeholder:text-fg-muted border border-border pl-[38px] pr-3.5 py-[9px] text-sm focus:outline-none focus:border-mint focus:[box-shadow:0_0_0_3px_rgba(62,120,142,.14)] transition"
           />
 
           {showResults && (

@@ -16,7 +16,7 @@ export default function HomePage() {
       >
         <div className="container-page pt-[84px] pb-[76px]">
           <div className="eyebrow !text-mint-light">GymOps · Academy</div>
-          <h1 className="mt-3 max-w-[760px] text-[clamp(38px,4.4vw,56px)] font-extrabold leading-[1.06] tracking-[-0.03em] text-white">
+          <h1 className="mt-3 text-[clamp(38px,4.4vw,56px)] font-extrabold leading-[1.06] tracking-[-0.03em] text-white">
             Leer alles uit GymOps te halen
           </h1>
           <p className="mt-[18px] max-w-[620px] text-[19px] leading-[1.65] text-white/[.72]">
