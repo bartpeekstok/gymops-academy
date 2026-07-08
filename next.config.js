@@ -1,6 +1,37 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  async redirects() {
+    // De twee onboarding-onderwerpen zijn samengevoegd tot /onboarding;
+    // oude links (o.a. vanuit GHL) blijven zo werken.
+    return [
+      {
+        source: "/onboarding-stap-een/introductie",
+        destination: "/onboarding/welkom-bij-gymops",
+        permanent: true,
+      },
+      {
+        source: "/onboarding-stap-een",
+        destination: "/onboarding/onboarding-stap-een",
+        permanent: true,
+      },
+      {
+        source: "/onboarding-stap-twee",
+        destination: "/onboarding/onboarding-stap-twee",
+        permanent: true,
+      },
+      {
+        source: "/onboarding-stap-een/:path*",
+        destination: "/onboarding/:path*",
+        permanent: true,
+      },
+      {
+        source: "/onboarding-stap-twee/:path*",
+        destination: "/onboarding/:path*",
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {

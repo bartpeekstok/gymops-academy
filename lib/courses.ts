@@ -249,18 +249,19 @@ const stapTweeIntroModule: Module = {
 
 export const courses: Course[] = [
   {
-    slug: "onboarding-stap-een",
-    title: "Onboarding stap één",
+    slug: "onboarding",
+    title: "Onboarding",
     description:
-      "De eerste stappen om je gym op te zetten in GymOps.",
+      "Je onboarding in twee stappen: je gym opzetten in GymOps en daarna werken met het systeem.",
     icon: UserPlus,
     modules: [
       {
         slug: "onboarding-stap-een",
         title: "Onboarding stap één",
+        description: "De eerste stappen om je gym op te zetten in GymOps.",
         lessons: [
           {
-            slug: "introductie",
+            slug: "welkom-bij-gymops",
             title: "Welkom bij GymOps",
             subtitle: "De eerste stappen om je gym op te zetten in GymOps.",
             description:
@@ -361,19 +362,14 @@ export const courses: Course[] = [
           },
         ],
       },
-    ],
-  },
-  {
-    slug: "onboarding-stap-twee",
-    title: "Onboarding stap twee",
-    description:
-      "Stap twee van je onboarding: werken met Contacten, Conversations en Taken.",
-    icon: UserPlus,
-    modules: [
-      stapTweeIntroModule,
-      contactenModule,
-      conversationsModule,
-      takenModule,
+      {
+        slug: "onboarding-stap-twee",
+        title: "Onboarding stap twee",
+        description:
+          "Stap twee van je onboarding: werken met Contacten, Conversations en Taken.",
+        lessons: stapTweeIntroModule.lessons,
+        submodules: [contactenModule, conversationsModule, takenModule],
+      },
     ],
   },
   {

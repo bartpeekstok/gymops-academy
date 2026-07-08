@@ -119,6 +119,12 @@ function FolderPage({
           </p>
         )}
 
+        {module.lessons.length > 0 && (
+          <div className="mt-6">
+            <LessonList courseSlug={course.slug} lessons={module.lessons} />
+          </div>
+        )}
+
         {module.submodules && module.submodules.length > 0 && (
           <div className="mt-6">
             <FolderGrid
@@ -126,12 +132,6 @@ function FolderPage({
               basePath={pathSlugs}
               modules={module.submodules}
             />
-          </div>
-        )}
-
-        {module.lessons.length > 0 && (
-          <div className="mt-6">
-            <LessonList courseSlug={course.slug} lessons={module.lessons} />
           </div>
         )}
       </div>
