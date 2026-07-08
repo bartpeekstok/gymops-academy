@@ -1012,7 +1012,10 @@ export const courses: Course[] = [
           {
             slug: "verjaardag-whatsapp-mail-leden",
             title: "Verjaardag whatsapp/mail leden",
-            description: "",
+            description:
+              "Deze workflow feliciteert je leden automatisch met hun verjaardag via WhatsApp of e-mail. In de video zie je hoe de verjaardagsworkflow is opgebouwd.",
+            loomId: "2cc34674a5b5418f8c0e839c1418abbd",
+            durationMinutes: 2,
           },
         ],
         submodules: [
