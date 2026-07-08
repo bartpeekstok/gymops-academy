@@ -1070,7 +1070,10 @@ export const courses: Course[] = [
           {
             slug: "opzegformulier-ingediend",
             title: "Opzegformulier ingediend",
-            description: "",
+            description:
+              "Dient een lid het opzegformulier in, dan maakt deze workflow een taak aan om de opzegging in Sportbit te verwerken. In de video zie je hoe de workflow is opgebouwd.\n\n**Goed om te weten:** de ex-leden campagne wordt automatisch geactiveerd zodra er in Sportbit geen actief lidmaatschap meer is.",
+            loomId: "583ee0f8f74e4e11bacd6130a95b6167",
+            durationMinutes: 2,
           },
         ],
         submodules: [
