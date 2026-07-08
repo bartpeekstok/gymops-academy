@@ -1108,7 +1108,10 @@ export const courses: Course[] = [
           {
             slug: "auto-reply-klant-ledenservice",
             title: "Auto reply klant: ledenservice",
-            description: "",
+            description:
+              "Deze workflow stuurt automatisch een antwoord naar klanten die de ledenservice een bericht sturen. In de video zie je hoe de workflow is opgebouwd en wanneer het automatische antwoord wordt verstuurd.",
+            loomId: "1ced57e3a02647bbbb57e134cbd6d027",
+            durationMinutes: 3,
           },
           {
             slug: "google-review-ontvangen",
