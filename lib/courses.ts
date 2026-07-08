@@ -1070,13 +1070,11 @@ export const courses: Course[] = [
             lessons: [
               {
                 slug: "ansichtkaart-ex-leden-campagne",
-                title: "Ansichtkaart ex-leden campagne",
-                description: "",
-              },
-              {
-                slug: "wachtrij-ansichtkaart-ex-leden-campagne",
-                title: "Wachtrij ansichtkaart ex-leden campagne",
-                description: "",
+                title: "Zo werkt de ansichtkaart ex-leden campagne",
+                description:
+                  "Met de ansichtkaart ex-leden campagne ontvangen oud-leden een persoonlijke ansichtkaart met een aanbieding om terug te komen. In deze video zie je hoe de campagne werkt en wat de bijbehorende wachtrij doet.",
+                loomId: "b5bb781c4595455491a6a8e6a5fc2cd1",
+                durationMinutes: 2,
               },
             ],
           },
