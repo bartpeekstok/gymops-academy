@@ -977,7 +977,10 @@ export const courses: Course[] = [
           {
             slug: "long-term-client-nurture-campagne",
             title: "Long Term Client Nurture Campagne",
-            description: "",
+            description:
+              "In deze video leggen we uit wat de Long Term Client Nurture Campagne doet en hoe de workflow is opgebouwd.",
+            loomId: "c84f895bd4fd460080df72c534750b0c",
+            durationMinutes: 2,
           },
           {
             slug: "milestones",
