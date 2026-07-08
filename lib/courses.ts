@@ -1040,14 +1040,10 @@ export const courses: Course[] = [
         title: "Migratie",
         lessons: [
           {
-            slug: "migratie-stap-1",
-            title: "Migratie stap 1",
-            description: "",
-          },
-          {
-            slug: "migratie-stap-2",
-            title: "Migratie stap 2",
-            description: "",
+            slug: "migratie-workflows-niet-aanpassen",
+            title: "Migratie workflows: niet aanpassen",
+            description:
+              "In de map Migratie staan twee workflows: **Migratie één** en **Migratie twee**. Deze workflows zijn door GymOps ingesteld en mogen niet worden aangepast. Laat ze precies zo staan als ze zijn.\n\n{{big:Wijzig niets aan Migratie één en Migratie twee.}}\n\nDeze workflows zorgen ervoor dat contacten uit je vorige systeem op de juiste plek in GymOps terechtkomen: in de juiste workflows, met de juiste teksten en met de juiste vervolgstappen. Pas je hier iets in aan, dan kunnen contacten verkeerd instromen, berichten met een verkeerde tekst ontvangen of helemaal geen opvolging meer krijgen.\n\nBekijken mag natuurlijk altijd. Lijkt er iets niet te kloppen of loop je ergens tegenaan? Pas het niet zelf aan, maar neem contact op met GymOps, dan kijken we met je mee.",
           },
         ],
       },
