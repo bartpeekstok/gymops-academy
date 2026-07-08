@@ -1054,8 +1054,18 @@ export const courses: Course[] = [
           {
             slug: "ex-leden-campagne",
             title: "Ex-leden campagne",
-            description: "",
-            loomId: "2dff417aad0c40c28fc435ebc7efab4d",
+            description:
+              "De ex-leden campagne zorgt ervoor dat je in contact blijft met leden die zijn gestopt. De campagne begint met een taak om te checken of iemand echt de ex-leden campagne in moet, zodat leden er niet per ongeluk in terechtkomen.\n\nIn de eerste video zie je hoe de campagne werkt. In de tweede video laten we zien hoe je de campagne start bij een ex-lid.",
+            videos: [
+              {
+                title: "Zo werkt de ex-leden campagne",
+                loomId: "2dff417aad0c40c28fc435ebc7efab4d",
+              },
+              {
+                title: "Zo start je de ex-leden campagne",
+                loomId: "cff90a0aeced489489468bd68020578c",
+              },
+            ],
           },
           {
             slug: "opzegformulier-ingediend",
