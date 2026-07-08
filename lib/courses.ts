@@ -3,6 +3,7 @@ import {
   Calendar,
   Contact,
   LayoutDashboard,
+  Link2,
   ListTodo,
   Megaphone,
   MessageSquare,
@@ -1249,6 +1250,29 @@ export const courses: Course[] = [
       "Werken met taken in GymOps: aanmaken, opvolgen en afronden.",
     icon: ListTodo,
     modules: [takenModule],
+  },
+  {
+    slug: "sportbit-koppeling",
+    title: "Sportbit koppeling",
+    description:
+      "Hoe de koppeling tussen Sportbit en GymOps werkt en wat dit betekent voor je gegevens.",
+    icon: Link2,
+    modules: [
+      {
+        slug: "sportbit-koppeling",
+        title: "Sportbit koppeling",
+        lessons: [
+          {
+            slug: "koppeling-sportbit-en-gymops",
+            title: "Koppeling Sportbit en GymOps",
+            description:
+              "De koppeling tussen Sportbit en GymOps werkt één kant op. In deze video laten we zien hoe de koppeling precies werkt, welke gegevens er worden overgenomen en waar je daar in GymOps rekening mee houdt.",
+            loomId: "50432276973842d8b3b7d8ee229e17c4",
+            durationMinutes: 3,
+          },
+        ],
+      },
+    ],
   },
 ];
 
