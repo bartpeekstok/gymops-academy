@@ -49,22 +49,22 @@ const ROWS: Row[] = [
 
 export default function MockTakenlijst() {
   return (
-    <div className="overflow-hidden rounded-xl border border-black/10 bg-white shadow-sm">
-      <div className="divide-y divide-black/5">
+    <div className="overflow-hidden rounded-[20px] border border-border bg-white shadow-card">
+      <div className="divide-y divide-bg-soft">
         {ROWS.map((row, i) => (
           <div
             key={i}
-            className="flex items-center gap-3 px-4 py-3 text-sm hover:bg-off-white"
+            className="flex items-center gap-3 px-4 py-3 text-sm hover:bg-bg-soft-2"
           >
-            <CheckCircle2 className="w-5 h-5 shrink-0 text-dark/20" />
+            <CheckCircle2 className="w-5 h-5 shrink-0 text-border-strong" />
 
-            <div className="w-[34%] min-w-0 font-medium text-dark/90 truncate">
+            <div className="w-[34%] min-w-0 font-semibold text-ink truncate">
               <span className="mr-1">{row.emoji}</span>
               {row.title}
               <span className="ml-1">{row.emoji}</span>
             </div>
 
-            <div className="hidden md:block w-[28%] min-w-0 truncate text-dark/60">
+            <div className="hidden md:block w-[28%] min-w-0 truncate text-fg-muted">
               {row.preview}
             </div>
 
@@ -76,7 +76,7 @@ export default function MockTakenlijst() {
                   >
                     {row.contact.initials}
                   </span>
-                  <span className="truncate text-dark/70">{row.contact.name}</span>
+                  <span className="truncate text-fg-muted">{row.contact.name}</span>
                 </>
               )}
             </div>
@@ -85,7 +85,7 @@ export default function MockTakenlijst() {
               {row.assignee}
             </span>
 
-            <div className="w-[120px] shrink-0 text-right text-xs text-red-500 whitespace-nowrap">
+            <div className="w-[120px] shrink-0 text-right text-xs text-danger whitespace-nowrap">
               {row.date}
             </div>
           </div>

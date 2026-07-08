@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { ChevronLeft } from "lucide-react";
 import FolderGrid from "@/components/FolderGrid";
 import LessonList from "@/components/LessonList";
 import LessonDescription from "@/components/LessonDescription";
@@ -33,24 +34,27 @@ export default function CoursePage({ params }: { params: Params }) {
     : [];
 
   return (
-    <div className="min-h-screen bg-off-white">
-      <div className="max-w-4xl mx-auto px-6 lg:px-10 py-8">
+    <div className="min-h-screen bg-bg-soft">
+      <div className="max-w-[880px] mx-auto px-6 lg:px-8 pt-9 pb-[104px]">
         <Link
           href="/"
-          className="text-xs uppercase tracking-widest font-semibold text-primary hover:text-primary-dark"
+          className="eyebrow inline-flex items-center gap-1 hover:text-mint transition"
         >
-          ← Alle onderwerpen
+          <ChevronLeft className="w-3.5 h-3.5" />
+          Alle onderwerpen
         </Link>
 
-        <div className="mt-3 flex items-center gap-3">
-          <div className="w-11 h-11 rounded-lg bg-primary/10 text-primary flex items-center justify-center shrink-0">
-            <Icon className="w-6 h-6" />
+        <div className="mt-4 flex items-center gap-4">
+          <div className="w-12 h-12 rounded-[14px] bg-mint-tint text-mint-deep flex items-center justify-center shrink-0">
+            <Icon className="w-[22px] h-[22px]" />
           </div>
-          <h1 className="text-2xl md:text-3xl font-bold text-navy">
+          <h1 className="text-[34px] font-extrabold tracking-[-0.03em] text-ink">
             {course.title}
           </h1>
         </div>
-        <p className="mt-3 text-dark/70">{course.description}</p>
+        <p className="mt-3 max-w-[640px] text-base text-fg-muted">
+          {course.description}
+        </p>
 
         {course.intro && <LessonDescription text={course.intro} />}
 
@@ -58,7 +62,7 @@ export default function CoursePage({ params }: { params: Params }) {
           <>
             {introModule && introModule.lessons.length > 0 && (
               <section className="mt-10">
-                <h2 className="text-lg font-semibold text-navy mb-3">
+                <h2 className="text-[19px] font-bold text-ink mb-3.5">
                   {introModule.title}
                 </h2>
                 <LessonList
@@ -68,7 +72,7 @@ export default function CoursePage({ params }: { params: Params }) {
               </section>
             )}
             <section className="mt-10">
-              <h2 className="text-lg font-semibold text-navy mb-3">Mappen</h2>
+              <h2 className="text-[19px] font-bold text-ink mb-3.5">Mappen</h2>
               <FolderGrid
                 courseSlug={course.slug}
                 basePath={[]}
@@ -80,7 +84,7 @@ export default function CoursePage({ params }: { params: Params }) {
           course.modules.map((module) => (
             <section key={module.slug} className="mt-10">
               {course.modules.length > 1 && (
-                <h2 className="text-lg font-semibold text-navy mb-3">
+                <h2 className="text-[19px] font-bold text-ink mb-3.5">
                   {module.title}
                 </h2>
               )}

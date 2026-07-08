@@ -19,7 +19,7 @@ const COMPONENTS: Record<string, React.ReactNode> = {
 function renderBold(text: string, keyPrefix: string) {
   return text.split("**").map((part, i) =>
     i % 2 === 1 ? (
-      <strong key={`${keyPrefix}-${i}`} className="font-semibold text-dark">
+      <strong key={`${keyPrefix}-${i}`} className="font-bold text-ink">
         {part}
       </strong>
     ) : (
@@ -63,7 +63,7 @@ export default function LessonDescription({ text }: Props) {
           return (
             <p
               key={i}
-              className="text-2xl md:text-3xl font-bold text-dark leading-snug"
+              className="text-[26px] font-extrabold tracking-[-0.02em] text-ink leading-snug"
             >
               {block.value}
             </p>
@@ -81,7 +81,7 @@ export default function LessonDescription({ text }: Props) {
               key={i}
               src={block.src}
               alt={alt}
-              className={`rounded-xl border border-black/10 shadow-sm ${widthClass}`}
+              className={`rounded-[14px] border border-border shadow-card ${widthClass}`}
             />
           );
         }
@@ -89,7 +89,7 @@ export default function LessonDescription({ text }: Props) {
           block.value.trim() && (
             <p
               key={i}
-              className="text-dark/80 leading-relaxed whitespace-pre-line"
+              className="text-base leading-[1.7] text-fg-body whitespace-pre-line"
             >
               {renderBold(block.value.trim(), `b${i}`)}
             </p>

@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  @apply text-dark antialiased bg-off-white;
+  @apply text-fg-body antialiased bg-white;
 }
 
 @layer base {
@@ -22,7 +22,10 @@ body {
 
 @layer components {
   .container-page {
-    @apply max-w-6xl mx-auto px-6 lg:px-10;
+    @apply max-w-[1200px] mx-auto px-6 lg:px-8;
+  }
+  .eyebrow {
+    @apply text-[13px] font-bold uppercase tracking-[0.08em] text-mint-deep;
   }
 }
 

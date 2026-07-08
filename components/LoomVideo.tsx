@@ -6,7 +6,10 @@ type Props = {
 export default function LoomVideo({ loomId, title }: Props) {
   const src = `https://www.loom.com/embed/${loomId}?hide_owner=true&hide_share=true&hide_title=true&hideEmbedTopBar=true`;
   return (
-    <div className="relative w-full overflow-hidden rounded-xl bg-black shadow-lg" style={{ paddingBottom: "56.25%" }}>
+    <div
+      className="relative w-full overflow-hidden rounded-[14px] bg-ink shadow-lift"
+      style={{ paddingBottom: "56.25%" }}
+    >
       <iframe
         src={src}
         title={title ?? "Loom video"}

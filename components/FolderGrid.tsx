@@ -10,7 +10,7 @@ type Props = {
 
 export default function FolderGrid({ courseSlug, basePath, modules }: Props) {
   return (
-    <div className="grid gap-4 sm:grid-cols-2">
+    <div className="grid gap-4 [grid-template-columns:repeat(auto-fill,minmax(300px,1fr))]">
       {modules.map((module) => {
         const lessonCount = moduleLessons(module).length;
         const mapCount = module.submodules?.length ?? 0;
@@ -19,16 +19,16 @@ export default function FolderGrid({ courseSlug, basePath, modules }: Props) {
           <Link
             key={module.slug}
             href={href}
-            className="group flex items-start gap-3 rounded-xl bg-white p-4 border border-black/5 shadow-sm hover:border-primary/40 hover:shadow-md transition"
+            className="flex items-start gap-3 rounded-[20px] bg-white p-4 border border-border shadow-card transition duration-[250ms] ease-smooth hover:-translate-y-[3px] hover:shadow-lift hover:border-border-strong"
           >
-            <div className="w-10 h-10 rounded-lg bg-primary/10 text-primary flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-white transition">
-              <Folder className="w-5 h-5" />
+            <div className="w-10 h-10 rounded-xl bg-mint-tint text-mint-deep flex items-center justify-center shrink-0">
+              <Folder className="w-[18px] h-[18px]" />
             </div>
             <div className="min-w-0">
-              <div className="font-semibold text-navy group-hover:text-primary transition">
+              <div className="text-[15px] font-bold text-ink">
                 {module.title}
               </div>
-              <div className="mt-0.5 text-xs text-dark/50">
+              <div className="mt-0.5 text-xs text-fg-muted">
                 {mapCount > 0 &&
                   `${mapCount} ${mapCount === 1 ? "map" : "mappen"} · `}
                 {lessonCount} {lessonCount === 1 ? "les" : "lessen"}

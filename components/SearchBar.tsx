@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { GraduationCap, PlayCircle, Search } from "lucide-react";
+import { PlayCircle, Search } from "lucide-react";
 import type { SearchableLesson } from "@/lib/courses";
 
 type Props = {
@@ -88,18 +88,18 @@ export default function SearchBar({ lessons }: Props) {
   const showResults = open && query.trim().length > 0;
 
   return (
-    <div className="sticky top-0 z-40 bg-navy/95 backdrop-blur border-b border-white/10">
-      <div className="max-w-[1400px] mx-auto px-6 lg:px-10 py-3 flex items-center gap-4">
-        <Link
-          href="/"
-          className="flex items-center gap-2 text-white shrink-0 hover:text-accent transition"
-        >
-          <GraduationCap className="w-5 h-5 text-accent" />
-          <span className="font-semibold text-sm tracking-wide">GymOps Academy</span>
+    <div className="sticky top-0 z-40 bg-white/85 backdrop-blur-[12px] border-b border-border">
+      <div className="max-w-[1200px] mx-auto px-6 lg:px-8 py-3 flex items-center gap-6">
+        <Link href="/" className="flex items-center gap-2.5 shrink-0">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/assets/logo.png" alt="GymOps" className="h-[26px] w-auto" />
+          <span className="rounded-full bg-mint-tint px-2.5 py-1 text-[11px] font-bold uppercase tracking-[0.08em] text-mint-deep">
+            Academy
+          </span>
         </Link>
 
-        <div ref={containerRef} className="relative flex-1 max-w-xl">
-          <Search className="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-dark/40 pointer-events-none" />
+        <div ref={containerRef} className="relative flex-1 max-w-[560px]">
+          <Search className="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 text-fg-muted pointer-events-none" />
           <input
             ref={inputRef}
             type="text"
@@ -111,13 +111,13 @@ export default function SearchBar({ lessons }: Props) {
             }}
             onFocus={() => setOpen(true)}
             onKeyDown={handleKeyDown}
-            className="w-full rounded-lg bg-white text-dark placeholder:text-dark/40 pl-9 pr-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-accent"
+            className="w-full rounded-[10px] bg-white text-fg-body placeholder:text-fg-muted border border-border pl-[38px] pr-3.5 py-[9px] text-sm focus:outline-none focus:border-mint focus:[box-shadow:0_0_0_3px_rgba(16,185,129,.14)] transition"
           />
 
           {showResults && (
-            <div className="absolute left-0 right-0 mt-2 rounded-lg bg-white shadow-xl border border-black/5 overflow-hidden">
+            <div className="absolute left-0 right-0 mt-2 rounded-[14px] bg-white shadow-lift border border-border overflow-hidden">
               {results.length === 0 ? (
-                <div className="px-4 py-3 text-sm text-dark/50">
+                <div className="px-4 py-3 text-sm text-fg-muted">
                   Geen lessen gevonden voor &ldquo;{query}&rdquo;.
                 </div>
               ) : (
@@ -132,15 +132,15 @@ export default function SearchBar({ lessons }: Props) {
                         }}
                         onMouseEnter={() => setActiveIndex(i)}
                         className={`flex items-start gap-3 px-4 py-2.5 transition ${
-                          i === activeIndex ? "bg-primary/10" : ""
+                          i === activeIndex ? "bg-mint-tint" : ""
                         }`}
                       >
-                        <PlayCircle className="w-4 h-4 mt-0.5 text-primary shrink-0" />
+                        <PlayCircle className="w-[15px] h-[15px] mt-0.5 text-mint shrink-0" />
                         <div className="flex-1 min-w-0">
-                          <div className="text-sm font-medium text-navy truncate">
+                          <div className="text-sm font-semibold text-ink truncate">
                             {r.lesson.title}
                           </div>
-                          <div className="text-xs text-dark/50 truncate">
+                          <div className="text-xs text-fg-muted truncate">
                             {r.courseTitle}
                             {r.lesson.durationMinutes
                               ? ` · ${r.lesson.durationMinutes} min`
