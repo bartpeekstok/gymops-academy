@@ -1100,7 +1100,10 @@ export const courses: Course[] = [
           {
             slug: "abo-of-rittenkaart-toegevoegd-klant-en-assigned-user",
             title: "Abo of rittenkaart toegevoegd: klant en assigned user",
-            description: "",
+            description:
+              "Deze workflow gaat lopen zodra iemand een abonnement of rittenkaart krijgt. In de video zie je wat er dan automatisch wordt geregeld, zoals de klantstatus en de assigned user.",
+            loomId: "746b6e3488644c45bbba04b03c501788",
+            durationMinutes: 1,
           },
           {
             slug: "auto-reply-klant-ledenservice",
