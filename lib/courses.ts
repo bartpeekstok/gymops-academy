@@ -1109,9 +1109,9 @@ export const courses: Course[] = [
             slug: "afsluitlijst",
             title: "Afsluitlijst",
             description:
-              "Met de afsluitlijst vullen coaches na elke shift kort in wat er speelde: member wins, at-risk members, blessures, materiaalproblemen en overige zaken. De workflow zet de antwoorden als back-up in een Google Sheet en maakt per onderdeel automatisch taken aan voor de juiste gebruiker. In de video zie je hoe je de lijst instelt en hoe de workflow is opgebouwd.\n\n**Google Sheet inrichten**\nMaak een sheet met in rij 1 de kolommen A tot en met H: DATUM/TIJD, COACH, MEMBER WINS, AT RISK MEMBERS, BLESSURES, MATERIAAL, PROGRAMMING en OVERIG.\n\n**Kolommen koppelen in de workflow**\nKies in de sheet-actie DATUM/TIJD (A) als starting column en OVERIG (H) als ending column en vul de kolommen met deze custom values:\nDATUM/TIJD (A): {{right_now.little_endian_date}} {{right_now.time}}\nCOACH (B): {{contact.coach}}\nMEMBER WINS (C): {{contact.member_wins}}\nAT RISK MEMBERS (D): {{contact.at_risk_members}}\nBLESSURES (E): {{contact.blessures}}\nMATERIAAL (F): {{contact.materiaal}}\nPROGRAMMING (G): {{contact.toelichting_op_het_programma}}\nOVERIG (H): {{contact.overige_zaken}}",
-            loomId: "8aee90626b654342bb5df6bdba7ece00",
-            durationMinutes: 8,
+              "Met de afsluitlijst vullen coaches na elke shift kort in wat er speelde: member wins, at-risk members, blessures, materiaalproblemen en overige zaken. De workflow maakt per onderdeel automatisch taken aan voor de juiste gebruiker, zodat niets blijft liggen. In de video zie je hoe je de lijst instelt en hoe de workflow is opgebouwd.",
+            loomId: "57a1a39dfe32491f99dfd13103085047",
+            durationMinutes: 4,
           },
           {
             slug: "auto-reply-klant-ledenservice",
