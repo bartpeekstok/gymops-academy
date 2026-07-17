@@ -1109,7 +1109,7 @@ export const courses: Course[] = [
             slug: "afsluitlijst",
             title: "Afsluitlijst",
             description:
-              "Met de afsluitlijst vullen coaches na elke shift kort in wat er speelde: member wins, at-risk members, blessures, materiaalproblemen en overige zaken. De workflow maakt per onderdeel automatisch taken aan voor de juiste gebruiker, zodat niets blijft liggen. In de video zie je hoe je de lijst instelt en hoe de workflow is opgebouwd.",
+              "Met de afsluitlijst vullen coaches na elke shift kort in wat er speelde: member wins, at-risk members, blessures, materiaalproblemen en overige zaken. De workflow maakt per onderdeel automatisch taken aan voor de juiste gebruiker, zodat niets blijft liggen. In de video zie je hoe je de lijst instelt en hoe de workflow is opgebouwd.\n\n**Back-up van alle indieningen**\nVan elke ingevulde afsluitlijst wordt automatisch een volledige back-up bewaard. Open het formulier en klik op **Submissions**: daar vind je alle keren dat de lijst is ingediend, inclusief alle ingevulde gegevens. Zo kun je altijd terugkijken wat een coach op een bepaalde dag heeft doorgegeven.",
             loomId: "57a1a39dfe32491f99dfd13103085047",
             durationMinutes: 4,
           },
