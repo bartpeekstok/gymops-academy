@@ -1124,7 +1124,10 @@ export const courses: Course[] = [
           {
             slug: "nieuw-contact-toevoegen-aan-assigned-user",
             title: "Nieuw contact: toevoegen aan assigned user",
-            description: "",
+            description:
+              "Deze workflow zorgt ervoor dat elk nieuw contact automatisch aan een assigned user wordt gekoppeld, zodat altijd duidelijk is wie het contact oppakt. In de video zie je hoe de workflow is opgebouwd.",
+            loomId: "3954782e540d490c9dbfdcffd58b7403",
+            durationMinutes: 1,
           },
         ],
       },
