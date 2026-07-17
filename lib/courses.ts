@@ -1106,6 +1106,14 @@ export const courses: Course[] = [
             durationMinutes: 1,
           },
           {
+            slug: "afsluitlijst",
+            title: "Afsluitlijst",
+            description:
+              "Met de afsluitlijst vullen coaches na elke shift kort in wat er speelde: member wins, at-risk members, blessures, materiaalproblemen en overige zaken. De workflow zet de antwoorden als back-up in een Google Sheet en maakt per onderdeel automatisch taken aan voor de juiste gebruiker. In de video zie je hoe je de lijst instelt en hoe de workflow is opgebouwd.",
+            loomId: "8aee90626b654342bb5df6bdba7ece00",
+            durationMinutes: 8,
+          },
+          {
             slug: "auto-reply-klant-ledenservice",
             title: "Auto reply klant: ledenservice",
             description:
