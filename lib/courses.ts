@@ -252,7 +252,7 @@ export const courses: Course[] = [
     slug: "onboarding",
     title: "Onboarding",
     description:
-      "Je onboarding in twee stappen: je gym opzetten in GymOps en daarna werken met het systeem.",
+      "Je onboarding in drie stappen: je gym opzetten in GymOps en daarna werken met het systeem.",
     icon: UserPlus,
     modules: [
       {
@@ -369,6 +369,11 @@ export const courses: Course[] = [
           "Stap twee van je onboarding: werken met Contacten, Conversations en Taken.",
         lessons: stapTweeIntroModule.lessons,
         submodules: [contactenModule, conversationsModule, takenModule],
+      },
+      {
+        slug: "onboarding-stap-drie",
+        title: "Onboarding stap drie",
+        lessons: [],
       },
     ],
   },
