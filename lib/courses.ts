@@ -247,6 +247,19 @@ const stapTweeIntroModule: Module = {
   ],
 };
 
+const stapDrieIntroModule: Module = {
+  slug: "introductie-stap-drie",
+  title: "Introductie",
+  lessons: [
+    {
+      slug: "welkom",
+      title: "Welkom bij stap drie",
+      description:
+        "Welkom bij stap drie van je onboarding! In stap één heb je alles gekoppeld en in stap twee heb je leren werken met Contacten, Conversations en Taken. Nu komt het leukste deel: GymOps echt van jou maken.\n\nHet systeem staat al vol met kant-en-klare berichten, e-mails en workflows die vanaf dag één gewoon werken. Maar op dit moment klinken ze nog neutraal. In deze stap ga je die onderdelen één voor één aanpassen, zodat alles gaat klinken zoals jouw gym: jouw tone of voice, jouw merk en jouw manier van communiceren met leads en leden.\n\nDe volgorde van de hoofdstukken hieronder is bewust gekozen. Bovenaan staan de onderdelen die makkelijk aan te passen zijn én meteen het meeste verschil maken. Hoe verder je naar beneden komt, hoe meer je zelf kunt instellen en hoe dieper je het systeem naar je hand zet.\n\nJe hoeft dit niet in één middag af te ronden. Werk de hoofdstukken gewoon van boven naar beneden af, in je eigen tempo. Elke aanpassing die je doet maakt het systeem persoonlijker, en dat voelen je leads en leden direct in elk bericht dat ze van je krijgen.\n\nNog een geruststelling vooraf: je kunt niets kapotmaken. Wij kunnen elk onderdeel altijd terugzetten naar de basisversie. Pas dus gerust aan wat je wilt, dat is precies de bedoeling van deze stap. Veel succes!",
+    },
+  ],
+};
+
 export const courses: Course[] = [
   {
     slug: "onboarding",
@@ -373,7 +386,9 @@ export const courses: Course[] = [
       {
         slug: "onboarding-stap-drie",
         title: "Onboarding stap drie",
-        lessons: [],
+        description:
+          "Stap drie van je onboarding: GymOps aanpassen aan jouw tone of voice en merkidentiteit.",
+        lessons: stapDrieIntroModule.lessons,
       },
     ],
   },
