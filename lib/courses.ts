@@ -265,6 +265,14 @@ const stapDrieIntroModule: Module = {
       loomId: "a4434fb47e344cc487bf9173f2ae8285",
       durationMinutes: 4,
     },
+    {
+      slug: "nieuwe-lead-campagne-aanpassen",
+      title: "2. Nieuwe lead campagne aanpassen",
+      description:
+        "De nieuwe lead campagne is voor veel leads het allereerste contact met je gym, dus juist hier loont het om de teksten naar je eigen hand te zetten. In deze video zie je hoe de campagne is opgebouwd, welke berichten erin zitten en hoe je ze aanpast naar je eigen toon, zodat een nieuwe lead meteen voelt met wie hij te maken heeft.",
+      loomId: "45cc1547a9324c06848c1cbb598e9386",
+      durationMinutes: 3,
+    },
   ],
 };
 
