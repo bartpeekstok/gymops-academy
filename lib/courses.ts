@@ -281,6 +281,14 @@ const stapDrieIntroModule: Module = {
       loomId: "d87291046daa4f2e8dbb2d145712baa2",
       durationMinutes: 2,
     },
+    {
+      slug: "ex-leden-campagne-aanpassen",
+      title: "4. Ex-leden campagne aanpassen",
+      description:
+        "Met de ex-leden campagne blijf je in contact met leden die zijn gestopt, en juist die berichten werken het best als ze persoonlijk klinken. In deze video zie je hoe de campagne is opgebouwd en hoe je de teksten aanpast naar je eigen toon, zodat een oud-lid een bericht krijgt dat echt van jouw gym komt en de drempel om terug te komen lager wordt.",
+      loomId: "de0cad1a91294460a7bcc2b91aa33333",
+      durationMinutes: 3,
+    },
   ],
 };
 
