@@ -273,6 +273,14 @@ const stapDrieIntroModule: Module = {
       loomId: "45cc1547a9324c06848c1cbb598e9386",
       durationMinutes: 3,
     },
+    {
+      slug: "prijsaanvraag-campagne-aanpassen",
+      title: "3. Prijsaanvraag campagne aanpassen",
+      description:
+        "Vraagt een lead je prijzen op, dan start de prijsaanvraag campagne met automatische opvolgberichten. In deze video zie je hoe je die berichten aanpast naar je eigen toon en hoe je slim gebruikmaakt van de buttons in WhatsApp, zodat leads met één tik kunnen reageren en je sneller het gesprek aangaat.",
+      loomId: "d87291046daa4f2e8dbb2d145712baa2",
+      durationMinutes: 2,
+    },
   ],
 };
 
