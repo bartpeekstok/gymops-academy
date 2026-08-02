@@ -228,19 +228,6 @@ const takenModule: Module = {
   ],
 };
 
-const stapTweeIntroModule: Module = {
-  slug: "introductie-stap-twee",
-  title: "Introductie",
-  lessons: [
-    {
-      slug: "welkom",
-      title: "Welkom bij stap twee",
-      description:
-        "Welkom bij stap twee van je onboarding! In stap één heb je de basis gelegd en allerlei diensten aan GymOps gekoppeld. Nu gaan we je echt wegwijs maken in het systeem zelf.\n\nGymOps kan je ontzettend veel werk uit handen nemen, maar het doet het niet helemaal vanzelf. Je haalt er pas echt het maximale uit als je je het systeem ook zelf eigen maakt. In de hoofdstukken hieronder zetten we daarvoor de eerste stappen: je leert werken met je Contacten, met Conversations (je inbox) en met Taken.\n\nAls er één ding is dat je uit deze stap moet meenemen, dan is het dit:\n\n{{big:Werk elke dag je inbox bij en vink elke dag je takenlijst af.}}\n\nHet lijkt misschien wat overdreven om dit zo groot neer te zetten, maar het is echt van wezenlijk belang om het systeem goed te laten werken. Deze twee gewoonten zijn samen de motor onder GymOps: houd je ze vol, dan blijft er niets liggen, voelt je communicatie persoonlijk en haal je alles uit het systeem.\n\nKom je erachter dat je hier zelf de tijd niet voor hebt? Dan is het misschien tijd om het uit te besteden aan iemand anders. Want elke dag dat je je takenlijst en inbox niet bijwerkt, laat je omzet liggen. Het goed bijhouden van deze twee zaken levert je uiteindelijk dus gewoon geld op, en daarom kun je er ook prima iemand op zetten.\n\nNeem rustig de tijd en doorloop de hoofdstukken hieronder. Veel succes!",
-    },
-  ],
-};
-
 const stapDrieIntroModule: Module = {
   slug: "introductie-stap-drie",
   title: "Introductie",
@@ -299,17 +286,9 @@ export const courses: Course[] = [
     slug: "onboarding",
     title: "Onboarding",
     description:
-      "Je onboarding in drie stappen: je gym opzetten in GymOps en daarna werken met het systeem.",
+      "Maak GymOps helemaal van jou: pas berichten en campagnes aan naar jouw tone of voice en merk.",
     icon: UserPlus,
     modules: [
-      {
-        slug: "onboarding-stap-twee",
-        title: "Onboarding stap twee",
-        description:
-          "Stap twee van je onboarding: werken met Contacten, Conversations en Taken.",
-        lessons: stapTweeIntroModule.lessons,
-        submodules: [contactenModule, conversationsModule, takenModule],
-      },
       {
         slug: "gymops-personaliseren",
         title: "GymOps personaliseren",
