@@ -297,7 +297,7 @@ const gymopsPersonaliserenModule: Module = {
   ],
 };
 
-export const courses: Course[] = [
+const courseList: Course[] = [
   {
     slug: "gymops-personaliseren",
     title: "GymOps personaliseren",
@@ -1295,6 +1295,28 @@ export const courses: Course[] = [
       },
     ],
   },
+];
+
+// Volgorde van de onderwerpen op de homepage; de kaarten worden op basis
+// van deze lijst ook genummerd.
+const homeOrder = [
+  "set-up",
+  "contacten",
+  "conversations",
+  "taken",
+  "leads",
+  "agendas",
+  "gymops-personaliseren",
+  "workflows",
+  "marketing",
+  "ansichtkaarten",
+  "sportbit-koppeling",
+  "dashboard",
+];
+
+export const courses: Course[] = [
+  ...homeOrder.flatMap((slug) => courseList.filter((c) => c.slug === slug)),
+  ...courseList.filter((c) => !homeOrder.includes(c.slug)),
 ];
 
 export function getCourse(slug: string): Course | undefined {

@@ -31,7 +31,7 @@ export default function HomePage() {
           Onderwerpen
         </h2>
         <div className="mt-6 grid gap-5 [grid-template-columns:repeat(auto-fill,minmax(340px,1fr))]">
-          {courses.map((course) => {
+          {courses.map((course, i) => {
             const lessonCount = flattenLessons(course).length;
             const href = `/${course.slug}`;
             const Icon = course.icon;
@@ -46,7 +46,7 @@ export default function HomePage() {
                 </div>
                 <div className="flex-1 min-w-0">
                   <h3 className="text-lg font-extrabold text-ink">
-                    {course.title}
+                    {i + 1}. {course.title}
                   </h3>
                   <p className="mt-1 text-sm leading-[1.55] text-fg-muted">
                     {course.description}
