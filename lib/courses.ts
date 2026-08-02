@@ -289,6 +289,14 @@ const stapDrieIntroModule: Module = {
       loomId: "de0cad1a91294460a7bcc2b91aa33333",
       durationMinutes: 3,
     },
+    {
+      slug: "status-verzonden-ansichtkaarten-bekijken-of-verwijderen",
+      title: "5. Status verzonden ansichtkaarten bekijken of verwijderen in Writify",
+      description:
+        "Via Writify versturen we handgeschreven ansichtkaarten naar je leden en oud-leden. In deze video zie je waar je de status van verzonden kaarten terugvindt, zodat je precies weet welke kaart wanneer is verstuurd, en hoe je een kaart verwijdert als die toch niet verstuurd moet worden.",
+      loomId: "9ad4d5155f814fb3a7f9c9ec2b2e87f5",
+      durationMinutes: 2,
+    },
   ],
 };
 
