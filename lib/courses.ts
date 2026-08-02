@@ -5,6 +5,7 @@ import {
   LayoutDashboard,
   Link2,
   ListTodo,
+  Mailbox,
   Megaphone,
   MessageSquare,
   Settings,
@@ -116,13 +117,6 @@ const contactenModule: Module = {
         "Met slimme lijsten filter je je contacten op precies de kenmerken die je zoekt, zodat je snel de juiste groep mensen te pakken hebt.",
       loomId: "8df2683d82e24cc7a356a369cb488877",
       durationMinutes: 3,
-    },
-    {
-      slug: "handgeschreven-ansichtkaart-versturen",
-      title: "Handgeschreven ansichtkaart versturen",
-      description:
-        "Een handgeschreven ansichtkaart is een persoonlijk gebaar dat blijft hangen, bijvoorbeeld bij een jubileum, blessure of verjaardag. In deze video zie je hoe je vanuit GymOps een handgeschreven kaart naar een contact verstuurt.",
-      loomId: "38d3a1ae173c49f69bb04553dbce5680",
     },
   ],
 };
@@ -288,14 +282,6 @@ const stapDrieIntroModule: Module = {
         "Met de ex-leden campagne blijf je in contact met leden die zijn gestopt, en juist die berichten werken het best als ze persoonlijk klinken. In deze video zie je hoe de campagne is opgebouwd en hoe je de teksten aanpast naar je eigen toon, zodat een oud-lid een bericht krijgt dat echt van jouw gym komt en de drempel om terug te komen lager wordt.",
       loomId: "de0cad1a91294460a7bcc2b91aa33333",
       durationMinutes: 3,
-    },
-    {
-      slug: "status-verzonden-ansichtkaarten-bekijken-of-verwijderen",
-      title: "5. Status verzonden ansichtkaarten bekijken of verwijderen in Writify",
-      description:
-        "Via Writify versturen we handgeschreven ansichtkaarten naar je leden en oud-leden. In deze video zie je waar je de status van verzonden kaarten terugvindt, zodat je precies weet welke kaart wanneer is verstuurd, en hoe je een kaart verwijdert als die toch niet verstuurd moet worden.",
-      loomId: "9ad4d5155f814fb3a7f9c9ec2b2e87f5",
-      durationMinutes: 2,
     },
   ],
 };
@@ -1331,6 +1317,36 @@ export const courses: Course[] = [
       "Werken met taken in GymOps: aanmaken, opvolgen en afronden.",
     icon: ListTodo,
     modules: [takenModule],
+  },
+  {
+    slug: "ansichtkaarten",
+    title: "Ansichtkaarten",
+    description:
+      "Handgeschreven ansichtkaarten versturen via Writify en de status van verzonden kaarten beheren.",
+    icon: Mailbox,
+    modules: [
+      {
+        slug: "ansichtkaarten",
+        title: "Ansichtkaarten",
+        lessons: [
+          {
+            slug: "handgeschreven-ansichtkaart-versturen",
+            title: "Handgeschreven ansichtkaart versturen",
+            description:
+              "Een handgeschreven ansichtkaart is een persoonlijk gebaar dat blijft hangen, bijvoorbeeld bij een jubileum, blessure of verjaardag. In deze video zie je hoe je vanuit GymOps een handgeschreven kaart naar een contact verstuurt.",
+            loomId: "38d3a1ae173c49f69bb04553dbce5680",
+          },
+          {
+            slug: "status-verzonden-ansichtkaarten-bekijken-of-verwijderen",
+            title: "Status verzonden ansichtkaarten bekijken of verwijderen in Writify",
+            description:
+              "Via Writify versturen we handgeschreven ansichtkaarten naar je leden en oud-leden. In deze video zie je waar je de status van verzonden kaarten terugvindt, zodat je precies weet welke kaart wanneer is verstuurd, en hoe je een kaart verwijdert als die toch niet verstuurd moet worden.",
+            loomId: "9ad4d5155f814fb3a7f9c9ec2b2e87f5",
+            durationMinutes: 2,
+          },
+        ],
+      },
+    ],
   },
   {
     slug: "sportbit-koppeling",
