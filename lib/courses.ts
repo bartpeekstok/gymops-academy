@@ -279,8 +279,16 @@ const gymopsPersonaliserenModule: Module = {
       durationMinutes: 2,
     },
     {
+      slug: "opzegformulier-ingediend-workflow-aanpassen",
+      title: "6. Opzegformulier ingediend workflow aanpassen",
+      description:
+        "Dient een lid het opzegformulier in, dan gaat de opzegworkflow lopen. In deze video zie je hoe die workflow is opgebouwd en welke onderdelen je aanpast naar je eigen toon, zodat ook het afscheid netjes en persoonlijk verloopt en de deur open blijft staan voor een terugkeer.",
+      loomId: "939dc2436c5e4ceb9ae80295c88409e6",
+      durationMinutes: 3,
+    },
+    {
       slug: "ex-leden-campagne-aanpassen",
-      title: "6. Ex-leden campagne aanpassen",
+      title: "7. Ex-leden campagne aanpassen",
       description:
         "Met de ex-leden campagne blijf je in contact met leden die zijn gestopt, en juist die berichten werken het best als ze persoonlijk klinken. In deze video zie je hoe de campagne is opgebouwd en hoe je de teksten aanpast naar je eigen toon, zodat een oud-lid een bericht krijgt dat echt van jouw gym komt en de drempel om terug te komen lager wordt.",
       loomId: "de0cad1a91294460a7bcc2b91aa33333",
