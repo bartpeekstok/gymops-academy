@@ -252,8 +252,16 @@ const stapDrieIntroModule: Module = {
         "Welkom bij stap drie van je onboarding! In stap één heb je alles gekoppeld en in stap twee heb je leren werken met Contacten, Conversations en Taken. Nu komt het leukste deel: GymOps echt van jou maken.\n\nHet systeem staat al vol met kant-en-klare berichten, e-mails en workflows die vanaf dag één gewoon werken. Maar op dit moment klinken ze nog neutraal. In deze stap ga je die onderdelen één voor één aanpassen, zodat alles gaat klinken zoals jouw gym: jouw tone of voice, jouw merk en jouw manier van communiceren met leads en leden.\n\nDe volgorde van de hoofdstukken hieronder is bewust gekozen. Bovenaan staan de onderdelen die makkelijk aan te passen zijn én meteen het meeste verschil maken. Hoe verder je naar beneden komt, hoe meer je zelf kunt instellen en hoe dieper je het systeem naar je hand zet.\n\nJe hoeft dit niet in één middag af te ronden. Werk de hoofdstukken gewoon van boven naar beneden af, in je eigen tempo. Elke aanpassing die je doet maakt het systeem persoonlijker, en dat voelen je leads en leden direct in elk bericht dat ze van je krijgen.\n\nNog een geruststelling vooraf: je kunt niets kapotmaken. Wij kunnen elk onderdeel altijd terugzetten naar de basisversie. Pas dus gerust aan wat je wilt, dat is precies de bedoeling van deze stap. Veel succes!",
     },
     {
+      slug: "whatsapp-profiel-instellen",
+      title: "1. WhatsApp profiel instellen",
+      description:
+        "We starten met je WhatsApp-profiel: de eerste indruk die leads en leden krijgen als ze je een berichtje sturen. In deze video zie je hoe je in GymOps je profiel netjes instelt met je logo, omschrijving, adres en openingstijden, zodat je gym er meteen professioneel en herkenbaar uitziet.",
+      loomId: "64beae63ab3e4c199b507d16f6a1bbc6",
+      durationMinutes: 2,
+    },
+    {
       slug: "verjaardagsberichten-personaliseren-in-whatsapp-en-e-mail",
-      title: "1. Verjaardagsberichten personaliseren in WhatsApp en e-mail",
+      title: "2. Verjaardagsberichten personaliseren in WhatsApp en e-mail",
       description:
         "We beginnen met een makkelijke aanpassing die meteen leuk is om te doen: het bericht dat je leden automatisch ontvangen op hun verjaardag, via WhatsApp of e-mail. In deze video zie je waar je deze teksten vindt en hoe je ze aanpast naar je eigen woorden, zodat de felicitatie echt klinkt alsof hij van jouw gym komt.",
       loomId: "a4434fb47e344cc487bf9173f2ae8285",
@@ -261,7 +269,7 @@ const stapDrieIntroModule: Module = {
     },
     {
       slug: "nieuwe-lead-campagne-aanpassen",
-      title: "2. Nieuwe lead campagne aanpassen",
+      title: "3. Nieuwe lead campagne aanpassen",
       description:
         "De nieuwe lead campagne is voor veel leads het allereerste contact met je gym, dus juist hier loont het om de teksten naar je eigen hand te zetten. In deze video zie je hoe de campagne is opgebouwd, welke berichten erin zitten en hoe je ze aanpast naar je eigen toon, zodat een nieuwe lead meteen voelt met wie hij te maken heeft.",
       loomId: "45cc1547a9324c06848c1cbb598e9386",
@@ -269,7 +277,7 @@ const stapDrieIntroModule: Module = {
     },
     {
       slug: "prijsaanvraag-campagne-aanpassen",
-      title: "3. Prijsaanvraag campagne aanpassen",
+      title: "4. Prijsaanvraag campagne aanpassen",
       description:
         "Vraagt een lead je prijzen op, dan start de prijsaanvraag campagne met automatische opvolgberichten. In deze video zie je hoe je die berichten aanpast naar je eigen toon en hoe je slim gebruikmaakt van de buttons in WhatsApp, zodat leads met één tik kunnen reageren en je sneller het gesprek aangaat.",
       loomId: "d87291046daa4f2e8dbb2d145712baa2",
@@ -277,7 +285,7 @@ const stapDrieIntroModule: Module = {
     },
     {
       slug: "ex-leden-campagne-aanpassen",
-      title: "4. Ex-leden campagne aanpassen",
+      title: "5. Ex-leden campagne aanpassen",
       description:
         "Met de ex-leden campagne blijf je in contact met leden die zijn gestopt, en juist die berichten werken het best als ze persoonlijk klinken. In deze video zie je hoe de campagne is opgebouwd en hoe je de teksten aanpast naar je eigen toon, zodat een oud-lid een bericht krijgt dat echt van jouw gym komt en de drempel om terug te komen lager wordt.",
       loomId: "de0cad1a91294460a7bcc2b91aa33333",
@@ -303,8 +311,8 @@ export const courses: Course[] = [
         submodules: [contactenModule, conversationsModule, takenModule],
       },
       {
-        slug: "onboarding-stap-drie",
-        title: "Onboarding stap drie",
+        slug: "gymops-personaliseren",
+        title: "GymOps personaliseren",
         description:
           "Stap drie van je onboarding: GymOps aanpassen aan jouw tone of voice en merkidentiteit.",
         lessons: stapDrieIntroModule.lessons,
