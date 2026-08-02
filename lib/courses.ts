@@ -256,8 +256,15 @@ const gymopsPersonaliserenModule: Module = {
       durationMinutes: 4,
     },
     {
+      slug: "automatische-whatsapp-bij-gemiste-oproep-instellen",
+      title: "3. Automatische WhatsApp bij gemiste oproep instellen",
+      description:
+        "Mis je een telefoontje, dan stuurt GymOps automatisch een WhatsApp-bericht naar de beller, zodat die meteen weet dat je erop terugkomt. In deze video zie je hoe je dit instelt en hoe je de tekst van dat bericht aanpast naar je eigen toon.",
+      loomId: "b5e1aa1059894d0aa3fecb0b64d1532a",
+    },
+    {
       slug: "nieuwe-lead-campagne-aanpassen",
-      title: "3. Nieuwe lead campagne aanpassen",
+      title: "4. Nieuwe lead campagne aanpassen",
       description:
         "De nieuwe lead campagne is voor veel leads het allereerste contact met je gym, dus juist hier loont het om de teksten naar je eigen hand te zetten. In deze video zie je hoe de campagne is opgebouwd, welke berichten erin zitten en hoe je ze aanpast naar je eigen toon, zodat een nieuwe lead meteen voelt met wie hij te maken heeft.",
       loomId: "45cc1547a9324c06848c1cbb598e9386",
@@ -265,7 +272,7 @@ const gymopsPersonaliserenModule: Module = {
     },
     {
       slug: "prijsaanvraag-campagne-aanpassen",
-      title: "4. Prijsaanvraag campagne aanpassen",
+      title: "5. Prijsaanvraag campagne aanpassen",
       description:
         "Vraagt een lead je prijzen op, dan start de prijsaanvraag campagne met automatische opvolgberichten. In deze video zie je hoe je die berichten aanpast naar je eigen toon en hoe je slim gebruikmaakt van de buttons in WhatsApp, zodat leads met één tik kunnen reageren en je sneller het gesprek aangaat.",
       loomId: "d87291046daa4f2e8dbb2d145712baa2",
@@ -273,7 +280,7 @@ const gymopsPersonaliserenModule: Module = {
     },
     {
       slug: "ex-leden-campagne-aanpassen",
-      title: "5. Ex-leden campagne aanpassen",
+      title: "6. Ex-leden campagne aanpassen",
       description:
         "Met de ex-leden campagne blijf je in contact met leden die zijn gestopt, en juist die berichten werken het best als ze persoonlijk klinken. In deze video zie je hoe de campagne is opgebouwd en hoe je de teksten aanpast naar je eigen toon, zodat een oud-lid een bericht krijgt dat echt van jouw gym komt en de drempel om terug te komen lager wordt.",
       loomId: "de0cad1a91294460a7bcc2b91aa33333",
