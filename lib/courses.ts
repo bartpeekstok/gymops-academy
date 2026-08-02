@@ -1337,6 +1337,13 @@ export const courses: Course[] = [
             loomId: "38d3a1ae173c49f69bb04553dbce5680",
           },
           {
+            slug: "jaarlijkse-ansichtkaart",
+            title: "Jaarlijkse ansichtkaart",
+            description:
+              "Deze workflow zorgt ervoor dat er voor elk lid minstens één keer per jaar een taak wordt aangemaakt om een persoonlijke ansichtkaart te sturen. Zo krijgt niet alleen het lid dat het meest opvalt een kaartje, maar iedereen. Een handgeschreven kaart is een klein gebaar dat lang blijft hangen en laat zien dat je je leden echt ziet.\n\nDe bijbehorende wachtrij verdeelt de taken over het jaar, zodat je niet in één keer voor je hele ledenbestand kaartjes hoeft te schrijven. Leden gaan er gedoseerd doorheen en komen er aan de andere kant uit als taak in je takenlijst. Aan die wachtrij hoef je niets aan te passen, gewoon laten lopen.\n\nIn de video zie je hoe de workflow is opgebouwd en hoe de taken in je takenlijst terechtkomen.",
+            loomId: "f48dc860313b4ae48e4da5e4e98ab8b2",
+          },
+          {
             slug: "status-verzonden-ansichtkaarten-bekijken-of-verwijderen",
             title: "Status verzonden ansichtkaarten bekijken of verwijderen in Writify",
             description:
