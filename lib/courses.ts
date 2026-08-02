@@ -295,113 +295,6 @@ export const courses: Course[] = [
     icon: UserPlus,
     modules: [
       {
-        slug: "onboarding-stap-een",
-        title: "Onboarding stap één",
-        description: "De eerste stappen om je gym op te zetten in GymOps.",
-        lessons: [
-          {
-            slug: "welkom-bij-gymops",
-            title: "Welkom bij GymOps",
-            subtitle: "De eerste stappen om je gym op te zetten in GymOps.",
-            description:
-              "Welkom bij GymOps! Leuk dat je erbij bent. In dit eerste hoofdstuk zetten we samen de allereerste stappen om je gym helemaal klaar te maken in GymOps.\n\nGymOps is het systeem waarin straks alles samenkomt: je leads, je leden, je communicatie en je marketing. Om er echt het maximale uit te halen, koppelen we in deze onboarding een heleboel andere diensten aan GymOps. Denk aan je social media, WhatsApp, Google en een eigen lokaal telefoonnummer, zodat je vanuit één plek alles kunt beheren en geen enkel contactmoment meer mist.\n\nDeze eerste stap draait om de basis: je betaalgegevens, de app op je telefoon, een telefoonnummer en je WhatsApp Business-account. Daarmee staat het fundament en kun je in de volgende stappen steeds meer uit het systeem halen.\n\nDoorloop de lessen hieronder in de aangegeven volgorde, één voor één. Het is belangrijk dat je de stappen op volgorde doet, omdat ze op elkaar voortbouwen. Aan het einde van dit hoofdstuk heb je de meeste zaken gekoppeld en ben je klaar voor onboarding call één. Veel succes!",
-          },
-          {
-            slug: "betaalgegevens-invoeren",
-            title: "1. Betaalgegevens invoeren",
-            description:
-              "We beginnen met het invoeren van je betaalgegevens. Voer hier je creditcardgegevens in. Deze creditcard wordt gebruikt om je GymOps-abonnement te betalen, én voor het verbruik van telefonie-, sms- en WhatsApp-kosten.",
-            loomId: "e5caea80523d4a6d945dc162231bc2f2",
-          },
-          {
-            slug: "lead-connector-app-downloaden",
-            title: "2. Lead Connector app downloaden",
-            description:
-              "Download de Lead Connector app uit de App Store of Google Play en log in met je GymOps-account. Het is handig om de app ook op je telefoon te installeren, zodat je het meeste uit GymOps haalt: je ontvangt meldingen, kunt onderweg reageren op leads en klanten en blijft altijd bereikbaar.",
-            image: "/lead-connector.png",
-            imageAlt: "Lead Connector app logo",
-          },
-          {
-            slug: "telefoonnummer-aanschaffen",
-            title: "3. Telefoonnummer aanschaffen",
-            description:
-              "Hier schaffen we een virtueel nummer aan in GymOps dat we gebruiken om te bellen en eventueel te sms'en. Dit nummer verbergen we later achter een lokaal nummer.",
-            loomId: "14652347e219454e910d6096d196a442",
-          },
-          {
-            slug: "lokaal-nummer-instellen",
-            title: "4. Lokaal nummer instellen",
-            description:
-              "In dit hoofdstuk laten we zien hoe je een lokaal nummer instelt om te gebruiken in GymOps. Dit zorgt ervoor dat je leads en klanten vaker de telefoon opnemen, doordat je nummer vertrouwd overkomt.",
-            videos: [
-              { title: "Deel 1", loomId: "54c80427622e46edbbc92b4f6b1deb30" },
-              { title: "Deel 2", loomId: "e52b1a744eb4442e8751bd68750c5f64" },
-            ],
-          },
-          {
-            slug: "verifieer-je-lokale-nummer",
-            title: "5. Verifieer je lokale nummer",
-            description:
-              "Hier verifieer je je lokale nummer en koppel je het aan GymOps, zodat dit nummer altijd zichtbaar is en je telefoontjes goed worden opgenomen.",
-            loomId: "e5ff15dfcd034c1cb9c1c167725f85f7",
-          },
-          {
-            slug: "whatsapp-business-account-koppelen",
-            title: "6. WhatsApp Business account koppelen",
-            description:
-              "WhatsApp gebruiken we veel in GymOps; het is in Europa nog altijd de meest gangbare manier van texten. We raden aan om het lokale nummer dat je in GymOps gebruikt óók te gebruiken voor je WhatsApp Business account.\n\nHeb je al een lokaal nummer met een WhatsApp Business account op een telefoon staan? Dan is dat een goed uitgangspunt. We raden aan om, als je dit WhatsApp Business account wilt behouden, het nummer ervan te wijzigen naar je lokale nummer.\n\nHeb je nog geen WhatsApp Business account op een mobiel staan? Download dan op een telefoon de WhatsApp Business app en maak daar een nieuw WhatsApp Business account voor je gym aan met het lokale nummer dat je hebt aangeschaft.\n\nBelangrijk: het WhatsApp Business account dat je gaat koppelen moet eerst op een mobiel staan. Dat hoeft geen 06-nummer te zijn, sterker nog: we doen dit het liefst met het lokale nummer dat we zojuist hebben ingesteld. Heb je dit klaarstaan, doorloop dan de stappen in de video hieronder.",
-            loomId: "be72b284d13c460ebc8fd8950d7d8f82",
-          },
-          {
-            slug: "google-account-koppelen",
-            title: "7. Google-account koppelen",
-            description:
-              "Het koppelen van je Google-account is belangrijk, zodat je makkelijk vanuit je Google Drive kunt werken. Zo kun je bijvoorbeeld deelnemerslijsten naar Google Sheets sturen, foto's ophalen en meer van dat soort zaken.",
-            loomId: "efb96c1dd3b145c7a097ef36faf017d9",
-          },
-          {
-            slug: "google-bedrijfsprofiel-koppelen",
-            title: "8. Google Bedrijfsprofiel koppelen",
-            description:
-              "Het koppelen van je Google Bedrijfsprofiel (Google My Business) is belangrijk om je reviews en recensies te beheren. Zo reageer je vanuit GymOps eenvoudig op alle beoordelingen van je gym.",
-            loomId: "faf3dd4920cb4827985c55fa8b2d6b48",
-          },
-          {
-            slug: "facebook-en-instagram-koppelen",
-            title: "9. Facebook en Instagram koppelen",
-            description: "",
-            loomId: "4944927f25324980a67ce92949ae1ca9",
-          },
-          {
-            slug: "meta-ads-express-formulieren-koppelen",
-            title: "10. Meta ads express formulieren koppelen",
-            description: "",
-            loomId: "b006fce5ba3e457e8171b5673961978d",
-          },
-          {
-            slug: "medewerkers-toevoegen-bewerken-en-verwijderen",
-            title: "11. Medewerkers toevoegen, bewerken en verwijderen",
-            description:
-              "Het toevoegen van medewerkers is belangrijk zodat zij ook in het systeem kunnen werken, én zodat ze te boeken zijn voor intakes, check-ins, personal trainings of andere afspraken waarvan je de agenda's in GymOps beheert.",
-            loomId: "87936d0cd0fb430e9f34b7d6d9b34a3e",
-          },
-          {
-            slug: "beschikbaarheid-en-agenda-instellingen-voor-medewerkers",
-            title: "12. Beschikbaarheid en agenda-instellingen voor medewerkers",
-            description:
-              "Stel hier in op welke tijdblokken je medewerkers beschikbaar zijn (of moeten zijn) om geboekt te worden voor gratis intakes, proeflessen, check-ins, personal trainings of andere afspraken. Het is niet erg als de juiste agenda's nog niet in het systeem staan, dat doen we later samen, maar vul wel alvast de beschikbaarheid van je medewerkers in.",
-            loomId: "32c2b37244804a35860bb78763a0e088",
-          },
-          {
-            slug: "persoonlijke-agenda-koppelen",
-            title: "13. Persoonlijke agenda koppelen",
-            description:
-              "Het koppelen van je privéagenda is belangrijk, zodat afspraken die je in GymOps maakt ook in je privéagenda terechtkomen. Daarnaast kan GymOps zo zien of je op een bepaald moment al een afspraak hebt staan en die tijd dan automatisch voor je blokkeren.",
-            loomId: "c5dff764626f477882e0ca0dbbc9c9fd",
-          },
-        ],
-      },
-      {
         slug: "onboarding-stap-twee",
         title: "Onboarding stap twee",
         description:
@@ -430,22 +323,50 @@ export const courses: Course[] = [
         title: "Set up",
         lessons: [
           {
-            slug: "whatsapp-business-account-koppelen",
-            title: "WhatsApp Business account koppelen",
-            description: "",
-            loomId: "be72b284d13c460ebc8fd8950d7d8f82",
-          },
-          {
             slug: "betaalgegevens-invoeren",
             title: "Betaalgegevens invoeren",
-            description: "",
+            description:
+              "We beginnen met het invoeren van je betaalgegevens. Voer hier je creditcardgegevens in. Deze creditcard wordt gebruikt om je GymOps-abonnement te betalen, én voor het verbruik van telefonie-, sms- en WhatsApp-kosten.",
             loomId: "e5caea80523d4a6d945dc162231bc2f2",
+          },
+          {
+            slug: "lead-connector-app-downloaden",
+            title: "Lead Connector app downloaden",
+            description:
+              "Download de Lead Connector app uit de App Store of Google Play en log in met je GymOps-account. Het is handig om de app ook op je telefoon te installeren, zodat je het meeste uit GymOps haalt: je ontvangt meldingen, kunt onderweg reageren op leads en klanten en blijft altijd bereikbaar.",
+            image: "/lead-connector.png",
+            imageAlt: "Lead Connector app logo",
           },
           {
             slug: "telefoonnummer-aanschaffen",
             title: "Telefoonnummer aanschaffen",
-            description: "",
+            description:
+              "Hier schaffen we een virtueel nummer aan in GymOps dat we gebruiken om te bellen en eventueel te sms'en. Dit nummer verbergen we later achter een lokaal nummer.",
             loomId: "14652347e219454e910d6096d196a442",
+          },
+          {
+            slug: "lokaal-nummer-instellen",
+            title: "Lokaal nummer instellen",
+            description:
+              "In dit hoofdstuk laten we zien hoe je een lokaal nummer instelt om te gebruiken in GymOps. Dit zorgt ervoor dat je leads en klanten vaker de telefoon opnemen, doordat je nummer vertrouwd overkomt.",
+            videos: [
+              { title: "Deel 1", loomId: "54c80427622e46edbbc92b4f6b1deb30" },
+              { title: "Deel 2", loomId: "e52b1a744eb4442e8751bd68750c5f64" },
+            ],
+          },
+          {
+            slug: "verifieer-je-lokale-nummer",
+            title: "Verifieer je lokale nummer",
+            description:
+              "Hier verifieer je je lokale nummer en koppel je het aan GymOps, zodat dit nummer altijd zichtbaar is en je telefoontjes goed worden opgenomen.",
+            loomId: "e5ff15dfcd034c1cb9c1c167725f85f7",
+          },
+          {
+            slug: "whatsapp-business-account-koppelen",
+            title: "WhatsApp Business account koppelen",
+            description:
+              "WhatsApp gebruiken we veel in GymOps; het is in Europa nog altijd de meest gangbare manier van texten. We raden aan om het lokale nummer dat je in GymOps gebruikt óók te gebruiken voor je WhatsApp Business account.\n\nHeb je al een lokaal nummer met een WhatsApp Business account op een telefoon staan? Dan is dat een goed uitgangspunt. We raden aan om, als je dit WhatsApp Business account wilt behouden, het nummer ervan te wijzigen naar je lokale nummer.\n\nHeb je nog geen WhatsApp Business account op een mobiel staan? Download dan op een telefoon de WhatsApp Business app en maak daar een nieuw WhatsApp Business account voor je gym aan met het lokale nummer dat je hebt aangeschaft.\n\nBelangrijk: het WhatsApp Business account dat je gaat koppelen moet eerst op een mobiel staan. Dat hoeft geen 06-nummer te zijn, sterker nog: we doen dit het liefst met het lokale nummer dat we zojuist hebben ingesteld. Heb je dit klaarstaan, doorloop dan de stappen in de video hieronder.",
+            loomId: "be72b284d13c460ebc8fd8950d7d8f82",
           },
           {
             slug: "google-account-koppelen",
@@ -481,10 +402,11 @@ export const courses: Course[] = [
             loomId: "87936d0cd0fb430e9f34b7d6d9b34a3e",
           },
           {
-            slug: "dagelijks-mailoverzicht-openstaande-taken",
-            title: "Dagelijks mailoverzicht van openstaande taken",
-            description: "",
-            loomId: "97160a75a43e4c9d8cec9e7a54001863",
+            slug: "beschikbaarheid-en-agenda-instellingen-voor-medewerkers",
+            title: "Beschikbaarheid en agenda-instellingen voor medewerkers",
+            description:
+              "Stel hier in op welke tijdblokken je medewerkers beschikbaar zijn (of moeten zijn) om geboekt te worden voor gratis intakes, proeflessen, check-ins, personal trainings of andere afspraken. Het is niet erg als de juiste agenda's nog niet in het systeem staan, dat doen we later samen, maar vul wel alvast de beschikbaarheid van je medewerkers in.",
+            loomId: "32c2b37244804a35860bb78763a0e088",
           },
           {
             slug: "persoonlijke-agenda-koppelen",
@@ -494,17 +416,16 @@ export const courses: Course[] = [
             loomId: "c5dff764626f477882e0ca0dbbc9c9fd",
           },
           {
+            slug: "dagelijks-mailoverzicht-openstaande-taken",
+            title: "Dagelijks mailoverzicht van openstaande taken",
+            description: "",
+            loomId: "97160a75a43e4c9d8cec9e7a54001863",
+          },
+          {
             slug: "automatische-whatsapp-bij-gemiste-oproep-instellen",
             title: "Automatische WhatsApp bij gemiste oproep instellen",
             description: "",
             loomId: "b5e1aa1059894d0aa3fecb0b64d1532a",
-          },
-          {
-            slug: "beschikbaarheid-en-agenda-instellingen-voor-medewerkers",
-            title: "Beschikbaarheid en agenda-instellingen voor medewerkers",
-            description:
-              "Stel hier in op welke tijdblokken je medewerkers beschikbaar zijn (of moeten zijn) om geboekt te worden voor gratis intakes, proeflessen, check-ins, personal trainings of andere afspraken. Het is niet erg als de juiste agenda's nog niet in het systeem staan, dat doen we later samen, maar vul wel alvast de beschikbaarheid van je medewerkers in.",
-            loomId: "32c2b37244804a35860bb78763a0e088",
           },
         ],
       },
