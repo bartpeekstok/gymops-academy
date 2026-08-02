@@ -1250,7 +1250,7 @@ const courseList: Course[] = [
             slug: "handgeschreven-ansichtkaart-versturen",
             title: "Handgeschreven ansichtkaart versturen",
             description:
-              "Een handgeschreven ansichtkaart is een persoonlijk gebaar dat blijft hangen, bijvoorbeeld bij een jubileum, blessure of verjaardag. In deze video zie je hoe je vanuit GymOps een handgeschreven kaart naar een contact verstuurt.",
+              "Een handgeschreven ansichtkaart is een persoonlijk gebaar dat blijft hangen, bijvoorbeeld bij een jubileum, blessure of verjaardag. In deze video zie je hoe je vanuit GymOps een handgeschreven kaart naar een contact verstuurt.\n\n**Belangrijk bij het schrijven van je tekst:** gebruik geen enter om een nieuwe regel te beginnen, maar schrijf alles achter elkaar op één regel. Writify zorgt er zelf voor dat de tekst netjes op de kaart terechtkomt. Gebruik je wel enters, dan verschijnen er rare tekens op de kaart.",
             loomId: "38d3a1ae173c49f69bb04553dbce5680",
           },
           {
