@@ -354,7 +354,8 @@ const courseList: Course[] = [
             title: "Verifieer je lokale nummer",
             description:
               "Hier verifieer je je lokale nummer en koppel je het aan GymOps, zodat dit nummer altijd zichtbaar is en je telefoontjes goed worden opgenomen.",
-            loomId: "e5ff15dfcd034c1cb9c1c167725f85f7",
+            loomId: "514d812780ca4320bddaf23df4a9557b",
+            durationMinutes: 2,
           },
           {
             slug: "whatsapp-business-account-koppelen",
