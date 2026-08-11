@@ -263,8 +263,16 @@ const gymopsPersonaliserenModule: Module = {
       loomId: "b5e1aa1059894d0aa3fecb0b64d1532a",
     },
     {
+      slug: "auto-reply-whatsapp-aanpassen-voor-ledenservice",
+      title: "4. Auto-reply WhatsApp aanpassen voor ledenservice",
+      description:
+        "Stuurt iemand een bericht naar je ledenservice, dan krijgt diegene automatisch een antwoord via WhatsApp. In deze video zie je hoe je de tekst van die auto-reply aanpast naar je eigen toon.\n\n**Let op:** de wachtstappen aan het einde van de workflow zorgen ervoor dat iemand niet keer op keer de auto-reply krijgt wanneer diegene meerdere berichten achter elkaar stuurt. Laat die wachtstappen dus gewoon staan.",
+      loomId: "b2d118911d004a63b70bee98c2380ccb",
+      durationMinutes: 3,
+    },
+    {
       slug: "nieuwe-lead-campagne-aanpassen",
-      title: "4. Nieuwe lead campagne aanpassen",
+      title: "5. Nieuwe lead campagne aanpassen",
       description:
         "De nieuwe lead campagne is voor veel leads het allereerste contact met je gym, dus juist hier loont het om de teksten naar je eigen hand te zetten. In deze video zie je hoe de campagne is opgebouwd, welke berichten erin zitten en hoe je ze aanpast naar je eigen toon, zodat een nieuwe lead meteen voelt met wie hij te maken heeft.",
       loomId: "45cc1547a9324c06848c1cbb598e9386",
@@ -272,7 +280,7 @@ const gymopsPersonaliserenModule: Module = {
     },
     {
       slug: "prijsaanvraag-campagne-aanpassen",
-      title: "5. Prijsaanvraag campagne aanpassen",
+      title: "6. Prijsaanvraag campagne aanpassen",
       description:
         "Vraagt een lead je prijzen op, dan start de prijsaanvraag campagne met automatische opvolgberichten. In deze video zie je hoe je die berichten aanpast naar je eigen toon en hoe je slim gebruikmaakt van de buttons in WhatsApp, zodat leads met één tik kunnen reageren en je sneller het gesprek aangaat.",
       loomId: "d87291046daa4f2e8dbb2d145712baa2",
@@ -280,7 +288,7 @@ const gymopsPersonaliserenModule: Module = {
     },
     {
       slug: "opzegformulier-ingediend-workflow-aanpassen",
-      title: "6. Opzegformulier ingediend workflow aanpassen",
+      title: "7. Opzegformulier ingediend workflow aanpassen",
       description:
         "Dient een lid het opzegformulier in, dan gaat de opzegworkflow lopen. In deze video zie je hoe die workflow is opgebouwd en welke onderdelen je aanpast naar je eigen toon, zodat ook het afscheid netjes en persoonlijk verloopt en de deur open blijft staan voor een terugkeer.",
       loomId: "939dc2436c5e4ceb9ae80295c88409e6",
@@ -288,7 +296,7 @@ const gymopsPersonaliserenModule: Module = {
     },
     {
       slug: "ex-leden-campagne-aanpassen",
-      title: "7. Ex-leden campagne aanpassen",
+      title: "8. Ex-leden campagne aanpassen",
       description:
         "Met de ex-leden campagne blijf je in contact met leden die zijn gestopt, en juist die berichten werken het best als ze persoonlijk klinken. In deze video zie je hoe de campagne is opgebouwd en hoe je de teksten aanpast naar je eigen toon, zodat een oud-lid een bericht krijgt dat echt van jouw gym komt en de drempel om terug te komen lager wordt.",
       loomId: "de0cad1a91294460a7bcc2b91aa33333",
