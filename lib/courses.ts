@@ -266,7 +266,7 @@ const gymopsPersonaliserenModule: Module = {
       slug: "auto-reply-whatsapp-aanpassen-voor-ledenservice",
       title: "4. Auto-reply WhatsApp aanpassen voor ledenservice",
       description:
-        "Stuurt iemand een bericht naar je ledenservice, dan krijgt diegene automatisch een antwoord via WhatsApp. In deze video zie je hoe je de tekst van die auto-reply aanpast naar je eigen toon.\n\n**Let op:** de wachtstappen aan het einde van de workflow zorgen ervoor dat iemand niet keer op keer de auto-reply krijgt wanneer diegene meerdere berichten achter elkaar stuurt. Laat die wachtstappen dus gewoon staan.",
+        "Stuurt iemand een bericht naar je ledenservice, dan krijgt diegene automatisch een antwoord via WhatsApp. In deze video zie je hoe je de tekst van die auto-reply aanpast naar je eigen toon.\n\nDaarnaast laten we zien hoe je het tijdvenster aanpast. Standaard staat de auto-reply aan op zaterdag en zondag, en doordeweeks na vijf uur 's middags en voor acht uur 's ochtends. Wil je andere tijden, dan pas je dat zelf eenvoudig aan.\n\n**Let op:** de wachtstappen aan het einde van de workflow zorgen ervoor dat iemand niet keer op keer de auto-reply krijgt wanneer diegene meerdere berichten achter elkaar stuurt. Laat die wachtstappen dus gewoon staan.",
       loomId: "b2d118911d004a63b70bee98c2380ccb",
       durationMinutes: 3,
     },
