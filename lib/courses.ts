@@ -295,8 +295,28 @@ const gymopsPersonaliserenModule: Module = {
       durationMinutes: 3,
     },
     {
+      slug: "nieuw-lid-eerste-90-dagen",
+      title: "8. Nieuw lid: eerste 90 dagen",
+      description:
+        "De eerste 90 dagen bepalen of een nieuw lid blijft of stilletjes afhaakt. Deze flows zorgen ervoor dat elk nieuw lid in die periode structureel aandacht krijgt: automatische berichten op de juiste momenten en taken om zelf persoonlijk contact op te nemen. Zo check je wekelijks in hoe het gaat, vier je de eerste successen en zie je op tijd wanneer iemand dreigt af te haken.\n\nIn de video's zie je hoe de flows zijn opgebouwd en welke berichten en taken je zelf kunt aanpassen.",
+      videos: [
+        {
+          title: "Deel 1",
+          loomId: "81faadd1df744c0895097c8cf8661913",
+        },
+        {
+          title: "Deel 2",
+          loomId: "456631d37d6a43098418ef3ab4f0649c",
+        },
+        {
+          title: "Deel 3",
+          loomId: "a46f1c2db8064a6b9669d21401b80717",
+        },
+      ],
+    },
+    {
       slug: "ex-leden-campagne-aanpassen",
-      title: "8. Ex-leden campagne aanpassen",
+      title: "9. Ex-leden campagne aanpassen",
       description:
         "Met de ex-leden campagne blijf je in contact met leden die zijn gestopt, en juist die berichten werken het best als ze persoonlijk klinken. In deze video zie je hoe de campagne is opgebouwd en hoe je de teksten aanpast naar je eigen toon, zodat een oud-lid een bericht krijgt dat echt van jouw gym komt en de drempel om terug te komen lager wordt.",
       loomId: "de0cad1a91294460a7bcc2b91aa33333",
