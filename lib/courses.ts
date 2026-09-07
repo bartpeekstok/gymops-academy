@@ -1290,6 +1290,14 @@ const courseList: Course[] = [
             loomId: "f48dc860313b4ae48e4da5e4e98ab8b2",
           },
           {
+            slug: "inloggen-op-writify-en-campagnes-bekijken",
+            title: "Inloggen op Writify en bestaande campagnes bekijken of aanpassen",
+            description:
+              "In deze video zie je hoe je inlogt in Writify, welke kaarten daar voor jouw gym zijn ingesteld en hoe je een ontwerp eventueel aanpast.\n\n**Inloggen.** Ga naar app.writify.eu en kies 'Ik heb al een account'. Vul het e-mailadres in waarmee je account is aangemaakt, meestal je algemene e-mailadres. Je ontvangt dan een e-mail met een code en een link. Klik op de link en vul de code in, en je bent ingelogd. Die code is voor iedereen anders.\n\n**Bestaande campagnes bekijken en aanpassen.** Ga naar API campagnes. Daar staan de kaarten die voor jouw gym zijn ingesteld. Klik een kaart open en kies Ontwerp om te zien hoe de kaart eruitziet. Wil je iets veranderen, bijvoorbeeld een nieuwe foto, dan doe je dat in de ontwerptool. Hier komen later nog aparte video's over, maar het wijst zich grotendeels vanzelf.\n\n**Verzonden en niet-verzonden kaarten.** Per campagne zie je ook welke kaarten nog niet zijn verzonden, welke wel, en de facturen die voor deze kaarten zijn verstuurd.",
+            loomId: "57f7b2f82bb345ca891b2d1a0e22bcc5",
+            durationMinutes: 2,
+          },
+          {
             slug: "status-verzonden-ansichtkaarten-bekijken-of-verwijderen",
             title: "Status verzonden ansichtkaarten bekijken of verwijderen in Writify",
             description:
