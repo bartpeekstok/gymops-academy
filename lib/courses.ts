@@ -1339,6 +1339,7 @@ const courseList: Course[] = [
 const homeOrder = [
   "set-up",
   "contacten",
+  "sportbit-koppeling",
   "conversations",
   "taken",
   "leads",
@@ -1347,7 +1348,6 @@ const homeOrder = [
   "workflows",
   "marketing",
   "ansichtkaarten",
-  "sportbit-koppeling",
   "dashboard",
 ];
 
