@@ -3,7 +3,6 @@ import {
   Calendar,
   Contact,
   LayoutDashboard,
-  Link2,
   ListTodo,
   Mailbox,
   Megaphone,
@@ -117,6 +116,14 @@ const contactenModule: Module = {
       description:
         "Met slimme lijsten filter je je contacten op precies de kenmerken die je zoekt, zodat je snel de juiste groep mensen te pakken hebt.",
       loomId: "8df2683d82e24cc7a356a369cb488877",
+      durationMinutes: 3,
+    },
+    {
+      slug: "koppeling-sportbit-en-gymops",
+      title: "Koppeling Sportbit en GymOps",
+      description:
+        "De koppeling tussen Sportbit en GymOps werkt één kant op. In deze video laten we zien hoe de koppeling precies werkt, welke gegevens er worden overgenomen en waar je daar in GymOps rekening mee houdt.",
+      loomId: "50432276973842d8b3b7d8ee229e17c4",
       durationMinutes: 3,
     },
   ],
@@ -1309,29 +1316,6 @@ const courseList: Course[] = [
       },
     ],
   },
-  {
-    slug: "sportbit-koppeling",
-    title: "Sportbit koppeling",
-    description:
-      "Hoe de koppeling tussen Sportbit en GymOps werkt en wat dit betekent voor je gegevens.",
-    icon: Link2,
-    modules: [
-      {
-        slug: "sportbit-koppeling",
-        title: "Sportbit koppeling",
-        lessons: [
-          {
-            slug: "koppeling-sportbit-en-gymops",
-            title: "Koppeling Sportbit en GymOps",
-            description:
-              "De koppeling tussen Sportbit en GymOps werkt één kant op. In deze video laten we zien hoe de koppeling precies werkt, welke gegevens er worden overgenomen en waar je daar in GymOps rekening mee houdt.",
-            loomId: "50432276973842d8b3b7d8ee229e17c4",
-            durationMinutes: 3,
-          },
-        ],
-      },
-    ],
-  },
 ];
 
 // Volgorde van de onderwerpen op de homepage; de kaarten worden op basis
@@ -1339,7 +1323,6 @@ const courseList: Course[] = [
 const homeOrder = [
   "set-up",
   "contacten",
-  "sportbit-koppeling",
   "conversations",
   "taken",
   "leads",

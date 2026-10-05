@@ -30,6 +30,17 @@ const nextConfig = {
         destination: "/onboarding/:path*",
         permanent: true,
       },
+      // Sportbit koppeling is als les onder Contacten gezet.
+      {
+        source: "/sportbit-koppeling",
+        destination: "/contacten/koppeling-sportbit-en-gymops",
+        permanent: true,
+      },
+      {
+        source: "/sportbit-koppeling/:path*",
+        destination: "/contacten/koppeling-sportbit-en-gymops",
+        permanent: true,
+      },
     ];
   },
   async headers() {
