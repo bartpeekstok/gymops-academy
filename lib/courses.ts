@@ -247,6 +247,14 @@ const gymopsPersonaliserenModule: Module = {
         "Welkom bij het leukste onderdeel van GymOps: het systeem echt van jou maken.\n\nHet systeem staat al vol met kant-en-klare berichten, e-mails en workflows die vanaf dag één gewoon werken. Maar op dit moment klinken ze nog neutraal. In dit hoofdstuk ga je die onderdelen één voor één aanpassen, zodat alles gaat klinken zoals jouw gym: jouw tone of voice, jouw merk en jouw manier van communiceren met leads en leden.\n\nDe volgorde van de lessen hieronder is bewust gekozen. Bovenaan staan de onderdelen die makkelijk aan te passen zijn én meteen het meeste verschil maken. Hoe verder je naar beneden komt, hoe meer je zelf kunt instellen en hoe dieper je het systeem naar je hand zet.\n\nJe hoeft dit niet in één middag af te ronden. Werk de lessen gewoon van boven naar beneden af, in je eigen tempo. Elke aanpassing die je doet maakt het systeem persoonlijker, en dat voelen je leads en leden direct in elk bericht dat ze van je krijgen.\n\nNog een geruststelling vooraf: je kunt niets kapotmaken. Wij kunnen elk onderdeel altijd terugzetten naar de basisversie. Pas dus gerust aan wat je wilt, dat is precies de bedoeling van dit hoofdstuk. Veel succes!",
     },
     {
+      slug: "whatsapp-template-aanpassen",
+      title: "Basis: zo pas je een WhatsApp-template aan",
+      description:
+        "Bijna elke les hierna draait om WhatsApp-berichten, en die berichten zijn templates. Je past ze niet aan in de workflow zelf, maar via Instellingen, daarna WhatsApp en dan Templates. In deze video zie je eenmalig hoe dat werkt: hoe je via de gespreksdetails van een workflow de naam van de template opzoekt, hoe je de Nederlandse en Engelse variant terugvindt en hoe je de tekst aanpast met variabelen zoals de voornaam. Bekijk deze video eerst, dan gaan de volgende lessen een stuk sneller.\n\n**Let op:** na het opslaan gaat de aangepaste template ter goedkeuring naar Meta. Dat duurt meestal een paar minuten, soms tot ongeveer een uur. Pas daarna wordt de nieuwe tekst in de workflow gebruikt.",
+      loomId: "37720816ab264be8b67ec75ca0c073d2",
+      durationMinutes: 4,
+    },
+    {
       slug: "whatsapp-profiel-instellen",
       title: "1. WhatsApp profiel instellen",
       description:
@@ -646,8 +654,18 @@ const courseList: Course[] = [
           {
             slug: "whatsapp-templates-aanpassen-in-workflows",
             title: "WhatsApp templates aanpassen in workflows",
-            description: "",
-            loomId: "4130b2ac44a64ad99c9eb379cc9f7c70",
+            description:
+              "De WhatsApp-berichten in je workflows zijn templates. Wil je zo'n bericht aanpassen, dan doe je dat niet in de workflow zelf, maar via Instellingen, daarna WhatsApp en dan Templates. In de eerste video zie je hoe je via de gespreksdetails van de workflow de naam van de template opzoekt, hoe je de Nederlandse en Engelse variant terugvindt en hoe je de tekst aanpast met variabelen zoals de voornaam. In de tweede video zie je hoe je ook de header aanpast, bijvoorbeeld met een afbeelding of video, en hoe je buttons met een link toevoegt.\n\n**Let op:** na het opslaan gaat de aangepaste template ter goedkeuring naar Meta. Dat duurt meestal een paar minuten, soms tot ongeveer een uur. Pas daarna wordt de nieuwe tekst in de workflow gebruikt.",
+            videos: [
+              {
+                title: "Template opzoeken en tekst aanpassen",
+                loomId: "37720816ab264be8b67ec75ca0c073d2",
+              },
+              {
+                title: "Header, afbeelding en buttons aanpassen",
+                loomId: "4130b2ac44a64ad99c9eb379cc9f7c70",
+              },
+            ],
           },
           {
             slug: "nieuwe-whatsapp-template-maken",
