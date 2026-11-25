@@ -1257,9 +1257,11 @@ const courseList: Course[] = [
         lessons: [
           {
             slug: "e-mail-sjablonen",
-            title: "E-mail sjablonen",
-            description: "",
-            loomId: "b5cef1453ceb441c8b8c77dfec777017",
+            title: "E-mailtemplates en sjablonen",
+            description:
+              "In GymOps vind je onder Marketing, bij E-mails, de templates en sjablonen voor je e-mails. In deze video zie je welke er klaarstaan en waar ze voor bedoeld zijn.\n\n**Let op: de onderste vier sjablonen niet aanpassen of aanzetten.** Die worden gebruikt in de workflows en zijn al opgemaakt in jullie eigen huisstijl.\n\n**Nieuwsbrieftemplate.** Dit is de template die je gebruikt om nieuwsbrieven naar je leden of leads te sturen. Hoe je zo'n nieuwsbrief daadwerkelijk verstuurt, zie je in de volgende video.",
+            loomId: "1d2e406a660c4849a29164bb898de956",
+            durationMinutes: 1,
           },
         ],
       },
