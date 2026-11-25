@@ -1267,9 +1267,12 @@ const courseList: Course[] = [
             slug: "nieuwsbrieven-maken-met-e-mail-campaigns",
             title: "Nieuwsbrieven maken met e-mail campaigns",
             description:
-              "Een nieuwsbrief verstuur je in GymOps via Marketing, E-mails en dan Campaigns. In deze video zie je stap voor stap hoe je je eerste nieuwsbrief opzet en verstuurt naar leden, leads of oud-leden.\n\n**Mapjes maken.** Maak eerst mapjes aan, bijvoorbeeld per doelgroep of per jaar. Zo houd je overzicht als het aantal campagnes groeit.\n\n**Eerste nieuwsbrief vanuit de template.** Start een nieuwe campagne vanuit de nieuwsbrieftemplate. Pas de branding en de tekst aan en voeg waar nodig modules toe zoals afbeeldingen, video en knoppen. Laat de header en footer staan, die horen bij elke nieuwsbrief.\n\n**Volgende nieuwsbrieven.** Voor een volgende editie kloon je een eerdere campagne en pas je alleen de titel en de inhoud aan. Liever helemaal opnieuw beginnen? Dan start je gewoon weer vanuit de template.",
-            loomId: "de8fa95cdf064901968d1b59b1dc1cc2",
-            durationMinutes: 5,
+              "Een nieuwsbrief verstuur je in GymOps via Marketing, E-mails en dan Campaigns. In deze video zie je stap voor stap hoe je je eerste nieuwsbrief opzet en verstuurt naar leden, leads of oud-leden.\n\n**Mapjes maken.** Maak eerst mapjes aan, bijvoorbeeld per doelgroep of per jaar. Zo houd je overzicht als het aantal campagnes groeit.\n\n**Eerste nieuwsbrief vanuit de template.** Start een nieuwe campagne vanuit de nieuwsbrieftemplate. Pas de branding en de tekst aan en voeg waar nodig modules toe zoals afbeeldingen, video en knoppen. Laat de header en footer staan, die horen bij elke nieuwsbrief.\n\n**Volgende nieuwsbrieven.** Voor een volgende editie kloon je een eerdere campagne en pas je alleen de titel en de inhoud aan. Liever helemaal opnieuw beginnen? Dan start je gewoon weer vanuit de template.\n\n**Preview op mobiel en desktop (tweede video).** Een nieuwsbrief ziet er op een telefoon anders uit dan op een computer. Bekijk daarom altijd de preview voor beide. Je kiest per blok een lay-out met één, twee of drie kolommen en plaatst daar je content in. Algemene wijzigingen voer je één keer door voor de hele nieuwsbrief, maar je kunt ook per apparaat bijsturen, bijvoorbeeld door op mobiel de tekst boven de afbeelding te zetten in plaats van ernaast.",
+            videos: [
+              { title: "Nieuwsbrief maken met e-mail campaigns", loomId: "de8fa95cdf064901968d1b59b1dc1cc2" },
+              { title: "Bekijk je e-mail preview op mobiel en desktop", loomId: "fed98cfeadb5494e9ca06dd606025573" },
+            ],
+            durationMinutes: 7,
           },
           {
             slug: "nieuwsbrief-versturen-en-slim-plannen",
