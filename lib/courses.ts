@@ -1271,6 +1271,14 @@ const courseList: Course[] = [
             loomId: "de8fa95cdf064901968d1b59b1dc1cc2",
             durationMinutes: 5,
           },
+          {
+            slug: "nieuwsbrief-versturen-en-slim-plannen",
+            title: "Nieuwsbrief versturen en slim plannen",
+            description:
+              "Is je nieuwsbrief klaar, dan verstuur je hem via Send or Schedule. In deze video zie je hoe je dat slim doet, zodat de mail goed aankomt en je niet in één keer je hele ledenbestand mailt.\n\n**Eerst de preview checken.** Bekijk de nieuwsbrief op tablet en vooral op mobiel. De meeste leden lezen hem op hun telefoon.\n\n**In batches versturen.** Verstuur niet alles tegelijk, maar bijvoorbeeld 50 mails per 30 minuten. Je kunt het versturen ook beperken tot werkdagen tussen 9:00 en 17:00.\n\n**Afzender en onderwerp.** Kies de afzendernaam en het afzender e-mailadres, en vul een onderwerp en previewtekst in. Die previewtekst is de regel die leden naast het onderwerp zien in hun inbox.\n\n**Ontvangers en herkansing.** Bepaal naar welke contacten of slimme lijsten de nieuwsbrief gaat. Stel eventueel een herkansingsmail in voor wie na 12 uur nog niet heeft geopend, bijvoorbeeld met een ander onderwerp.",
+            loomId: "8c24fa5eb51547f387b9330abe857fa8",
+            durationMinutes: 6,
+          },
         ],
       },
     ],
